@@ -49,13 +49,17 @@ https://downloads.arduino.cc/arduino-1.8.12-windows.exe
 
 When prompted if I wanted to install a new version of Arduino, I selected "No" (since the Sparkfun page  hasn't been updated regarding compatibility for newer IDES for the Apollo3).
 
-(some links from the above Sparkfun link is broken, such as 
+(some links from the above Sparkfun link is broken, such as "Installing Additional Cores", which points to:
 https://www.arduino.cc/en/Guide/cores so I have found updated tutorials, such as: 
 https://support.arduino.cc/hc/en-us/articles/360016466340-Add-or-remove-third-party-boards-in-Boards-Manager
 
 That page also matches the UI of 1.8.12, and I was able to find Additional Boards Manager URLs under File: Preferences as stated. I then added the URL:
 
 https://raw.githubusercontent.com/sparkfun/Arduino_Apollo3/main/package_sparkfun_apollo3_index.json
+
+Now Apollo3 Boards appears under Boards Manager:
+![image](https://user-images.githubusercontent.com/76194453/203129808-e2ae85dc-b664-480e-97dd-a6e69b120b1d.png)
+
 
 
 
