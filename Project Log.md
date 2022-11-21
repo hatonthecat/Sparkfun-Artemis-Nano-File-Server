@@ -76,7 +76,7 @@ Arduino now displays the Sparkfun Artemis Nano in the menus:
 
 ![image](https://user-images.githubusercontent.com/76194453/203133047-b778b541-3999-4740-8e0a-9749ee47bc3b.png)
 
-I also installed a library, IRMP, which can be used for sending IR and RF signals. I do not know if I will use it yet, but I found it after searching for Apollo, and it was the only result that appeared. 
+I also installed a library, IRMP, which can be used for sending IR and RF signals. I do not know if I will use it yet, but I found it after searching for Apollo, and it was the only result that appeared. "More Info" redirects to: https://github.com/IRMP-org/IRMP 3.6.1 is installed.
 ![image](https://user-images.githubusercontent.com/76194453/203133792-d7cc2086-fec6-4801-a558-1c293779818b.png)
-"More Info" redirects to: https://github.com/IRMP-org/IRMP I installed 3.6.1
+
  
