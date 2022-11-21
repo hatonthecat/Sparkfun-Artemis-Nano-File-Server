@@ -1,9 +1,9 @@
 I used this guide: https://learn.sparkfun.com/tutorials/hookup-guide-for-the-sparkfun-redboard-artemis-nano 
 
-Note: I am using Windows 10, so this Log will reference the relevant Windows 10 IDE links that I found useful
+It has a lot of useful info.
 
-It has a lot of useful info. 
-
+Note: I am using Windows 10, so this Log will reference the relevant Windows 10 IDE links that I found useful. This project is technically a log, but I edit it occasionally so that it reads like a tutorial. This is because I try to make it easier to follow, to document the things that may have been missing or outdated in the original tutorials. It is always fun to be able to learn something difficult (to me) and to hopefully make it even easier to learn for others.
+ 
 Fortunately, I did not have to buy a USB to Serial cable- this board has a CH340E chip, which has built in USB to Serial IC (https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
 
 so I can use any USB-C to USB-A to my PC. 
