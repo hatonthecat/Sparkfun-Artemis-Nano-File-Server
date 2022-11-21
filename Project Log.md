@@ -10,11 +10,11 @@ I was afraid my USB-C cables had more current so with this at least it won't be 
 
 I also have a Powerjive Usb Voltage/Amps Power Meter Tester Multimeter https://www.amazon.com/gp/product/B013FANC9W 
 
-It is displaying 301mAh and 4.95V, with PWR (red LED), CHG (yellow LED) and bluetooth (blue LED).
+It is displaying 301mAh and 4.95V, with PWR (red LED), CHG (yellow LED) and bluetooth (blue LED) which normally blinks.
 
 Not sure about that yellow light, but I will monitor it. 
 
-I read somewhere it switches to 300mA if it receieves too much. 
+I read somewhere it switches to 300mA if it receieves too much current? The yellow light isn't on all the time. Now the yellow light is off (after about 40 minutes).
 
 Installed Arduino IDE 
 
