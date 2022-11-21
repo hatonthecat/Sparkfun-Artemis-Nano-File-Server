@@ -4,7 +4,7 @@ It has a lot of useful info.
 
 Note: I am using Windows 10, so this Log will reference the relevant Windows 10 IDE links that I found useful. 
 
-This project is technically a log, but I edit it occasionally so that it reads like a tutorial. 
+This page is technically a log, but I edit it occasionally so that it reads like a tutorial. 
 
 This is because I try to make it easier to follow, to document the things that may have been missing or outdated in the original tutorials. 
 
