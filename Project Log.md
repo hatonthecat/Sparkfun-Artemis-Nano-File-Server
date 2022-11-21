@@ -124,7 +124,13 @@ That is why it is not easy to find all the pages in the tutorial at first.
 
 For programming, I will use the USB method, as it doesn't require any additional chips or cables. 
 
-I also ensure "Bootloader: SparkFun Variable Loader" is selected.
+I also ensure "Bootloader: SparkFun Variable Loader" is selected. Update: I will use the alternate method:
+
+"Known Issue: With the latest v2.0.0 Apollo3 Arduino core, there is an issue uploading sketched using the SVL.
+
+Users can use the ASB to workaround this issue; however, it is recommended that users be aware of that there seems to be some sort of issue when uploading with the Serial Monitor left open. Even though the upload completes successfully the program does not execute."
+
+I will just close the Serial Monitor if it is open.
 
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/serial-port-hello-world-and-enabling-peripherals
 
