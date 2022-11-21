@@ -8,7 +8,9 @@ This page is technically a log, but I edit it occasionally so that it reads like
 
 This is because I try to make it easier to follow, to document the things that may have been missing or outdated in the original tutorials. 
 
-It is always fun to be able to learn something difficult (to me) and to hopefully make it even easier to learn for others.
+It is always fun to be able to learn something difficult (to me) and to hopefully make it even easier to learn for others -including myself!
+
+It can be quite surprising how easy it is to forget how to do anything, hence tutorials can be invaluable.
  
 Fortunately, I did not have to buy a USB to Serial cable- this board has a CH340E chip, which has built in USB to Serial IC (https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
 
