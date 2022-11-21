@@ -1,5 +1,7 @@
 I used this guide: https://learn.sparkfun.com/tutorials/hookup-guide-for-the-sparkfun-redboard-artemis-nano 
 
+Note: I am using Windows 10, so this Log will reference the relevant Windows 10 IDE links that I found useful
+
 It has a lot of useful info. 
 
 Fortunately, I did not have to buy a USB to Serial cable- this board has a CH340E chip, which has built in USB to Serial IC (https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
@@ -41,10 +43,19 @@ https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/se
 
 I will go with the 1.8.12. (I hadn't realized I already Installed 2.0.2 already, but oh well, I have space for 2).
 https://www.arduino.cc/en/software/OldSoftwareReleases#previous 
-
 https://docs.arduino.cc/learn/starting-guide/cores
 
 https://downloads.arduino.cc/arduino-1.8.12-windows.exe 
 
 When prompted if I wanted to install a new version of Arduino, I selected "No" (since the Sparkfun page  hasn't been updated regarding compatibility for newer IDES for the Apollo3).
+
+(some links from the above Sparkfun link is broken, such as 
+https://www.arduino.cc/en/Guide/cores so I have found updated tutorials, such as: 
+https://support.arduino.cc/hc/en-us/articles/360016466340-Add-or-remove-third-party-boards-in-Boards-Manager
+
+That page also matches the UI of 1.8.12, and I was able to find Additional Boards Manager URLs under File: Preferences as stated. I then added the URL:
+
+https://raw.githubusercontent.com/sparkfun/Arduino_Apollo3/main/package_sparkfun_apollo3_index.json
+
+
 
