@@ -174,3 +174,13 @@ Progress! 393216 bytes is 384KB, suggesting it was able to read from the RAM and
 After having no luck with testing "Hello World" nor "Blink", I ran the Apollo3 example "Serial," and appear to have received the first return response (if that is from the MCU):
 ![image](https://user-images.githubusercontent.com/76194453/203168331-5d24c3c8-9704-4ca5-bace-63419f09edd7.png)
 
+17:52 After swapping the micro B USB adapter and Jive USB meter with a single cable, I re-tested the Artemis, and changed the blink duration from 1000 milliseconds to 9000 milliseconds, allowing a clearer determination of whether the code actually updated.
+
+![image](https://user-images.githubusercontent.com/76194453/203181487-8f4fa81b-b825-4747-8392-eaa0d374146d.png)
+
+And it was a success! I was able to change the intervals for blinking to a solid Blue LED for 9 secondws, then off for 9 seconds. Also, when the SVL Bootloader is uploading, the Artemis flashes the yellow status light to indicate it is doing something (liek the disk LED on a PC).
+
+Yay! !
+[image](https://user-images.githubusercontent.com/76194453/203181728-05355ade-a561-4ea4-8d5d-818114bcd96e.png)
+
+This concludes the basic testing of the Artemis Nano. Now I will move on to exploring which filesystems can be ported. 
