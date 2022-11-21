@@ -124,7 +124,7 @@ That is why it is not easy to find all the pages in the tutorial at first.
 
 For programming, I will use the USB method, as it doesn't require any additional chips or cables. 
 
-I also ensure Bootloader: SparkFun Variable Loader" is selected.
+I also ensure "Bootloader: SparkFun Variable Loader" is selected.
 
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/serial-port-hello-world-and-enabling-peripherals
 
