@@ -28,9 +28,11 @@ Not sure about that yellow light, but I will monitor it.
 
 I read somewhere it switches to 300mA if it receieves too much current? The yellow light isn't on all the time. Now the yellow light is off (after about 40 minutes).
 
-Installed Arduino IDE 
+Installed Arduino IDE (Note: At this point I installed 2.0.2, but use 1.8.12- more on that later)
 
 Installed Putty
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/do-i-need-drivers
 
 Installed https://www.wch.cn/downloads/CH341SER_EXE.html 
 
@@ -43,11 +45,12 @@ The device manager shows the USB installed with the correct VID 0x1A86:
 
 Setting up Arduino IDE
 
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/setting-up-the-arduino-ide ( you can also use 
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/all to view it as a single page)
+
 From SparkFun website:
 
 "Note: The Arduino core for the Apollo3 (i.e. the board definitions) is only compatible up to release 1.8.12." 
-
-https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/setting-up-the-arduino-ide
 
 I will go with the 1.8.12. (I hadn't realized I already Installed 2.0.2 already, but oh well, I have space for 2).
 https://www.arduino.cc/en/software/OldSoftwareReleases#previous 
@@ -83,5 +86,46 @@ I also installed a library, IRMP, which can be used for sending IR and RF signal
 "More Info" redirects to: https://github.com/IRMP-org/IRMP 3.6.1 is installed.
 ![image](https://user-images.githubusercontent.com/76194453/203133792-d7cc2086-fec6-4801-a558-1c293779818b.png)
 
+Next is to 
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/all 
+This page mentions: 
+
+"Note: For first-time users, who have never programmed before and are looking to use the Arduino IDE, we recommend beginning with the SparkFun Inventor's Kit (SIK), which includes a simpler board like the Arduino Uno or SparkFun RedBoard and is designed to help users get started programming with the Arduino IDE."
+
+I chose to skip the inventor's kit. While I do want to learn additional devices, and technically have not programmed (for microcontrollers at least)- I have the Redboard Artemis Nano so I have the basic components of testing whether I am able to upload a file server to the nano (PC/IDE, USB cable, and microcontroller).   
+
+Installing the Bluetooth library
+"Installing the BLE Library
+For users interested in the BLE functionality of the Apollo3 and Artemis boards, we have provided full support to the Arduino BLE library. Additional details about the library can be referenced from the documentation provided by Arduino.
+
+Users will need to install the Arduino BLE library to take advantage of that functionality; please use the guide below, to get started with installing the Arduino BLE library:"
+https://github.com/arduino-libraries/ArduinoBLE
+
+
+Next Page (these will be detailed in future edits, if applicable to the file system project and are convenient placeholders/references without having to search multiple pages and tabs):
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/programming-the-artemis-module
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/status-led-blink
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/serial-port-hello-world-and-enabling-peripherals
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/adc-analogread
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/pwm-analogwrite
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/i2c-qwiic-oled-display
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/spi-bme680-environmental-sensor
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/bluetooth-led
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/what-about-interrupts 
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/troubleshooting-tips
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/resources-and-going-further
+
+After several hours, the Artemis Nano is has a steady red light and blinking blue light. I have not seen the yellow light since I plugged it in hours ago.
 
  
