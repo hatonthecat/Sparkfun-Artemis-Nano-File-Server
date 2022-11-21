@@ -167,4 +167,5 @@ Allowing the board to rest without frequent movement helps ensure it does not ge
 
 According to Arduino IDE, I was able to upload sample code with Artemis SVL: 
 ![image](https://user-images.githubusercontent.com/76194453/203163576-f6587f4f-8085-425c-9927-73ab12c77505.png)
-Progress!
+
+Progress! 393216 bytes is 384KB, suggesting it was able to read from the RAM and measure how much was used. 
