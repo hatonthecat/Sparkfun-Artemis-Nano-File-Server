@@ -8,7 +8,7 @@ In my case, I  used a micro B USB adapter  https://www.adafruit.com/product/4299
 
 I was afraid my USB-C cables had more current so with this at least it won't be more than 5V.
 
-I also have a Powerjive Usb Voltage/Amps Power Meter Tester Multimeterhttps://www.amazon.com/gp/product/B013FANC9W 
+I also have a Powerjive Usb Voltage/Amps Power Meter Tester Multimeter https://www.amazon.com/gp/product/B013FANC9W 
 
 It is displaying 301mAh and 4.95V, with PWR (red LED), CHG (yellow LED) and bluetooth (blue LED).
 
