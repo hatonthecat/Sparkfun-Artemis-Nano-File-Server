@@ -157,6 +157,7 @@ https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/bl
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/what-about-interrupts 
 
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/troubleshooting-tips
+I tried to load the pre-compiled binary from the tips but did not get it to run. I read somewhere that I need to use 2 drivers, so maybe I may be missing one. And also, maybe I should reconsider using one of my complete USB-c cables, rather than the adapters, perhaps because the serial connection could result in an error.
 
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/resources-and-going-further
 
@@ -172,3 +173,4 @@ Progress! 393216 bytes is 384KB, suggesting it was able to read from the RAM and
 
 After having no luck with testing "Hello World" nor "Blink", I ran the Apollo3 example "Serial," and appear to have received the first return response (if that is from the MCU):
 ![image](https://user-images.githubusercontent.com/76194453/203168331-5d24c3c8-9704-4ca5-bace-63419f09edd7.png)
+
