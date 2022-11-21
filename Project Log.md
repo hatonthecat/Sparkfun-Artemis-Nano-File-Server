@@ -72,3 +72,6 @@ I also have a newer version than the pictured 2.0.0 in the Sparkfun tutorial. Th
 
 The "More Info" links to the SparkFun homepage. 
 
+Arduino now displays the Sparkfun Artemis Nano in the menus:
+
+![image](https://user-images.githubusercontent.com/76194453/203133047-b778b541-3999-4740-8e0a-9749ee47bc3b.png)
