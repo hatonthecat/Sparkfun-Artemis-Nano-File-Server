@@ -135,8 +135,10 @@ Edit: from: https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-art
 
 Ok, I will not use the ASB anymore. 
 
-Hoping I didn't already overwrite the Sparkfun Variable Loader. They say it can't be bricked. 
-So we'll see. I am following these tutorials to test whether any signal has been sent over the USB.
+Hoping I didn't already overwrite the Sparkfun Variable Loader. 
+They say it can't be bricked. 
+So we'll see. 
+I am following these tutorials to test whether any signal has been sent over the USB.
 
 If I am able to see a programmed response, then I will move on to more advaned file system installs.
 
@@ -158,6 +160,11 @@ https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/tr
 
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/resources-and-going-further
 
-After several hours, the Artemis Nano is has a steady red light and blinking blue light. I have not seen the yellow light since I plugged it in hours ago. Update it only appears when I tug on the USB connection, which can cause an unstable current. Allowing the board to rest without frequent movement helps ensure it does not get a variable current.
+After several hours, the Artemis Nano is has a steady red light and blinking blue light.
+I have not seen the yellow light since I plugged it in hours ago.
+Update it only appears when I tug on the USB connection, which can cause an unstable current. 
+Allowing the board to rest without frequent movement helps ensure it does not get a variable current.
 
- 
+According to Arduino IDE, I was able to upload sample code with Artemis SVL: 
+![image](https://user-images.githubusercontent.com/76194453/203163576-f6587f4f-8085-425c-9927-73ab12c77505.png)
+Progress!
