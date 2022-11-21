@@ -130,7 +130,15 @@ I also ensure "Bootloader: SparkFun Variable Loader" is selected. Update: I will
 
 Users can use the ASB to workaround this issue; however, it is recommended that users be aware of that there seems to be some sort of issue when uploading with the Serial Monitor left open. Even though the upload completes successfully the program does not execute."
 
-I will just close the Serial Monitor if it is open.
+Edit: from: https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis#programming
+" Heads up! You will never damage or brick the Artemis but using the Ambiq Secure Bootloader tools will overwrite the SparkFun bootloader removing the faster upload abilities. We don't recommend using the Ambiq Secure Bootloader for general Arduino programming."
+
+Ok, I will not use the ASB anymore. 
+
+Hoping I didn't already overwrite the Sparkfun Variable Loader. They say it can't be bricked. 
+So we'll see. I am following these tutorials to test whether any signal has been sent over the USB.
+
+If I am able to see a programmed response, then I will move on to more advaned file system installs.
 
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/serial-port-hello-world-and-enabling-peripherals
 
