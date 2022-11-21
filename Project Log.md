@@ -108,6 +108,22 @@ https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/pr
 
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/status-led-blink
 
+14:58 So I tried this, and followed it step by step, until I got to: "The last step is to program your board. Use the programming method associated with your board."
+
+The page redirects to: https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide#programming-the-artemis-module which doesn't directly link to the programming instruction, but you will still need to click on it. 
+
+The page should say, "Introduction" at the top. Then, you need to click on the right column under pages, and then you will see "Programming the Artemis Module." I have added the direct link: https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/programming-the-artemis-module
+
+It should now show "Drag and Drop Method" under the Programming the Artemis Module.
+
+Notice the difference in the two links? the first one has a hashtag (#) after the Arduino. The 2nd link has a forward slash "/". 
+
+That is why it is not easy to find all the pages in the tutorial at first. 
+
+For programming, I will use the USB method, as it doesn't require any additional chips or cables. 
+
+I also ensure Bootloader: SparkFun Variable Loader" is selected.
+
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/serial-port-hello-world-and-enabling-peripherals
 
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/adc-analogread
@@ -126,6 +142,6 @@ https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/tr
 
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/resources-and-going-further
 
-After several hours, the Artemis Nano is has a steady red light and blinking blue light. I have not seen the yellow light since I plugged it in hours ago.
+After several hours, the Artemis Nano is has a steady red light and blinking blue light. I have not seen the yellow light since I plugged it in hours ago. Update it only appears when I tug on the USB connection, which can cause an unstable current. Allowing the board to rest without frequent movement helps ensure it does not get a variable current.
 
  
