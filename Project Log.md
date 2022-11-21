@@ -30,3 +30,21 @@ Installed https://www.wch.cn/downloads/CH341SER_EXE.html
 The device manager shows the USB installed with the correct VID 0x1A86:
 
 ![image](https://user-images.githubusercontent.com/76194453/203091125-bce6d4ee-8664-47f5-92ca-6530b9cedf5c.png)
+
+Setting up Arduino IDE
+
+From SparkFun website:
+
+"Note: The Arduino core for the Apollo3 (i.e. the board definitions) is only compatible up to release 1.8.12." 
+
+https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/setting-up-the-arduino-ide
+
+I will go with the 1.8.12. (I hadn't realized I already Installed 2.0.2 already, but oh well, I have space for 2).
+https://www.arduino.cc/en/software/OldSoftwareReleases#previous 
+
+https://docs.arduino.cc/learn/starting-guide/cores
+
+https://downloads.arduino.cc/arduino-1.8.12-windows.exe 
+
+When prompted if I wanted to install a new version of Arduino, I selected "No" (since the Sparkfun page  hasn't been updated regarding compatibility for newer IDES for the Apollo3).
+
