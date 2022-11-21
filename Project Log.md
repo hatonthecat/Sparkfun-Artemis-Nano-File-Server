@@ -2,7 +2,9 @@ I used this guide: https://learn.sparkfun.com/tutorials/hookup-guide-for-the-spa
 
 It has a lot of useful info. 
 
-Fortunately, I did not have to buy a USB to Serial cable- this board has a CH340E chip, which has built in USB to Serial IC, so I can use any USB-C to USB-A to my PC. 
+Fortunately, I did not have to buy a USB to Serial cable- this board has a CH340E chip, which has built in USB to Serial IC (https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
+
+so I can use any USB-C to USB-A to my PC. 
 
 In my case, I  used a micro B USB adapter  https://www.adafruit.com/product/4299 which does the trick too.  
 
