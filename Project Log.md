@@ -24,5 +24,7 @@ Installed https://www.wch.cn/downloads/CH341SER_EXE.html
 
 ![USB-Serial CH340 - COM3](https://user-images.githubusercontent.com/76194453/203090524-c6f2764a-8bbf-4cea-b5ac-d92d8e2326f2.PNG)
 
+
 The device manager shows the USB installed with the correct VID 0x1A86:
+
 ![image](https://user-images.githubusercontent.com/76194453/203091125-bce6d4ee-8664-47f5-92ca-6530b9cedf5c.png)
