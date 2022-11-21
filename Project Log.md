@@ -140,7 +140,7 @@ They say it can't be bricked.
 So we'll see. 
 I am following these tutorials to test whether any signal has been sent over the USB.
 
-If I am able to see a programmed response, then I will move on to more advaned file system installs.
+If I am able to see a programmed response, then I will move on to more advanced file system installs.
 
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/serial-port-hello-world-and-enabling-peripherals
 
