@@ -197,11 +197,11 @@ Actually one more test. I wanted to see if Bluetooth works.
 I tried to run Example 11 BLEAdvertise, but I forgot to install the Bluetooth library (which I read about earlier today):
 ![image](https://user-images.githubusercontent.com/76194453/203188585-7283f30f-67ee-4b99-b6ea-783c49ff21cf.png)
 
-I typed bluetooth and got quite a few results. I am only going to install the LE type
+I typed bluetooth and got quite a few results. I am only going to install the LE type.
 More Info: https://www.arduino.cc/reference/en/libraries/arduinoble/  
 
 I also installed Arduino Blue (3rd result in picture, but I will test it some other time)
-https://sites.google.com/stonybrook.edu/arduinoble/ 
+More info: https://sites.google.com/stonybrook.edu/arduinoble/ 
 
 ![image](https://user-images.githubusercontent.com/76194453/203188856-df6067f3-ed7f-4e9e-9a56-fcd5bb4fe413.png)
 
