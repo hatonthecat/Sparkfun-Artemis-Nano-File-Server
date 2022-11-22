@@ -24,6 +24,8 @@ https://brandenghena.com/projects/lpwan/ghena19lpwans.pdf
 
 p.6 "The single location metrics show the requirements to deploy an instance of each application, while the pervasive metric assumes that the application is deployed at scale in its target environment." 
 
+-------------------------------
+
 For wireless networks, using too little throughput requires the device to be running constantly. Using too much throughput increases the storage requirements. Having a balance of economy and conciseness of information transfer should be a goal of communication protocols that transmit essential services.
 
 Autarkic Computing can be used as a counterbalance to Pervasive computing, if, and only, it is not scaled up to unsustainable levels. Imagine, on a quadrant of of low and high bandwidth and power. Say, in Quadrant I and IV, you have high bittrate, but Quadrant I is irrespective of power consumption. Quadrant II and III is low bittrate, also irrespective of power consumption. Quadrant III is low power consumption, and Quadrant IV is high power consumption. Thus, the Positive X-axis is high data throughput, and the positive Y axis is high power consumption. Autarkic Computing could be used to operate in Quadrant III, whereas improvements in transistor nodes (Moore's Law), increases in throughput could relatively place more throughput currently in Quadrant I, II and IV into Quadrant III over time. 
