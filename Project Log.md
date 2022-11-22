@@ -224,7 +224,11 @@ And another: example10_DisplayICRevision:
 
 For reference, previous Serial Monitor had no spaces because it was set to "no line ending." The NL & CR is for New Line and Carriage Return (like a typewriter; lines 2-4 are with NL& CR):
 ![image](https://user-images.githubusercontent.com/76194453/203212833-f810fa4f-8bc4-49ab-abb1-0299c29adc5c.png)
-I am not sure how carriage return works- it does not creat a newline after an arbitrary number of characters. Perhaps I have not tried enough characters. Not a major issue. I would recommend at least using New line for cleaner reading. Note: enabling timestamp without enabling New Line does not update the timestamp of each new character. Thus, to see the timestamp of each character, New Line needs to be enabled as well.
+
+I am not sure how carriage return works- it does not creat a newline after an arbitrary number of characters. 
+Perhaps I have not tried enough characters. Not a major issue. I would recommend at least using New line for cleaner reading. 
+Note: enabling timestamp without enabling New Line does not update the timestamp of each new character. 
+So, to see the timestamp of each new character, "New Line" needs to be enabled as well.
 
 
 
