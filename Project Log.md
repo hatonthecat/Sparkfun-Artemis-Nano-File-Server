@@ -242,7 +242,7 @@ It was a long shot, and needful to say, it didn't work.
 
 ![image](https://user-images.githubusercontent.com/76194453/203200510-11b1601e-46dc-4db2-9c46-4478a2c84116.png)
 
-I will return to Gemini servers at a later time (LittleFS was used in this ESP8266 Gemini Client:
+I will return to Gemini servers at a later time (LittleFS was used in this ESP8266 Gemini Server:
 
 https://github.com/w84death/ESP8266GeminiServer )
 
