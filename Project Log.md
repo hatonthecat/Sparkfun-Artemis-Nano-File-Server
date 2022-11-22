@@ -207,9 +207,11 @@ More info: https://sites.google.com/stonybrook.edu/arduinoble/
 
 
 After installing the library and re-running the example, the Artemis advertised itself and my phone could see the signal:
+
 ![Screenshot_20221121-190806_2 (1)](https://user-images.githubusercontent.com/76194453/203190463-93650546-1646-43f4-b78b-999797584e1e.png)
 
 I was not able to connect to it, although there aren't any services for it to do. May as well test some of the other Bluetooth examples. After testing Advertising from ArduinoBLE->Peripheral, I got another SSID but still no connection. It said the error was PIN-related, but there was no prompt for one.
+
 ![Screenshot_20221121-192206_2](https://user-images.githubusercontent.com/76194453/203192425-665aeade-200b-4d3c-82ab-546a25ca7207.png)
 
 
