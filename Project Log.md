@@ -238,15 +238,17 @@ I tried to install LittleFS from ESP8266 using these instructions:
 
 https://github.com/earlephilhower/arduino-esp8266littlefs-plugin 
 
-It was a long shot, and needful to say, it didn't work.
+It was a long shot, and needful to say, it didn't work:
 
 ![image](https://user-images.githubusercontent.com/76194453/203200510-11b1601e-46dc-4db2-9c46-4478a2c84116.png)
+
+No worry, I can try another.  
 
 I will return to Gemini servers at a later time (LittleFS was used in this ESP8266 Gemini Server:
 
 https://github.com/w84death/ESP8266GeminiServer )
 
-No worry, I can try another. Micropython is used in PICO Gopher: 
+Micropython is used in PICO Gopher: 
 
 https://github.com/aittalam/PicoGopher#running-the-code 
 
