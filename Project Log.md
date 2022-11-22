@@ -230,6 +230,12 @@ Perhaps I have not tried enough characters. Not a major issue. I would recommend
 Note: enabling timestamp without enabling New Line does not update the timestamp of each new character. 
 So, to see the timestamp of each new character, "New Line" needs to be enabled as well.
 
+And Another: i2x_readwrite by Adafruit.
+![image](https://user-images.githubusercontent.com/76194453/203217539-dc5bbc33-5fd5-4c84-874b-98b9edcb70f6.png)
+
+It did not find an address, but that could be because the Artemis Nano has i2c at a different address. 
+
+Perhaps I can change the i2c address in this example to the one on the Sparkfun? Assuming the address for i2c were as simple as zero by two digits, it would still take some time to locate in the 900 page datasheet. I will pass for now. The UART pad mapping in Example 4 looks like shortcut, but still could be using different interfaces.
 
 
 Just for fun
