@@ -317,4 +317,4 @@ Other OSes supported include Tock: https://github.com/tock/tock/tree/master/boar
 11:50AM - Added Glossary
 -------------------------
 
-I have added a Glossary of Iot Terms, which will be handy for my future IoT software: https://github.com/hatonthecat/Sparkfun-Artemis-Nano-File-Server/blob/main/IoT%20Glossary%20%26%20Exegesis.md
+I have added a Glossary of IoT Terms, which will be handy for my future IoT software: https://github.com/hatonthecat/Sparkfun-Artemis-Nano-File-Server/blob/main/IoT%20Glossary%20%26%20Exegesis.md
