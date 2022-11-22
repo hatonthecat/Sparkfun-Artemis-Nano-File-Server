@@ -19,7 +19,7 @@ This paper explains the term better than I can:
 
 https://brandenghena.com/projects/lpwan/ghena19lpwans.pdf
 
-p.6 "The single location metrics show the requirements to deploy an instance of each application, while the pervasive metric assumes that the application is deployed at scaled in its target environemtnt. 
+p.6 "The single location metrics show the requirements to deploy an instance of each application, while the pervasive metric assumes that the application is deployed at scaled in its target environment." 
 
 For wireless networks, using too little throughput requires the device to be running constantly. Using too much throughput increases the storage requirements. Having a balance of economical and conciseness of information transfer should be a goal of communication protocols that transmit essential services.
 
