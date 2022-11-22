@@ -6,7 +6,7 @@ Ubiquitous Computing - Computing that's everywhere. Enough said? That was a joke
 
 Ambient Computing -used interchangeably with "ubiquitous computing"- using a computer that is so quiet one doesn't realize they are using one. See Brian Eno's Music For Airports: http://slashseconds.org/issues/001/001/articles/11_psuchin/index.php
 
-Energy-scavenging - it looks for power in the nearby environement, used in an anthropomorphic and imperfect analogy
+Energy-scavenging - it looks for power in the nearby environment, used in an anthropomorphic and imperfect analogy
 
 Energy-harvesting - able to produce power locally/off-grid to power the device (partially or totally), as if it is some kind of farmer (also anthropomorphic, incongruously compares months of work into hours or minutes, if comparing the time it takes to grow food crops to generate power from a photovoltaic panel or thermoelectric generator)
 
