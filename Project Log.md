@@ -180,7 +180,8 @@ After having no luck with testing "Hello World" nor "Blink", I ran the Apollo3 e
 
 And it was a success! I was able to change the intervals for blinking to a solid Blue LED for 9 secondws, then off for 9 seconds. Also, when the SVL Bootloader is uploading, the Artemis flashes the yellow status light to indicate it is doing something (liek the disk LED on a PC).
 
-Yay! !
-[image](https://user-images.githubusercontent.com/76194453/203181728-05355ade-a561-4ea4-8d5d-818114bcd96e.png)
+![image](https://user-images.githubusercontent.com/76194453/203181918-6e482f7e-e270-4aa7-9837-de76bedd8f5f.png)
+
+Yay!
 
 This concludes the basic testing of the Artemis Nano. Now I will move on to exploring which filesystems can be ported. 
