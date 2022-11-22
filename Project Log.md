@@ -6,7 +6,11 @@ Note: I am using Windows 10, so this Log will reference the relevant Windows 10 
 
 This page is technically a log, but I edit it occasionally so that it reads like a tutorial. 
 
-This is because I try to make it easier to follow, to document the things that may have been missing or outdated in the original tutorials. 
+This is because I try to make it easier to follow, to document the things that may have been missing or outdated in the original tutorials. A *few* of the logs may appear out of order. This is because some links earlier in the log have been updated with additional information, and may reference newer knowledge/progress. 
+
+I have decided not to move up some of the earlier log entries to avoid even more achronological confusion. 
+
+Most of this reads chronologically, thus try to read it that way. If it doesn't make sense, just move on and it might later on. 
 
 It is always fun to be able to learn something difficult (to me) and to hopefully make it even easier to learn for others -including myself!
 
