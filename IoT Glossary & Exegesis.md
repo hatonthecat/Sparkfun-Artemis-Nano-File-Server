@@ -12,7 +12,7 @@ Energy-harvesting - able to produce power locally/off-grid to power the device (
 
 Energy-autarkic- similar to energy-scavenging and harvesting, but more specifically reveals/indicates that the device requires no batteries.
 
-Pervasive-Computing - What?? Seriously? 
+Pervasive Computing - What? Seriously?? 
 This is a blend of two concepts- ambient computing- computing that is available under the threshold of awarenes, and ubiquitous computing- computing that is everywhere and is being used all the time, because it is impossible to know if it is even on and where they are scattered, like land mines from WWII.
 Proceed cautiously and be mindful of the environment. 
 This paper explains the term better than I can: 
