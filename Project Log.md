@@ -214,6 +214,15 @@ I was not able to connect to it, although there aren't any services for it to do
 
 ![Screenshot_20221121-192206_2](https://user-images.githubusercontent.com/76194453/203192425-665aeade-200b-4d3c-82ab-546a25ca7207.png)
 
+Another Test- Example04_Serial:
+
+![image](https://user-images.githubusercontent.com/76194453/203211994-baaf0072-1b30-4318-a2b5-3befb655c843.png)
+
+And another: example10_DisplayICRevision:
+
+![image](https://user-images.githubusercontent.com/76194453/203212416-6abdb504-4639-44fe-8194-27e1527e77ed.png)
+
+
 Just for fun
 
 I tried to install LittleFS from ESP8266 using these instructions. https://github.com/earlephilhower/arduino-esp8266littlefs-plugin 
