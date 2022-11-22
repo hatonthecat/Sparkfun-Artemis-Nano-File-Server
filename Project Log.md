@@ -205,3 +205,9 @@ https://sites.google.com/stonybrook.edu/arduinoble/
 
 ![image](https://user-images.githubusercontent.com/76194453/203188856-df6067f3-ed7f-4e9e-9a56-fcd5bb4fe413.png)
 
+
+After installing the library and re-running the example, the Artemis advertised itself and my phone could see the signal:
+![Screenshot_20221121-190806_2 (1)](https://user-images.githubusercontent.com/76194453/203190463-93650546-1646-43f4-b78b-999797584e1e.png)
+
+I was not able to connect to it, although there aren't any services for it to do. May as well test some of the other Bluetooth examples.
+
