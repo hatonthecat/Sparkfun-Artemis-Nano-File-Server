@@ -99,7 +99,7 @@ This page mentions:
 
 "Note: For first-time users, who have never programmed before and are looking to use the Arduino IDE, we recommend beginning with the SparkFun Inventor's Kit (SIK), which includes a simpler board like the Arduino Uno or SparkFun RedBoard and is designed to help users get started programming with the Arduino IDE."
 
-I chose to skip the inventor's kit. While I do want to learn additional devices, and technically have not programmed (for microcontrollers at least)- I have the Redboard Artemis Nano so I have the basic components of testing whether I am able to upload a file server to the nano (PC/IDE, USB cable, and microcontroller).   
+I chose to skip the inventor's kit. While I do want to learn additional devices, and technically have not programmed (for microcontrollers at least)- I have the Redboard Artemis Nano so I have the core components of the kit  to test whether I am able to upload data, and later, a file server to the Nano (PC/IDE, USB cable, and microcontroller).   
 
 Installing the Bluetooth library
 "Installing the BLE Library
