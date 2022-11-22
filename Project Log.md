@@ -222,6 +222,11 @@ And another: example10_DisplayICRevision:
 
 ![image](https://user-images.githubusercontent.com/76194453/203212416-6abdb504-4639-44fe-8194-27e1527e77ed.png)
 
+For reference, previous Serial Monitor had no spaces because it was set to "no line ending." The NL & CR is for New Line and Carriage Return (like a typewriter; lines 2-4 are with NL& CR):
+![image](https://user-images.githubusercontent.com/76194453/203212833-f810fa4f-8bc4-49ab-abb1-0299c29adc5c.png)
+
+
+
 
 Just for fun
 
