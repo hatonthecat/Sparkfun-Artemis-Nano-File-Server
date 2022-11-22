@@ -36,7 +36,7 @@ I read somewhere it switches to 300mA if it receieves too much current? The yell
 
 Installed Arduino IDE (Note: At this point I installed 2.0.2, but use 1.8.12- more on that later)
 
-Installed Putty
+Installed PuTTY
 
 https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/do-i-need-drivers
 
