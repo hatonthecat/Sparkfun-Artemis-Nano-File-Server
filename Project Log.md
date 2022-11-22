@@ -289,7 +289,7 @@ In most cases, the issue is minor- for a newb.
 
 In other cases, for intermediate users, and experts, it makes all the difference. 
 
-First, bootloaders are often a temporary install for those who test operating systems. 
+First, bootloader menus are often a temporary install for those who test operating systems. Yes, they can be permanent when used in production (or a final product), but for testing microcontrollers, having access to another bootloader is a tool. 
 Sure, they are convenient, and sometimes can be skipped entirely- they serve a diagnostic and repair function, but there is always an intrinsic ability to erase a bootloader with another bootloader, provided the disk is not corrupt. 
 That is where the user comes in. As a user/programmer, you are the person interfacing with the computer, therefore you have many choices on how to program and load not just software but operating systems.
 The most visible difference with microcontrollers (and some system on a chips like the Rock Pi S https://www.perl.com/article/the-rock-pi-s-or-how-to-get-gpio-input-without-a-library/ ) and PC motherboards is that they do not have a convenient display connector like HDMI/VGA to see the bootloader screen immediately after installing software or an OS. 
