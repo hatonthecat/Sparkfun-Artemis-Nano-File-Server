@@ -282,6 +282,8 @@ above ^ from https://learn.sparkfun.com/tutorials/artemis-development-with-the-a
 
 is a vast gray moon in between Venus and Mars. (Granted, I am someone who has to ask myself, "am I a newb?" because I feel I am occasionally susceptible to the inferiority complex syndrome https://en.wikipedia.org/wiki/Inferiority_complex ) If you don't have that problem, at the other end of the scale, is the https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect There is also the Peter Principle and a few other ones that are somewhat in between. Perhaps I am unable to distinguish between hobby and professional skill because the exercise of learning can be so enjoyable. But of course, if one isn't being paid or doesn't feel they have a duty to develop a software for the common good, then the need to build secure and stable software may appear less of a priority. It isn't for me, but I sometimes forget how academic/experimental software can be. It's a learning experiment for the programmer, not just for a specific software, but for programming in general.
 
+In other words, I don't know <i>exactly<i> what I'm doing, but I know that I do not want to use the Sparkfun Variable Bootloader, because some future OS/software may need it. The Unknown or Bust (The Unknown may also bust/brick:) 
+
 Practically anyone with a tiny bit of experience need not rely on a single bootloader. 
 Since the ultimate goal of this project is to install a filesystem, in any way possible, the bootloader is not a priority. It's like having a Windows bootloader instead of the GRUB bootloader. 
 This is different from the newer WSL (Windows Subsystem for Linux). 
