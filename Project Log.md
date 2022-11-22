@@ -34,7 +34,7 @@ Not sure about that yellow light, but I will monitor it.
 
 I read somewhere it switches to 300mA if it receieves too much current? The yellow light isn't on all the time. Now the yellow light is off (after about 40 minutes).
 
-Installed Arduino IDE (Note: At this point I installed 2.0.2, but use 1.8.12- more on that later)
+Installed Arduino IDE (Note: At this point I already installed 2.0.2, but use 1.8.12- more on that later) (update 11-22: 2.0.2 has at least some limited functionality with the Artemis board)
 
 Installed PuTTY
 
