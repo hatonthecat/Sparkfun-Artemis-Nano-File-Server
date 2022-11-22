@@ -313,4 +313,8 @@ Having briefly "digressed" into my hobby of testing and exploring OSes, I presen
 
 Other OSes supported include Tock: https://github.com/tock/tock/tree/master/boards/apollo3/redboard_artemis_nano So I may try this. I am currently more concerned with the feature of a FS over the OS, but eventually both will become equally a priority. 
 
-11:50AM I have added a Glossary of Iot Terms, which will be handy for my future IoT software: https://github.com/hatonthecat/Sparkfun-Artemis-Nano-File-Server/blob/main/IoT%20Glossary%20%26%20Exegesis.md
+-------------------------
+11:50AM - Added Glossary
+-------------------------
+
+I have added a Glossary of Iot Terms, which will be handy for my future IoT software: https://github.com/hatonthecat/Sparkfun-Artemis-Nano-File-Server/blob/main/IoT%20Glossary%20%26%20Exegesis.md
