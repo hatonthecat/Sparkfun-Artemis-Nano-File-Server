@@ -214,4 +214,19 @@ I was not able to connect to it, although there aren't any services for it to do
 
 ![Screenshot_20221121-192206_2](https://user-images.githubusercontent.com/76194453/203192425-665aeade-200b-4d3c-82ab-546a25ca7207.png)
 
+Just for fun
+
+I tried to install LittleFS from ESP8266 using these instructions. https://github.com/earlephilhower/arduino-esp8266littlefs-plugin 
+It was a long shot, and needful to say, it didn't work.
+
+![image](https://user-images.githubusercontent.com/76194453/203200510-11b1601e-46dc-4db2-9c46-4478a2c84116.png)
+I will return to Gemini servers at a later time (LittleFS was used in this ESP8266 Gemini Client: https://github.com/w84death/ESP8266GeminiServer )
+
+No worry, I can try another. Micropython is used in PICO Gopher: https://github.com/aittalam/PicoGopher#running-the-code 
+
+Is there a way this code could be used on Artemis?
+
+I will find out.
+
+
 
