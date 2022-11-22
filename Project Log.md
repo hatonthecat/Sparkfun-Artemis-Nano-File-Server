@@ -262,5 +262,50 @@ Is there a way this code could be used on Artemis?
 
 I will find out.
 
+----------------
+----------------
+||  DAY TWO  ||
+----------------
+----------------
+
+08:24 AM
+
+Returning to one of the things mentioned in the log yesterday - bootloaders - I want to briefly examine why it was a good idea to start with the Sparkfun Variable Bootloader to test functionality (read: signal responses such as LED programming) of the Sparkfun Artemis Redboard Nano, and why, after just one day, I'm already looking for reasons to use the Ambiq Secure Bootloader.
+
+First, a bit of background.I'm in my mid-30s. Prior to yesterday, I have never attempted to program a microcontroller. I have, however, installed thousands, if not tens of thousands, linux and windows (and a handful of PowerPC MaC) operating systems in over 25 years, from Windows 95 on. My youtube channel has a few "boot linux from RAM" videos: https://youtu.be/MMFIzx3Cm9Q 
+
+So in between, "I'm a middle-aged newb to MCUs" and "I know what I'm doing" (see Sparkfun's highly reccomended instructions, for newbs:_ 
+
+![image](https://user-images.githubusercontent.com/76194453/203342279-72469f47-b846-4fb6-bce4-7440a4f16c1d.png)
+
+above ^ from https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide/programming-the-artemis-module
+
+is a vast gray moon in between Venus and Mars. 
+Practically anyone with a tiny bit of experience need not rely on a single bootloader. 
+Since the ultimate goal of this project is to install a filesystem, in any way possible, the bootloader is not a priority. It's like having a Windows bootloader instead of the GRUB bootloader. 
+This is different from the newer WSL (Windows Subsystem for Linux). 
+I am referring to whether the bootloader, which can allow multiple operating systems to be loaded without flashing the disk/ROM, is Windows-based or linux based. 
+In most cases, the issue is minor- for a newb.
+
+In other cases, for intermediate users, and experts, it makes all the difference. 
+
+First, bootloaders are often a temporary install for those who test operating systems. 
+Sure, they are convenient, and sometimes can be skipped entirely- they serve a diagnostic and repair function, but there is always an intrinsic ability to erase a bootloader with another bootloader, provided the disk is not corrupt. 
+That is where the user comes in. As a user/programmer, you are the person interfacing with the computer, therefore you have many choices on how to program and load not just software but operating systems.
+The most visible difference with microcontrollers (and some system on a chips like the Rock Pi S https://www.perl.com/article/the-rock-pi-s-or-how-to-get-gpio-input-without-a-library/ ) and PC motherboards is that they do not have a convenient display connector like HDMI/VGA to see the bootloader screen immediately after installing software or an OS. 
+Hence, why microcontrollers, and even other hardware use what's called, an "integrated developmnt environment" or "IDE."
+
+I haven't really had an interest in programming anything until I had a more concrete idea how i could go about developing what I want to do. 
+I wouldn't expect anyone to. Programming is an abstact concept that relies on abstract languages to perform at often abstract layers. 
+But is is a language, nonetheless, much like I am using expository techniques to provide a high-level overview of the reasoning of this project. 
+I certainly could try to write a program with just machine/assembly language, but that is beyond my expertise. 
+It certainly could be a useful application, and many are. 
+But the language cannot easily be explained to someone who may not know computers, or even higher level languages. 
+
+Anyways, the IDE exists for microcontrollers because their hardware, unless it has some kind of wireless connectivity, is basically on life support to the PC. It is using a USB-serial debugger cable- in my case, a standard USB-C with an onboard CH340E IC, which converts the USB data from the PC's IDE software into code the microcontroller can use. So the IDE serves multiple functions here. It is used for programming new MCU software, but is also used for sending the data to the microcontroller- hence "integrated."
+
+By contrast, there may be other discrete software applications for MCUs. I will not explore those right now. My point is that with Windows and Linux operating sytems, there are software such as image writers. The Raspberry Pi Imager is a GREAT one. It has the uncanny ability of fixing drives that cannot be recognized by Windows nor their size (sometimes this is done intentionally to make the drive bootable, but I digress). Other image writers include UNetbootin and Balena Etcher. One quick bug/tricky aspect of Raspberry Pi Imager is that while it is writing to disk, Windows will display a prompt saying that a drive is not plugged in and instructs the user to plug in the drive. If you press "Ok" or "cancel" (even though the Imager has begun writing /verifying to disk), it will abort the writing process. So basicallyyou have to let the Imager complete its writing process and Ignore the arbitrary prompts. The imager can format drives that even the Windows partition manager doesn't appear to.
+
+Having briefly "digressed" into my hobby of testing and exploring OSes, I present this worldview as reasoning as to why I view microcontrollers like malleable disks. "If all you have is a hammer, everything looks like a nail." Sorry MCUs, you seem so like application processors. But MCUs are routinely flashed with userspace operating systems, and the amount of processing power they have compared to even 10 years ago is all the more reason to explore porting more user-space applications (not just sensors) to them. So now I can explore how to format and bootload a microcontroller, and how I may want to use the Ambiq Secure bootloader to install something like Zephyr OS, or FreeRTOS.
 
 
