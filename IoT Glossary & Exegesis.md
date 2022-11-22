@@ -2,7 +2,7 @@ This is a Glossary of IoT terms I have encountered, in order of first encounter.
 
 Internet of Things- devices that connect to the internet, typically without a face or human interface device. There are so many of them, someone foresaw the need for IPv6 addresses.
 
-Ubiquitous Computing - computing that's everywhere. Enough said? That was a joke.
+Ubiquitous Computing - Computing that's everywhere. Enough said? That was a joke.
 
 Ambient Computing -used interchangeably with "ubiquitous computing"- using a computer that is so quiet one doesn't realize they are using one. See Brian Eno's Music For Airports: http://slashseconds.org/issues/001/001/articles/11_psuchin/index.php
 
