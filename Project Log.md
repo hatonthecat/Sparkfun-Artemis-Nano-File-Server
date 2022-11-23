@@ -335,4 +335,26 @@ https://forum.sparkfun.com/viewtopic.php?t=50789#:~:text=The%20Nano%20is%20a%20b
 
 I will check the Jive Meter while running the Bluetooth test. Perhaps it will hit the 5mA threshold, which might appear as 0.01 if it rounds up. (for a $10 USB multimeter, I have to say this would be quite a powerful instrument)
 
+9:16 PM 
+
+Somehow my USB didn't seem to be working, but then I realized when I booted up Arduino IDE 2.0.2, it defaulted to a different Artemis board, the Artemis Dev Kit, so it was freezing on the upload stage. Arduino 1.8.12 was recognizing the right board, but seems to still stall on the upload stage. Perhaps something was overwritten and the folders are not working (maybe I updated the libraries by mistake).
+![image](https://user-images.githubusercontent.com/76194453/203465917-355689d1-dc3e-4af4-9b62-ff526b3f55aa.png)
+
+
+After correcting it an eliminating the usual suspects (PowerJive), I replugged in the USB and re-ran the Bluetooth test. It works on some of my USB cables, so I suspect a few of my USB cables only provide power. It's amazing how much time I can spend on trying to recreate all the conditions that were working yesterday, that it's taking over an hour to complete a single test.
+
+I am going to use 2.0.2 for now- it is the only version that is able to upload right now, and it conveniently displays a message on whether the Artemis Nano is actually connected when plugggd in (Arduino 1.8 does too, but differently). After testing Example 11 (BLEAdvertise.ino), I did not see the PowerJive reach 0.00A, suggesting even when the "Artemis" appeared on my Phone's Bluetooth list, it was not using 10mA (nor enough for the PowerJive to round up, if they even do that).
+
+![image](https://user-images.githubusercontent.com/76194453/203467090-2b6297aa-397c-4108-9732-0e89be4fd42c.png)
+
+
+SO I will test the Blink test again, raising it to 20000 milliseconds, to perhaps notice a spike in power. I did not see any fluctuation of 0.01A- there are two LEds, the Red and Blue, and while the Blue is very bright, it does not use 10mA. I will re-test the bluetooth example, because I was able to erase one of my presets that was in the thousands of millamps, since I clearly knew it was not from the Artemis Nano. Perhaps the preset does allow the PowerJive to reveal up to 4 decimal points, because while it does not appear on the top row, perhaps I can capture the measurement during the bluetooth test. Preset 0 shows 0000mA for the LED test, which may be inaccurate (probably), or doesn't have that sensitivity (though one of my presets appears as 0001mA.  
+
+I ran the EnhancedAdvertising Test from ArduinoBLE.h it did not reach 10mA. Perhaps the "LE" is what makes it so low power. Kudos. I will try the ArduinoBlue test for multiple LED brightness.ino It appears the library isn't installed for SoftwareSerial.h. I will try another app, LED.ino and it says I can install a couple apps. LightBlue and and nRF Connect for Android. This is also from teh ArduinoBLE Example (not from the ArduinoBlue). It wasn't able to connect, likely because the PIN wasn't registering. 
+
+
+
+
+
+
 
