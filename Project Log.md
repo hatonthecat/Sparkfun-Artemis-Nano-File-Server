@@ -350,11 +350,13 @@ I am going to use 2.0.2 for now- it is the only version that is able to upload r
 
 So I will test the Blink test again, raising it to 20000 milliseconds, to perhaps notice a spike in power. I did not see any fluctuation of 0.01A- there are two LEDs, the Red and Blue, and while the Blue is very bright, it does not use 10mA. I will re-test the bluetooth example, because I was able to erase one of my presets that was in the thousands of millamps, since I clearly knew it was not from the Artemis Nano. Perhaps the preset does allow the PowerJive to reveal up to 4 decimal points, because while it does not appear on the top row, perhaps I can capture the measurement during the bluetooth test. Preset 0 shows 0000mA for the LED test, which may be inaccurate (probably), or doesn't have that sensitivity (though one of my presets appears as 0001mA.  
 
-I ran the EnhancedAdvertising Test from ArduinoBLE.h it did not reach 10mA. Perhaps the "LE" is what makes it so low power. Kudos. I will try the ArduinoBlue test for multiple LED brightness.ino It appears the library isn't installed for SoftwareSerial.h. I will try another app, LED.ino and it says I can install a couple apps. LightBlue and and nRF Connect for Android. This is also from teh ArduinoBLE Example (not from the ArduinoBlue). It wasn't able to connect, likely because the PIN wasn't registering. 
+I ran the EnhancedAdvertising Test from ArduinoBLE.h it did not reach 10mA. Perhaps the "LE" is what makes it so low power. Kudos. I will try the ArduinoBlue test for multiple LED brightness.ino It appears the library isn't installed for SoftwareSerial.h. I will try another app, LED.ino and it says I can install a couple apps. LightBlue and and nRF Connect for Android. This is also from the ArduinoBLE Example (not from the ArduinoBlue). It wasn't able to connect, likely because the PIN wasn't registering. 
 
+On checking the Sparkfun forums, there appears to be a working bluetooth example with the LightBlue app. Retesting it https://forum.sparkfun.com/viewtopic.php?p=210145#p210145 It didn't apear to work.
 
+I have downloaded the Sparkfun Firmware Uploader GUI. https://github.com/sparkfun/Artemis-Firmware-Upload-GUI
 
-
+Perhaps I am using an older version. I am also curious about this D19 1hz LED blinker. What Hz was it using before? I will wait on that. Instead I will try to burn the bootloader to ensure my uploads are not running too slow. They seem to work fine, though the compiling appears a little slow. https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis/all#troubleshooting suggests I could reinstall the SVL. I may wait on this too. 
 
 
 
