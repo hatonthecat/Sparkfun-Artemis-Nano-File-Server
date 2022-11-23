@@ -318,3 +318,21 @@ Other OSes supported include Tock: https://github.com/tock/tock/tree/master/boar
 -------------------------
 
 I have added a Glossary of IoT Terms, which will be handy for my future IoT software: https://github.com/hatonthecat/Sparkfun-Artemis-Nano-File-Server/blob/main/IoT%20Glossary%20%26%20Exegesis.md
+
+---------------------
+08:34 PM
+---------------------
+
+I plugged in my Power Jive to the PC, and realized it was displaying 301mA even without the Sparkfun Artemis attached. So that number is clearly not representing the draw of the Redboard Nano. I suspected it wasn't actually correct, since it may not have that margin of error detection. 301mA would be nearly 1.5 watts, and not even my Raspberry Pi Zero uses that much.
+
+It turns out I was reading from the 10 preset/saved readings on the lower screen. The top bar shows the actual amperage, but only has two 00s past the decimal point. Thus even if it were running at 0.004 Amps, that would be 4mA and it wouldn't round up to .01A (10mA). The Sparkfun uses anywhere from 1.88mA- 6-7mA from what I've read: 
+
+https://forum.sparkfun.com/viewtopic.php?p=207655#p207655
+
+https://forum.sparkfun.com/viewtopic.php?t=50789#:~:text=The%20Nano%20is%20a%20bit,(again%20while%20running%20Blink).
+
+"The Nano is a bit different since it does not use the LM117 regulator and also has the battery charging circuit included. In my testing with 5V applied to VIN the Nano was consuming ~6-7mA and ~4mA with 3.3V provided directly to the 3.3V pin (again while running Blink). 
+
+I will check the Jive Meter while running the Bluetooth test. Perhaps it will hit the 5mA threshold, which might appear as 0.01 if it rounds up. (for a $10 USB multimeter, I have to say this would be quite a powerful instrument)
+
+
