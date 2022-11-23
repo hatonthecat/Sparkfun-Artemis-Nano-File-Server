@@ -331,7 +331,7 @@ https://forum.sparkfun.com/viewtopic.php?p=207655#p207655
 
 https://forum.sparkfun.com/viewtopic.php?t=50789#:~:text=The%20Nano%20is%20a%20bit,(again%20while%20running%20Blink).
 
-"The Nano is a bit different since it does not use the LM117 regulator and also has the battery charging circuit included. In my testing with 5V applied to VIN the Nano was consuming ~6-7mA and ~4mA with 3.3V provided directly to the 3.3V pin (again while running Blink). 
+"The Nano is a bit different since it does not use the LM117 regulator and also has the battery charging circuit included. In my testing with 5V applied to VIN the Nano was consuming ~6-7mA and ~4mA with 3.3V provided directly to the 3.3V pin (again while running Blink)." 
 
 I will check the Jive Meter while running the Bluetooth test. Perhaps it will hit the 5mA threshold, which might appear as 0.01 if it rounds up. (for a $10 USB multimeter, I have to say this would be quite a powerful instrument)
 
