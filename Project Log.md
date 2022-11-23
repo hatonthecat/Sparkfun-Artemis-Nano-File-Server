@@ -435,8 +435,12 @@ This is good news. In a way, I was expecting it to appear as 0.01A, but that wou
 ||  Day Three  ||
 ----------------
 
-9:48 AM I hadn't realized I created an index by typing lines around Day 2, so I copied the format for Day 3. By index I'm referring to the three lines to the left of the revision bar: ![image](https://user-images.githubusercontent.com/76194453/203590094-d7d40d07-3aee-43ee-81ac-df2698f4744b.png)
+9:48 AM I hadn't realized I created an index by typing lines around Day 2, so I copied the format for Day 3. 
+
+By index I'm referring to the three lines to the left of the revision bar: 
+
+![image](https://user-images.githubusercontent.com/76194453/203590094-d7d40d07-3aee-43ee-81ac-df2698f4744b.png)
  
  I can probably shorten the lines and use fewer of them, but most of the learning in programming is done by typing. Surely some read the user manual for Github before coding, but how many actually do that? I'm sure there are many tricks for editing a page with additional indents, but I am just concerned with occasional indexes separated by days, and unfortunately, I am not consistent with the format, so occasionally the index will show middle of the day line breaks. Sometimes it helps me more than the reader. 
  
-9:55 It turns out I only need one line of dashed "-"s to create an indexed entry.
+9:55 It turns out I only need one line of dashed "-"s to create an indexed entry. I do use the preview option- it is actually quite convenient, but I make hundreds of commits anyways, to fix typos and other formatting issues.
