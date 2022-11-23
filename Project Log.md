@@ -358,5 +358,84 @@ I have downloaded the Sparkfun Firmware Uploader GUI. https://github.com/sparkfu
 
 Perhaps I am using an older version. I am also curious about this D19 1hz LED blinker. What Hz was it using before? I will wait on that. Instead I will try to burn the bootloader to ensure my uploads are not running too slow. They seem to work fine, though the compiling appears a little slow. https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis/all#troubleshooting suggests I could reinstall the SVL. I may wait on this too. 
 
+I ran the Firmware update. It changed the blinking to every other second. The first try didn't work, as I selected Bootloader first, out of order from the instructions. At 11:57PM, trying to follow instructions can sometimes be a best-effort.
 
+"Updating bootloader
+
+Artemis Bootloader Update
+
+Installing bootloader version 5
+Header Size = 0x80
+original app_size 12940
+load_address 0xc000
+app_size 12940
+w0 = 0xcb00330c
+Security Value 0x10
+w2 = 0x10008080
+addrWord = 0xc000
+versionKeyWord = 0x0
+child0/feature = 0xffffffff
+child1 = 0xffffffff
+crc =  0xc703da31
+Writing to file application_OTA_blob.bin
+testing: application_OTA_blob.bin
+Header Size = 0x60
+app_size = 13068
+Writing to file application_Wired_OTA_blob.bin
+Image from 0x0 to 0x330c will be loaded at 0x20000
+Connecting over serial port...
+Sending Hello.
+No response for command bytearray(b'\x00\x00\x08\x00')
+received 62 bytes
+Failed to respond
+Fail
+Sending Hello.
+No response for command bytearray(b'\x00\x00\x08\x00')
+received 62 bytes
+Failed to respond
+Fail
+Sending Hello.
+No response for command bytearray(b'\x00\x00\x08\x00')
+received 62 bytes
+Failed to respond
+Fail
+Tries = 3
+Upload failed!
+
+Uploading firmware
+
+Artemis SVL Uploader
+
+Phase:	Setup
+	Cleared startup blip
+	Got SVL Bootloader Version: 5
+	Sending 'enter bootloader' command
+Phase:	Bootload
+	Sending 8784 bytes in 5 frames
+	Got frame request
+	Sending frame #1, length: 2048
+	Got frame request
+	Sending frame #2, length: 2048
+	Got frame request
+	Sending frame #3, length: 2048
+	Got frame request
+	Sending frame #4, length: 2048
+	Got frame request
+	Sending frame #5, length: 592
+	Got frame request
+Upload complete! "
+
+I already have the latest version - 5 so I will not need to update it.
+
+It's now 12:02 PM, so I will begin Day 3. Day 2 was not what I had planned- I was hoping to try out or port new software, but obviously that takes a lot of time, and running more simple tests with existing software for the library helps me get a better idea of capabilities. Since power consumption is so central to the design of an autarkic fileserver, it helps to know whether the device is using 12mW or 35mW (1.88mA x 4.95V, or 7mA x 4.95V as mentioned in the SparkFun forum. At 48mhz (fixed), the Artemis module is probably running 288uA (around 1.5mW, and the LEDs and radios are potentially using the rest of the power. Perhaps the PowerJive does not register 9mA as 0.01 A until it actually passes the 10mA (with a +/- 1mA margins). The page says 1% accuracy (although it was referring to voltage). this reviewer also could not get their device to be detected with an Adafruit microcontroller: https://www.amazon.com/gp/customer-reviews/R2S4LFQ7IEODUM
+
+This is good and bad news. In a way, I was expecting it to appear as 0.01A, but that would be only if it could detect the difference between 7mA and 10mA. And even if it could, it's probably not using that much. It might only be using 2-3mA, which suggests it's using no more than 15mW, on idle/low activity.
+
+---------------------------------
+---------------------------------
+
+||  DAY 3 ||
+
+---------------------------------
+---------------------------------
 
