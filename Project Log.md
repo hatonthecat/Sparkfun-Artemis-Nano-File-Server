@@ -443,4 +443,9 @@ By index I'm referring to the three lines to the left of the revision bar:
  
  I can probably shorten the lines and use fewer of them. Did you know, that most of the learning in programming is done by typing and testing things? Not just reading about things? Surely some read the user manual for Github before coding, but how many actually do that? I'm sure there are many tricks for editing a page with additional indents, but I am just concerned with occasional indexes separated by days, and unfortunately, I am not consistent with the format, so occasionally the index will show middle of the day line breaks. Sometimes it helps me more than the reader. 
  
-9:55 It turns out I only need one line of dashed "-"s to create an indexed entry. I do use the preview option- it is actually quite convenient, but I make hundreds of commits anyways, to fix typos and other formatting issues.
+9:55 AM It turns out I only need one line of dashed "-"s to create an indexed entry. I do use the preview option- it is actually quite convenient, but I make hundreds of commits anyways, to fix typos and other formatting issues. The # of commits in all my pages are hardly like other Github projects where they are adding code, so I realize people who view my contribution activity:
+
+![image](https://user-images.githubusercontent.com/76194453/203593151-ce8f2e53-0aa8-4021-bb78-9172879cc9f6.png)
+
+
+and see 156 commits in November, may think, wow this person is hard at work- well I am not trying to create the appearance that I'm writing software -YET- I just have a lot of writing to do as well. Apologies if this looks more like a Wordpress entry.  
