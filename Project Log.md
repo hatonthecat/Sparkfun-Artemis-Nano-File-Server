@@ -448,4 +448,4 @@ By index I'm referring to the three lines to the left of the revision bar:
 ![image](https://user-images.githubusercontent.com/76194453/203593151-ce8f2e53-0aa8-4021-bb78-9172879cc9f6.png)
 
 
-and see 156 commits in November, may think, wow this person is hard at work- well I am not trying to create the appearance that I'm writing software -YET- I just have a lot of writing to do as well. Apologies if this looks more like a Wordpress entry.  
+and see 156 commits in November, may think, wow this person is hard at work- I am not trying to create the appearance that I'm writing software -YET- I just have a lot of writing to do as well. I know it may look like that if viewing my profile, but I can assure you, if I focused too much on my appearance, I would never get anything done. Apologies if this looks more like a Wordpress entry.  
