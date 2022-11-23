@@ -431,11 +431,11 @@ It's now 12:02 PM, so I will begin Day 3. Day 2 was not what I had planned- I wa
 
 This is good news. In a way, I was expecting it to appear as 0.01A, but that would be only if it could not detect the difference between 7mA and 10mA (suggesting less than +/- 3% accuracy). And even if it could, the meter is probably not rounding up nor the Redboard is using that much. It might only be using 2-3mA, which suggests it's using no more than 15mW, on idle/low activity. There may be a way to disable the LEDs. Green LEDs use less power than Blue, and Red LEDs use the most power.
 
----------------------------------
----------------------------------
+----------------
+||  Dat Three  ||
+----------------
 
-||  DAY 3 ||
-
----------------------------------
----------------------------------
-
+9:48 AM I hadn't realized I created an index by typing lines around Day 2, so I copied the format for Day 3. By index I'm referring to the three lines to the left of the revision bar: ![image](https://user-images.githubusercontent.com/76194453/203590094-d7d40d07-3aee-43ee-81ac-df2698f4744b.png)
+ 
+ I can probably shorten the lines and use fewer of them, but most of the learning in programming is done by typing. Surely some read the user manual for Github before coding, but how many actually do that? I'm sure there are many tricks for editing a page with additional indents, but I am just concerned with occasional indexes separated by days, and unfortunately, I am not consistent with the format, so occasionally the index will show middle of the day line breaks. Sometimes it helps me more than the reader. 
+ 
