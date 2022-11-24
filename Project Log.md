@@ -529,7 +529,7 @@ Even before filtering for Cortex M4 and BLE, there are no Sparkfun boards on the
 
 ![image](https://user-images.githubusercontent.com/76194453/203702210-8e6e0d2b-169c-4e8a-a3e8-0d011f6d7102.png)
 
-You'd think ARM, which makes the MCU, would want to include them on the site. Why not? Sparkfun has its own Mbed repository. But. Is it compatible with all the wonderful software that they talk about on the MbedOS site? No software should be left behind.
+You'd think ARM, which makes the MCU architecture/license, would want to include them on the site. Why not? Sparkfun has its own Mbed repository. But. Is it compatible with all the wonderful software that they talk about on the MbedOS site? No software should be left behind.
 
 MbedOS for Sparkfun has been in Beta for over 2 years. 
 
