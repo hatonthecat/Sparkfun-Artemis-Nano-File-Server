@@ -456,6 +456,8 @@ and see 156 commits in November, may think, wow this person is hard at work- I a
 
 LittleFS for MbedOS. The Sparkfun Artemis supports MbedOS, so this version of LittleFS may work for the Artemis. some assembly required, I assume.
 https://os.mbed.com/blog/entry/littlefs-high-integrity-embedded-fs/ 
+https://github.com/ARMmbed/mbed-os/tree/master/storage/filesystem/littlefs
+http://littlefs.geky.net/demo.html
 
 One of the the inexplicable things a newb is tasked with is how software can actually be uploaded to a microcontroller to perform a function. Even if I uploaded a file system file, does the software have a way to check that it's there, via serial cable? I know I have to include some other program to use that file system, such as an httpd daemon. This is why microcontrollers are so foreign to me. With a linux operating sytem or windows, there is a software manager, synaptic, or .exe/.msi files, that intrinsically run when they are on the screen. Microcontrollers don't have this instant-acess option, not outside an IDE or a pre-installed peripheral I/O. So while MCUs aren't designed like PCs, that is still the only way I can understand them. Sure, they can operate as a sensor on 32KB. But this has 384KB. So the file system is far more interesting. Regrettably, I can't make this up. It's not a joke. I am trying to learn the ways of the MCU, but it's taking longer than expected.
 
