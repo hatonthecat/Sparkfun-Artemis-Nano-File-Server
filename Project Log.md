@@ -548,7 +548,7 @@ Day 4
 
 1:14 AM 
 
-So it turns out there is some developement still going on. I am just hesitant to peer into the SparkFun forums sometimes. 
+So it turns out there is some development still going on. I am just hesitant to peer into the SparkFun forums sometimes. Maybe because I fear what I will read about hardware deprecation.
 
 https://forum.sparkfun.com/viewtopic.php?f=183&t=58462  The Sparkfun boards are running Mbed OS 5, not 6. 
 https://github.com/paulvha/apollo3/tree/master/MBED-BLE
