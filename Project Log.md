@@ -493,3 +493,53 @@ Not to be confused with HCI, HAL is another term I saw pop up yesterday and the 
 
 I appreciate the heads up. But I will take anything I am offered. While technically I am a beginner, the wording of this explains more about the board than some beginner guides. I am not claiming I understand even 1% of advanced programming, I just needed to know this before I dive into beginner's tutorials. It's better to try to briefly provide a high-level overview of all the concepts of a microcontroller without assuming difficulty. I can usually find out more information when I need- such as interrupt parameters- perhaps why so many tutorials try to omit information like this is because they are too afraid of confusing the reader. Some learners are non-linear. From context, it sounds like I can mix some advanced functions with the pre-baked Arduino functions in the same Arduino enviroment, as long as write the code correctly. Am I right? See, you can graduate from beginner school in 3 days. I believe in you. Don't let anyone tell you something is purely advanced. Chances are, you deserve an attempt at an explanation at least. Tutorial books need to say what people can be capable of, so they have something to look forward to. Everything is for beginners, but no one wants to be stuck in the mindset that they are a beginner or patronized.
 
+11;14 PM
+
+https://os.mbed.com/docs/mbed-os/v6.15/apis/blockdevice-apis.html
+
+So apparently some microcontrollers may not support all the development board OS features. This is another jarring difference between MCUs and PCs. Some MCUs don't appear to be able to be "just flashed" with an OS. They need to support the IDE that goes with it. And development boards only appear when I search Block device APIS supported, Artemis doesn't appear. I should write a book - Microcontrollers for the Layman. In the 90s, PCs used to have a sticker on them that they supported Windows 95 or 98. Is this so hard? In plain language, when  microcontroller is sold, it should say whether it supports an OS or not. Not some development environment with half the features. It may support all the features, but MCU hardware and software developers don't bother to explain it to people they never thought would even try to understand this stuff.
+
+What am I referring to? This:
+
+![image](https://user-images.githubusercontent.com/76194453/203700545-06a22f49-540d-40a3-a503-dad101f4ed80.png)
+
+It seems so simple. I want to use this block API. At least I think I do. When I click on "Import into Mbed IDE" which I already have the desktop version, it redirects me to the web version, which is being deprecated in December 2022 for Keil
+
+The soon to be deprecated: 
+
+![image](https://user-images.githubusercontent.com/76194453/203700825-4fec6570-7cbb-4352-8e58-952f93183808.png)
+
+A bit of good news: 
+
+"Keil Studio Cloud is based on a modern IDE framework and gives Arm the opportunity to develop features that would not have been possible with the Online Compiler. Our codebase gives us the flexibility to deploy to the desktop (in the guise of Mbed Studio), or to the browser, or even as Visual Studio Code extensions in future."
+https://os.mbed.com/blog/entry/keil-studio-cloud-mbed-online-compiler/
+
+So I won't need to reinstall the desktop client when Keil launches next month after just installing Mbed Studio, like 2 days ago. Thanks! :)
+
+Back to what I was saying, when I click Import into Mbed IDE, I get this popup:
+
+![image](https://user-images.githubusercontent.com/76194453/203701381-5467c48c-e8d0-4225-b725-1cc98b72809d.png)
+
+
+I haven't added a platform. Yes, it's true. I haven't added a platform. But something tells me it's not going to support my Artemis Nano, because it's not a development board like the $48 Sparkfun Artemis Development Kit: https://www.sparkfun.com/products/16828
+
+You mean I can't just program something virtually in a desktop environment and then test the code on the Nano that I spent $15 for? What am I missing? Or rather, what is the board missing? Sigh... 
+
+Even before filtering for Cortex M4 and BLE, there are no Sparkfun boards on the Mbed site:
+
+![image](https://user-images.githubusercontent.com/76194453/203702210-8e6e0d2b-169c-4e8a-a3e8-0d011f6d7102.png)
+
+You'd think ARM, which makes the MCU, would want to include them on the site. Why not? Sparkfun has its own Mbed repository. But. Is it compatible with all the wonderful software that they talk about on the MbedOS site? No software should be left behind.
+
+MbedOS for Sparkfun has been in Beta for over 2 years. 
+
+https://learn.sparkfun.com/tutorials/artemis-development-on-arm-mbed-os-beta/all 
+
+https://github.com/sparkfun/mbed-os-ambiq-apollo3/tree/ambiq-apollo3-dev 
+
+Oh wait, there is litleFS in this branch, but it hasn't been updated in nearly 2 years. It looks like someone did some refactor work: 
+https://github.com/ARMmbed/mbed-os/pull/13433
+
+By the way, I'm not really upset at any of the websites or developers. I just like narrating the chronological order when I fail to find something, and occasionally highlight overly technical landing pages which could have a simplified alternative home page for newbs like me.
+
+
