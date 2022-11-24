@@ -531,7 +531,7 @@ Even before filtering for Cortex M4 and BLE, there are no Sparkfun boards on the
 
 You'd think ARM, which makes the MCU architecture/license, would want to include them on the site. Why not? Sparkfun has its own Mbed repository. But. Is it compatible with all the wonderful software that they talk about on the MbedOS site? No software should be left behind.
 
-MbedOS for Sparkfun has been in Beta for over 2 years. 
+MbedOS for Sparkfun has been in Beta for over 2 years. Even if does support MbedOS, is anyone even still working on this? This board is one of the greatest microcontrollers I've seen. It's sad that there aren't more developers interested.
 
 https://learn.sparkfun.com/tutorials/artemis-development-on-arm-mbed-os-beta/all 
 
@@ -542,4 +542,29 @@ https://github.com/ARMmbed/mbed-os/pull/13433
 
 By the way, I'm not really upset at any of the websites or developers. I just like narrating the chronological order when I fail to find something, and occasionally highlight overly technical landing pages which could have a simplified, semantic search and alternative home page for newbs like me.
 
+-------------
+Day 4
+-------------
+
+1:14 AM 
+
+So it turns out there is some developement still going on. I am just hesitant to peer into the SparkFun forums sometimes. 
+
+https://forum.sparkfun.com/viewtopic.php?f=183&t=58462  The Sparkfun boards are running Mbed OS 5, not 6. 
+https://github.com/paulvha/apollo3/tree/master/MBED-BLE
+https://forum.sparkfun.com/viewtopic.php?f=170&t=58483
+
+Are they talking about the same OLA as this? I had a similar idea in mind- once the file system is installed, then I'd interface with the BLE HCI
+https://www.openlighting.org/ola/getting-started/using-ola/ 
+
+I think my qustions have been answered:
+from: https://forum.sparkfun.com/viewtopic.php?p=236512#p236512
+"Wed Oct 19, 2022 11:10 pm
+Nothing. Sorry!
+
+The hardware and Mbed OS both support BLE, but we just haven't had the time or resources to be able to add support in the OLA firmware. It's a big project and we have new hardware coming where it will be _much_ easier to support Bluetooth and WiFi connectivity."
+
+New Hardware...Hmm, hopefully an Artemis with Apollo4, with MbedOS6 or anything that lets me program a lot of things, without needing a bunch of different libaries.- like one big library would be nice...
+
+Well that makes sense.. wait for new hardware that fixes problems that would take too long to develop on older hardware. Seeing that there are only 6 Sparkfun developers on Github in the repository, it is clear there isn't a ton of resources to develop on a platform that is not going to be as popular as what's probably in the pipelines. Sure, I'd buy an Apollo4 with 2MB of RAM, but there is still a lot of potential on 384KB. But I'm not sure if it will be cost effective to develop for the Artemis with Apollo3 unless it is backward compatible (assuming it's even the same architecture).
 
