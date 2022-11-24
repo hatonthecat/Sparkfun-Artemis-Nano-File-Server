@@ -458,3 +458,36 @@ LittleFS for MbedOS. The Sparkfun Artemis supports MbedOS, so this version of Li
 https://os.mbed.com/blog/entry/littlefs-high-integrity-embedded-fs/ 
 
 One of the the inexplicable things a newb is tasked with is how software can actually be uploaded to a microcontroller to perform a function. Even if I uploaded a file system file, does the software have a way to check that it's there, via serial cable? I know I have to include some other program to use that file system, such as an httpd daemon. This is why microcontrollers are so foreign to me. With a linux operating sytem or windows, there is a software manager, synaptic, or .exe/.msi files, that intrinsically run when they are on the screen. Microcontrollers don't have this instant-acess option, not outside an IDE or a pre-installed peripheral I/O. So while MCUs aren't designed like PCs, that is still the only way I can understand them. Sure, they can operate as a sensor on 32KB. But this has 384KB. So the file system is far more interesting. Regrettably, I can't make this up. It's not a joke. I am trying to learn the ways of the MCU, but it's taking longer than expected.
+
+9:54 PM How the Bluetooth talks with the MCU. 
+
+This should be in a Microcontrollers & Wireless Communications 101 Course 
+
+https://www.feasycom.com/bluetooth-host-controller-interface-hci.html
+"The host controller interface (HCI) layer is a thin layer which transports commands and events between the host and controller elements of the Bluetooth protocol stack. In a pure network processor application, the HCI layer is implemented through a transport protocol such as SPI or UART.
+
+HCI Interface
+The communication between a Host (a computer or an MCU) and a Host Controller (the actual Bluetooth chipset) follows the Host Controller Interface (HCI).
+
+HCI defines how commands, events, asynchronous and synchronous data packets are exchanged. Asynchronous packets (ACL) are used for data transfer, while synchronous packets (SCO) are used for Voice with the Headset and the Hands-Free Profiles."
+
+Thank you Feasycom. I love when words like "actual" are used. It means the engineer writing the technical manual realizes the programmer understands a bluetooth device is somewhere on the integrated microcontroller chip (as many are SoCs now), and needs to specify that communication has to occur somehow. I need this kind of specificity, because abstractness between software and hardware is not clear enough. PCs have controllers for displays and all sorts of devices:
+
+![image](https://user-images.githubusercontent.com/76194453/203691805-dd266852-f20c-498d-be05-126f6c260ab7.png)
+
+https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols#HCI Controllers are something I understand. I am going to need this sometime. 
+
+More great references for the BLE beginner: https://pcng.medium.com/ble-protocol-stack-host-controller-interface-hci-44dd5697bd8
+
+https://www.amd.e-technik.uni-rostock.de/ma/gol/lectures/wirlec/bluetooth_info/hci.html
+
+What's this HAL? 
+
+https://www.digikey.com/en/maker/projects/artemis-development-with-arduino/d38350a88bb74bd4a5c6e02bf493ece9
+
+Not to be confused with HCI, HAL is another term I saw pop up yesterday and the day before. HAL is hardware abstraction layer. Another SDK, the Ambiq SDK, includes these examples and functions. 
+
+"This is a powerful tool for advanced users; you can use the built in Arduino functions such as Serial.begin(9600) and delay(100) while integrating more advanced HAL functions for controlling things like interrupts."
+
+I appreciate the heads up. But I will take anything I am offered. While technically I am a beginner, the wording of this explains more about the board than some beginner guides. I am not claiming I understand the advanced programming, I just needed to know this before I dive into beginner's tutorials. It's better to try to explain all topics without assuming difficulty. I can usually find out more information if I need- such as interrupt parameters- perhaps why so many tutorials try to omit information like this is because they are too afraid of confusing the reader. Some learners are non-linear. From context, it sounds like I can mix some afanced functions with the pre-baked Arduino functions in the same Arduino enviroment, as long as write the code correctly. Am I right? See, you can graduate from beginner school in 3 days.
+
