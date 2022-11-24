@@ -540,6 +540,6 @@ https://github.com/sparkfun/mbed-os-ambiq-apollo3/tree/ambiq-apollo3-dev
 Oh wait, there is littleFS in this branch, but it hasn't been updated in nearly 2 years. It looks like someone did some refactor work: 
 https://github.com/ARMmbed/mbed-os/pull/13433
 
-By the way, I'm not really upset at any of the websites or developers. I just like narrating the chronological order when I fail to find something, and occasionally highlight overly technical landing pages which could have a simplified alternative home page for newbs like me.
+By the way, I'm not really upset at any of the websites or developers. I just like narrating the chronological order when I fail to find something, and occasionally highlight overly technical landing pages which could have a simplified, semantic search and alternative home page for newbs like me.
 
 
