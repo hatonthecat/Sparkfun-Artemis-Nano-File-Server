@@ -449,3 +449,12 @@ By index I'm referring to the three lines to the left of the revision bar:
 
 
 and see 156 commits in November, may think, wow this person is hard at work- I am not trying to create the appearance that I'm writing software -YET- I just have a lot of writing to do as well. I know it may look like that if viewing my profile, but I can assure you, if I focused too much on my appearance, I would never get anything done. Apologies if this looks more like a Wordpress entry.  
+
+-----------
+9:30 PM
+------------
+
+LittleFS for MbedOS. The Artemis Support MbedOS, so this version of LittleFS may work for the Artemis.
+https://os.mbed.com/blog/entry/littlefs-high-integrity-embedded-fs/ 
+
+One of the the inexplicable things a newb is tasked with is how software can actually be uploaded to a microcontroller to perform a function. Even if I uploaded a file system file, does the software have a way to check that it's there, via serial cable? I know I have to include some other program to use that file system, such as an httpd daemon. This is why microcontrollers are so foreign to me. With a linux operating sytem or windows, there is a software manager, synaptic, or .exe/.msi files, that intrinsically run when they are on the screen. Microcontrollers don't have this instant-acess option, not outside an IDE or a pre-installed peripheral I/O. So while MCUs aren't designed like PCs, that is still the only way I can see them. Sure, they can operate as a sensor on 32KB. But this has 384KB. So the file system is far more interesting. Regrettably, I can't make this up. It's not a joke.
