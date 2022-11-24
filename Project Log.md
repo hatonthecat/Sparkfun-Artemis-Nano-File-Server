@@ -557,7 +557,7 @@ https://forum.sparkfun.com/viewtopic.php?f=170&t=58483
 Are they talking about the same OLA as this? I had a similar idea in mind- once the file system is installed, then I'd interface with the BLE HCI
 https://www.openlighting.org/ola/getting-started/using-ola/ 
 
-I think my qustions have been answered:
+I think my questions have been answered:
 from: https://forum.sparkfun.com/viewtopic.php?p=236512#p236512
 "Wed Oct 19, 2022 11:10 pm
 Nothing. Sorry!
