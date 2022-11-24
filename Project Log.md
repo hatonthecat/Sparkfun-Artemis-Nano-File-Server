@@ -493,7 +493,7 @@ Not to be confused with HCI, HAL is another term I saw pop up yesterday and the 
 
 I appreciate the heads up. But I will take anything I am offered. While technically I am a beginner, the wording of this explains more about the board than some beginner guides. I am not claiming I understand even 1% of advanced programming, I just needed to know this before I dive into beginner's tutorials. It's better to try to briefly provide a high-level overview of all the concepts of a microcontroller without assuming difficulty. I can usually find out more information when I need- such as interrupt parameters- perhaps why so many tutorials try to omit information like this is because they are too afraid of confusing the reader. Some learners are non-linear. From context, it sounds like I can mix some advanced functions with the pre-baked Arduino functions in the same Arduino enviroment, as long as write the code correctly. Am I right? See, you can graduate from beginner school in 3 days. I believe in you. Don't let anyone tell you something is purely advanced. Chances are, you deserve an attempt at an explanation at least. Tutorial books need to say what people can be capable of, so they have something to look forward to. Everything is for beginners, but no one wants to be stuck in the mindset that they are a beginner or patronized.
 
-11;14 PM
+11:14 PM
 
 https://os.mbed.com/docs/mbed-os/v6.15/apis/blockdevice-apis.html
 
