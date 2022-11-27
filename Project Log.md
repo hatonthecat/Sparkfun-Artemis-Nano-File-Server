@@ -568,3 +568,19 @@ New Hardware...Hmm, hopefully an Artemis with Apollo4, with MbedOS6 or anything 
 
 Well that makes sense.. wait for new hardware that fixes problems that would take too long to develop on older hardware. Seeing that there are only 6 Sparkfun developers on Github in the repository, it is clear there isn't a ton of resources to develop on a platform that is not going to be as popular as what's probably in the pipelines. Sure, I'd buy an Apollo4 with 2MB of RAM, but there is still a lot of potential on 384KB. But I'm not sure if it will be cost effective to develop for the Artemis with Apollo3 unless it is backward compatible (assuming it's even the same architecture).
 
+------
+Day 4 
+------
+10:54AM 
+Wednesday through Saturday was a holiday break, and I was out of town. I did get some Arduino links that may be of help- simulators that may be able to 
+virtually run/test applications that I've wanted to build for the Artemis:
+
+https://wokwi.com/ 
+
+https://simulation.iitbx.in/arduino/
+
+https://www.tinkercad.com/ I am not sure if these are hardware-centric or software- they seem to be hardware, but some software as well. 
+
+The operating systems are of course important, but the ability to test code on the Artemis using the current IDE may suffice. Thus it's not clear if the IDE lets me send and build a filesystem/fileserver, or just instructions.
+
+This is not related, but I may glean some concepts from the BBC Microbit: https://learn.sparkfun.com/tutorials/getting-started-with-the-microbit/all
