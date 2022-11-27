@@ -636,4 +636,14 @@ Also, I learned there is a term for the USB programming method. It's called In-s
 https://en.wikipedia.org/wiki/In-system_programming 
 "In-system programming (ISP), or also called in-circuit serial programming (ICSP), is the ability of some programmable logic devices, microcontrollers, and other embedded devices to be programmed while installed in a complete system, rather than requiring the chip to be programmed prior to installing it into the system. It also allows firmware updates to be delivered to the on-chip memory of microcontrollers and related processors without requiring specialist programming circuitry on the circuit board, and simplifies design work.[1]" This is a good background: https://www.oreilly.com/library/view/designing-embedded-hardware/0596007558/ch01.html I never knew how much background material I'd need. Back to the textbooks, it appears.
 
+4:38 PM
 
+I did a test build:
+
+![image](https://user-images.githubusercontent.com/76194453/204163540-17981228-ff1b-4bb7-a097-32b6d014ae5c.png)
+(File this under I don't know what I'm doing- since it may just be built on the PC, but nothing transferred, for the better-for now)
+Compared to the Instructions, which used the dev kit:
+![image](https://user-images.githubusercontent.com/76194453/204163608-e96d427e-e621-4fc2-ba20-5d73d8bec586.png)
+
+I selected Nano - but the USB screen didn't appear, and I may have used a different screen.
+ 
