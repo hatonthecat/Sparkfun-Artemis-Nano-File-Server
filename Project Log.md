@@ -569,10 +569,10 @@ New Hardware...Hmm, hopefully an Artemis with Apollo4, with MbedOS6 or anything 
 Well that makes sense.. wait for new hardware that fixes problems that would take too long to develop on older hardware. Seeing that there are only 6 Sparkfun developers on Github in the repository, it is clear there isn't a ton of resources to develop on a platform that is not going to be as popular as what's probably in the pipelines. Sure, I'd buy an Apollo4 with 2MB of RAM, but there is still a lot of potential on 384KB. But I'm not sure if it will be cost effective to develop for the Artemis with Apollo3 unless it is backward compatible (assuming it's even the same architecture).
 
 ------
-Day 4 
+Day 5 
 ------
 10:54AM 
-Wednesday through Saturday was a holiday break, and I was out of town. I did get some Arduino links that may be of help- simulators that may be able to 
+Thursday through Saturday was a holiday break, and I was out of town. I did get some Arduino links that may be of help- simulators that may be able to 
 virtually run/test applications that I've wanted to build for the Artemis:
 
 https://wokwi.com/ 
