@@ -602,6 +602,26 @@ Communication Port (COM): provides a serial communication UART between the Artem
 Not 100% sure I can drag and drop on my Nano board, but it seems like the Dev Kit board supports it.
 
 https://learn.sparkfun.com/tutorials/artemis-development-on-arm-mbed-os-beta 
+
+![image](https://user-images.githubusercontent.com/76194453/204156868-28e84c9e-518c-4c63-bdd8-13143ebf294e.png)
+
+I had previously cloned the fork uding GitHub desktop. The only step I did not do is "pull the ambiq-apollo3-dev branch, as I'm not sure if it will try to propose changes (which I am not interested in, at least right now). 
+
+I did pull Mbed OS full profile in MbedOS and
+
+![image](https://user-images.githubusercontent.com/76194453/204156981-d62868a1-a6d2-4932-8e79-db485470cf62.png)
+
+selected Blinky from Mbed OS 6.
+
+I then selected Link to an existing shared MbedOS instance, finding the directory of my ambiq-apollo3-dev.
+
+It is now active in MbedOS studio, however, I did notice it says "requires 6.13.0" :
+
+![image](https://user-images.githubusercontent.com/76194453/204157100-7218a279-8474-40ac-9b54-5c805e2e7d19.png)
+
+
+Which suggests the MbedOS 6 that I loaded is older than Mbed OS 6. I recall importing MBedOS 5 at some point, if i am not mistaken, so I may have to clone the newer version, first from Github, then link it to MbedOS. (Or just pull request?)
+
 Useful resource (41 pages): https://media.digikey.com/pdf/Data%20Sheets/Sparkfun%20PDFs/Artemis_Development_Kit_Getting_Started_Web.pdf
 
 Also, I learned there is a term for the USB programming method. It's called In-system programming:
