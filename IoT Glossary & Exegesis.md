@@ -17,7 +17,7 @@ For the technically minded, I prefer the 3rd -"autarkic" because it sounds more 
 
 Pervasive Computing - What? Seriously?? 
 This is a blend of two concepts- ambient computing- computing that is available under the threshold of awareness, and ubiquitous computing- computing that is everywhere and is being used all the time, because it is impossible to know if it is even on and where they are scattered, like land mines from WWII.
-Proceed cautiously and be mindful of the environment when developing new products. Please do not use the words "disposable" and "electronics" in the same sentence. 
+Proceed cautiously and be mindful of the environment when developing new products. Please do not use the words "disposable" and "electronics" in the same sentence. To be clear, ubiquitous computing is already here- it's just that if there is going to be an inevitable rise in number of connected devices, it should not sprawl without at least some kind of planning. Designing micocontrollers that can be repurposed should be a development goal. Single use, and hard-to-recover from the exosystem should not.
 This paper explains the term better than I can: 
 
 https://brandenghena.com/projects/lpwan/ghena19lpwans.pdf
