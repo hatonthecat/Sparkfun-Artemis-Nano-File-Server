@@ -622,6 +622,14 @@ It is now active in MbedOS studio, however, I did notice it says "requires 6.13.
 
 Which suggests the MbedOS 6 that I loaded is older than Mbed OS 6. I recall importing MBedOS 5 at some point, if i am not mistaken, so I may have to clone the newer version, first from Github, then link it to MbedOS. (Or just pull request?)
 
+ 2:12PM 
+ 
+ I did set up a remote repository: 
+
+![image](https://user-images.githubusercontent.com/76194453/204157452-e8f99a46-ae75-45dc-9a54-dd1cfa82be20.png)
+
+However, I do not know if it downloaded the updated respository and corresponding MbedOS(probably not)
+
 Useful resource (41 pages): https://media.digikey.com/pdf/Data%20Sheets/Sparkfun%20PDFs/Artemis_Development_Kit_Getting_Started_Web.pdf
 
 Also, I learned there is a term for the USB programming method. It's called In-system programming:
