@@ -598,6 +598,6 @@ Useful resource (41 pages): https://media.digikey.com/pdf/Data%20Sheets/Sparkfun
 
 Also, I learned there is a term for the USB programming method. It's called In-system programming:
 https://en.wikipedia.org/wiki/In-system_programming 
-"In-system programming (ISP), or also called in-circuit serial programming (ICSP), is the ability of some programmable logic devices, microcontrollers, and other embedded devices to be programmed while installed in a complete system, rather than requiring the chip to be programmed prior to installing it into the system. It also allows firmware updates to be delivered to the on-chip memory of microcontrollers and related processors without requiring specialist programming circuitry on the circuit board, and simplifies design work.[1]"
+"In-system programming (ISP), or also called in-circuit serial programming (ICSP), is the ability of some programmable logic devices, microcontrollers, and other embedded devices to be programmed while installed in a complete system, rather than requiring the chip to be programmed prior to installing it into the system. It also allows firmware updates to be delivered to the on-chip memory of microcontrollers and related processors without requiring specialist programming circuitry on the circuit board, and simplifies design work.[1]" This is a good background: https://www.oreilly.com/library/view/designing-embedded-hardware/0596007558/ch01.html I never knew how much background material I'd need. Back to the textbooks, it appears.
 
 
