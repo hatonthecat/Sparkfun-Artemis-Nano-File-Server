@@ -593,6 +593,14 @@ I have located another Sparkfun page confirming that all Artemis boards are full
 ![image](https://user-images.githubusercontent.com/76194453/204154975-3396eca8-0e72-41c5-995a-11b6954feef9.png)
 https://learn.sparkfun.com/tutorials/getting-started-with-the-artemis-development-kit Again, I appreciate this warning, but I will forge ahead.
 
+" Recommended software to program the Artemis DK include the Arduino IDE, Arm® Mbed™ OS and AmbiqSDK. An updated USB interface (MKL26Z128VFM4 Arm® Cortex-M0+ MCU, from NXP) allows the Artemis Dev Kit to act as:
+
+Mass Storage Device (MSD): provides drag-and-drop programming to the Artemis Module
+Human Interface Device (HID): for the debugging interface to the Artemis Module
+Communication Port (COM): provides a serial communication UART between the Artemis and the USB connection (PC)"
+
+Not 100% sure I can drag and drop on my Nano board, but it seems like the Dev Kit board supports it.
+
 https://learn.sparkfun.com/tutorials/artemis-development-on-arm-mbed-os-beta 
 Useful resource (41 pages): https://media.digikey.com/pdf/Data%20Sheets/Sparkfun%20PDFs/Artemis_Development_Kit_Getting_Started_Web.pdf
 
