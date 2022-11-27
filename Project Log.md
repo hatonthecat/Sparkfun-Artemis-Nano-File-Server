@@ -641,7 +641,7 @@ https://en.wikipedia.org/wiki/In-system_programming
 I did a test build:
 
 ![image](https://user-images.githubusercontent.com/76194453/204163540-17981228-ff1b-4bb7-a097-32b6d014ae5c.png)
-(File this under I don't know what I'm doing- since it may just be built on the PC, but nothing transferred, for the better-for now)
+(File this under "I don't know what I'm doing"- since it may just be built on the PC, but nothing transferred, for the better-for now)
 Compared to the Instructions, which used the dev kit:
 ![image](https://user-images.githubusercontent.com/76194453/204163608-e96d427e-e621-4fc2-ba20-5d73d8bec586.png)
 
