@@ -572,7 +572,7 @@ Well that makes sense.. wait for new hardware that fixes problems that would tak
 Day 5 
 ------
 10:54AM 
-Thursday through Saturday was a holiday break, and I was out of town. I did get some Arduino links that may be of help- simulators that may be able to 
+Thursday through Saturday was a holiday break, and I was out of town. Technically Day 7 from start date. I did get some Arduino links that may be of help- simulators that may be able to 
 virtually run/test applications that I've wanted to build for the Artemis:
 
 https://wokwi.com/ 
