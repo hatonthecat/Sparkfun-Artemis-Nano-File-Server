@@ -24,6 +24,8 @@ https://brandenghena.com/projects/lpwan/ghena19lpwans.pdf
 
 p.6 "The single location metrics show the requirements to deploy an instance of each application, while the pervasive metric assumes that the application is deployed at scale in its target environment." 
 
+Additional projections: "When NVIDIA purchased mobile-chip designer Arm Holdings from SoftBank last year, NVIDIA CEO Jensen Huang made the bold prediction that in the years ahead, there will be trillions of artificial intelligence (AI)-enabled Internet of Things (IoT) devices." https://cacm.acm.org/magazines/2021/7/253454-a-battery-free-internet-of-things/abstract
+
 -------------------------------
 -------------------------------
 Free-form commentary
