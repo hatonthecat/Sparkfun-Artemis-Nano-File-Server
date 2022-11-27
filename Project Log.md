@@ -584,3 +584,20 @@ https://www.tinkercad.com/ I am not sure if these are hardware-centric or softwa
 The operating systems are of course important, but the ability to test code on the Artemis using the current IDE may suffice. Thus it's not clear if the IDE lets me send and build a filesystem/fileserver, or just instructions.
 
 This is not related, but I may glean some concepts from the BBC Microbit: https://learn.sparkfun.com/tutorials/getting-started-with-the-microbit/all
+
+1:03PM 
+
+I have located another Sparkfun page confirming that all Artemis boards are fully MbedOS supported. https://www.sparkfun.com/news/3376
+"Starting today, full Arduino IDE, Bluetooth 5.0, and Arm Mbed OS software support is provided with all Artemis boards!" I'm glad of this, and especially because focusing on one board is the best way to learn how to program. There is a lot to overlook, which is why a site can have many pages that aren't necessarily disorganized, but require time and patience to actually understand.
+
+![image](https://user-images.githubusercontent.com/76194453/204154975-3396eca8-0e72-41c5-995a-11b6954feef9.png)
+https://learn.sparkfun.com/tutorials/getting-started-with-the-artemis-development-kit Again, I appreciate this warning, but I will forge ahead.
+
+https://learn.sparkfun.com/tutorials/artemis-development-on-arm-mbed-os-beta 
+Useful resource (41 pages): https://media.digikey.com/pdf/Data%20Sheets/Sparkfun%20PDFs/Artemis_Development_Kit_Getting_Started_Web.pdf
+
+Also, I learned there is a term for the USB programming method. It's called In-system programming:
+https://en.wikipedia.org/wiki/In-system_programming 
+"In-system programming (ISP), or also called in-circuit serial programming (ICSP), is the ability of some programmable logic devices, microcontrollers, and other embedded devices to be programmed while installed in a complete system, rather than requiring the chip to be programmed prior to installing it into the system. It also allows firmware updates to be delivered to the on-chip memory of microcontrollers and related processors without requiring specialist programming circuitry on the circuit board, and simplifies design work.[1]"
+
+
