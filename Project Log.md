@@ -636,6 +636,23 @@ Also, I learned there is a term for the USB programming method. It's called In-s
 https://en.wikipedia.org/wiki/In-system_programming 
 "In-system programming (ISP), or also called in-circuit serial programming (ICSP), is the ability of some programmable logic devices, microcontrollers, and other embedded devices to be programmed while installed in a complete system, rather than requiring the chip to be programmed prior to installing it into the system. It also allows firmware updates to be delivered to the on-chip memory of microcontrollers and related processors without requiring specialist programming circuitry on the circuit board, and simplifies design work.[1]" This is a good background: https://www.oreilly.com/library/view/designing-embedded-hardware/0596007558/ch01.html I never knew how much background material I'd need. Back to the textbooks, it appears.
 
+Microcontrollers are computers, but I prefer to let the textbooks confirm that:
+"In this chapter, we’ll look at computer architecture in general. This is applicable to both embedded and desktop computers, because the primary difference between an embedded machine and a general-purpose computer is its application. The basic principles of operation and the underlying architectures are fundamentally the same."
+
+A number of websites describe this reality: https://jaycarlson.net/embedded-linux/
+
+https://elinux.org/images/c/ca/Spreading.pdf 
+
+"When your microcontroller project outgrows its super loop and the random ISRs you’ve sprinkled throughout your code with care, there are many bare-metal tasking kernels to turn to — FreeRTOS, ThreadX (now Azure RTOS), RT-Thread, μC/OS, etc. By an academic definition, these are operating systems. However, compared to Linux, it’s more useful to think of these as a framework you use to write your bare-metal application inside. They provide the core components of an operating system: threads (and obviously a scheduler), semaphores, message-passing, and events. Some of these also have networking, filesystems, and other libraries."
+
+although they do not all/always recommend running linux without an MMU:
+
+"Responsiveness. By default, Linux’s scheduler and resource system are full of unbounded latencies that under weird and improbable scenarios may take a long time to resolve (or may actually never resolve). Have you ever seen your mouse lock up for 3 seconds randomly? There you go. If you’re building a ventilator with Linux, think carefully about that. To combat this, there’s been a PREEMPT_RT patch for some time that turns Linux into a real-time operating system with a scheduler that can basically preempt anything to make sure a hard-real-time task gets a chance to run.
+
+Also, when many people think they need a hard-real-time kernel, they really just want their code to be low-jitter. Coming from Microcontrollerland, it feels like a 1000 MHz processor should be able to bit-bang something like a 50 kHz square wave consistently, but you would be wrong. The Linux scheduler is going to give you something on the order of ±10 µs of jitter for interrupts, not the ±10 ns jitter you’re used to on microcontrollers. This can be remedied too, though: while Linux gobbles up all the normal ARM interrupt vectors, it doesn’t touch FIQ, so you can write custom FIQ handlers that execute completely outside of kernel space."
+
+Which prompts the question? Why not use something <i>like</i> linux, but not linux, on an MCU? Running applications in baremetal is an option- exokernel and SASOS can remove lots of the conveniences of OSes when the application is known. Other projects like https://github.com/embox/embox aim for the same goals- linux without linux. Some of the The RTOS aspects of the Symbian EKA2 kernel are a bonus for applications, as the main objective was to consolidate PMIC and signal stack into a single processor, to save on the bill of materials. Ideally, this kernel structure could be explored more for basic feature phones (read 1990s era) on the lightest microcontrollers.
+
 4:38 PM
 
 I did a test build:
