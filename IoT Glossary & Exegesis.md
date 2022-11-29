@@ -9,7 +9,7 @@ Ambient Computing -used interchangeably with "ubiquitous computing"- using a com
 
 Energy-scavenging - it looks for power in the nearby environment, used in an anthropomorphic and imperfect analogy. 
 
-Energy-harvesting - able to produce power locally/off-grid to power the device (agnostic as to partially or totally), as if it is some kind of farmer (also anthropomorphic, incongruously compares months of work into hours or minutes, if comparing the time it takes to grow food crops to generate power from a photovoltaic panel or thermoelectric generator)
+Energy-harvesting - able to produce power locally/off-grid to power the device (agnostic as to partially or totally), as if it is some kind of farmer (also anthropomorphic, incongruously compares months of work into hours or minutes, if comparing the time it takes to grow food crops to generate power from a photovoltaic panel or thermoelectric generator) https://en.wikipedia.org/wiki/Energy_harvesting
 
 Energy-autarkic- similar to energy-scavenging and harvesting, but more specifically reveals/indicates that the device requires no external charging, or possibly even batteries (as with capacitors/li-ion capacitors). It also is the least personified. This does not refer to the energy needed to manufacture the device, which a given, but post-imaging of the binary and once it is in a "production environment."
 
