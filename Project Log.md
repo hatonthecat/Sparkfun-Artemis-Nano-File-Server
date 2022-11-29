@@ -672,3 +672,8 @@ Day 6
 
 I am cross-linking this with the GEOS project- as I'd like to explore emulating 8bit-GEOS: https://github.com/hatonthecat/ENGAGE-GEOS
 
+2:15PM I learned a new IC driver: FT232: https://www.adafruit.com/product/2264
+
+It's like IC, but adds additional functions: "What can the FT232H chip do?  This chip from FTDI is similar to their USB to serial converter chips but adds a 'multi-protocol synchronous serial engine' which allows it to speak many common protocols like SPI, I2C, serial UART, JTAG, and more!"
+
+Wait, so I don't really need IDE. Something tells me this board interacts with boards, apparently through the 3-pin 3V power input. But I am assuming the power input doubles as an analog signal, which converts the FT232 board's data from the PC to the target board. Apparently it's only for Stemma products, but I'm aware that power cables can be used as a piggyback for data (after all, isn't USB-C/micro-USB the same?).
