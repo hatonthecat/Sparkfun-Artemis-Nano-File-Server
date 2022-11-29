@@ -662,7 +662,7 @@ I did a test build:
 Compared to the Instructions, which used the dev kit:
 ![image](https://user-images.githubusercontent.com/76194453/204163608-e96d427e-e621-4fc2-ba20-5d73d8bec586.png)
 
-I selected Nano - but the USB screen didn't appear, and I may have used a different screen.
+I selected Nano - but the "USB device" drop down didn't appear, and I may have used a different screen.
  
 ----------
 Day 6
