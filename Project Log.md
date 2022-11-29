@@ -664,3 +664,11 @@ Compared to the Instructions, which used the dev kit:
 
 I selected Nano - but the USB screen didn't appear, and I may have used a different screen.
  
+----------
+Day 6
+----------
+
+Technically 9th day from start date.
+
+I am cross-linking this with the GEOS project- as I'd like to explore emulating 8bit-GEOS: https://github.com/hatonthecat/ENGAGE-GEOS
+
