@@ -33,7 +33,7 @@ OTA800  -GSM @ 800Mhz
 OTA1800- -GSM @ 1800/1900Mhz
 OTA2.4GHz - WiFi/Bluetooth
 
-This is a more specific designation of OTA. OTA attempts to simplify a method of updates with a generic term, but it raises more questions than it attempts to answer.  
+This is a more specific designation of OTA. OTA attempts to simplify a method of updates with a generic term, but it raises more questions than it attempts to answer. Perhaps it aims to reach some kind of middle-ground- for those who are not privy/interested in the frequency, but to convey awareness of the wireless medium. In Stephen Pinker's The Stuff of Thought, a similar phenomenen exists in the English language. "If you could pass the salt." It means nothing but it avoids the agressivenes of "can you pass the salt" with "If you could" with no proposed outcome of the "If". "Over the air", likewise, is "If you could update OTA, period." That is how much OTA makes sense. But use it if your crowd is neither technical nor technical. I'm sure someone wants to hear the buzzword.  
 
 -------------------------------
 -------------------------------
