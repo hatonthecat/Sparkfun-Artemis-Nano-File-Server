@@ -26,6 +26,15 @@ p.6 "The single location metrics show the requirements to deploy an instance of 
 
 Additional projections: "When NVIDIA purchased mobile-chip designer Arm Holdings from SoftBank last year, NVIDIA CEO Jensen Huang made the bold prediction that in the years ahead, there will be trillions of artificial intelligence (AI)-enabled Internet of Things (IoT) devices." https://cacm.acm.org/magazines/2021/7/253454-a-battery-free-internet-of-things/abstract
 
+OTA- Over-the Air updates- Not a chronological encounter, but a a catch-all term for all wireless communication to boards incluing IoT and LTe cell networks. It's a very broad term, but doesn't get much scrutiny. The reason is, "over-the-air" is a software term aimed at developers, who are either agnostic or afraid to know of the frequency. The term is going to fly over the heads of non-technical users, so it does not really serve much purpose in the highly technical research and development field. Instead, I propose OTA be replaced with:
+
+OTA433 -LoRa @ 433Mhz
+OTA800  -GSM @ 800Mhz
+OTA1800- -GSM @ 1800/1900Mhz
+OTA2.4GHz - WiFi/Bluetooth
+
+This is a more specific designation of OTA. OTA attempts to simplify a method of updates with a generic term, but it raises more questions than it attempts to answer.  
+
 -------------------------------
 -------------------------------
 Free-form commentary
