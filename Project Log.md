@@ -713,6 +713,10 @@ Also, if I were compare the centralized AI narrative to Amazon Prime's The Lord 
 
 Well, it may not sound obvious, but my impression that it represents a striving towards a United Kingdom- both figurative and literal. Not some fractured Brexit. The term is not widely known, but it is called Bremain: https://en.wiktionary.org/wiki/Bremain Presumably, it represents some kind of symbolic unity against some unknown (or known evil). I prefer to keep a vigilant eye towards any encroaching discord. While ethnic independence can often be source of pride, it can also result in destabilization (e.g Bosnian War, Chechnya, Sudan, etc). My interpretation is just an opinion. I don't think interpretations should always be followed to a logical deduction, since that could lead to varying and conflicting beliefs. 
 
+But, literally shortwave does have a superior technology: "However, shortwave remains important in war zones, such as in the Russo-Ukrainian war, and shortwave broadcasts can be transmitted over thousands of miles from a single transmitter, making it difficult for government authorities to censor them." https://en.wikipedia.org/wiki/Shortwave_radio
+
+In a way, shortwave is like the <i>mithril</i> in the mine. 
+
 So I'm interested in the intersection between software defined radio, (SDR), and the advances in microcontrollers that allow such low power. Recent microcontroller ports of SDR, such as https://hackaday.com/2020/02/14/rf-shield-turns-arduino-and-pc-into-shortwave-radio/ suggest short wave has a utility on microcontrollers, but using sound cards to convert the signal, is something I need to explore more. Is it the most power efficient method? How does it differ from RF? https://en.wikipedia.org/wiki/Radio-frequency_identification#Frequencies 
 
 LF: 120–150 kHz	Unregulated	10 cm (4 in)	Low	Part 2	Animal identification, factory data collection	US$1 
