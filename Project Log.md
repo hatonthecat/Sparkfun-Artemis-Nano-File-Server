@@ -715,7 +715,7 @@ Well, it may not sound obvious, but my impression that it represents a striving 
 
 But, literally shortwave does have a superior technology: "However, shortwave remains important in war zones, such as in the Russo-Ukrainian war, and shortwave broadcasts can be transmitted over thousands of miles from a single transmitter, making it difficult for government authorities to censor them." https://en.wikipedia.org/wiki/Shortwave_radio
 
-In a way, shortwave is like the <i>mithril</i> in the mine. 
+In a way, shortwave is like the <i>mithril</i> in the Dwarvish mine. 
 
 So I'm interested in the intersection between software defined radio, (SDR), and the advances in microcontrollers that allow such low power. Recent microcontroller ports of SDR, such as https://hackaday.com/2020/02/14/rf-shield-turns-arduino-and-pc-into-shortwave-radio/ suggest short wave has a utility on microcontrollers, but using sound cards to convert the signal, is something I need to explore more. Is it the most power efficient method? How does it differ from RF? https://en.wikipedia.org/wiki/Radio-frequency_identification#Frequencies 
 
