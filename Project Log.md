@@ -686,7 +686,7 @@ Day 7
 
 12:00AM I have been curious of shortwave radio, namely skywave propagation: https://en.wikipedia.org/wiki/Skywave
 
-I'm curious if there is way to modulate the low-frequency bands for LoRa like communication. https://en.wikipedia.org/wiki/LowFER 
+I'm curious if there is way to modulate the low-frequency bands for LoRa-like communication. https://en.wikipedia.org/wiki/LowFER 
 "LowFER operation is practiced in the United States and Canada on radio frequencies between 160 kHz and 190 kHz [1] which is sometimes referred to as the 1750-meter band.[2] '
 "Many LowFERs are also licensed radio amateurs, although an amateur radio license is not required for LowFER communications in those countries in Region 2, as long as the power is below a nationally prescribed limit, often 1 W.[4][5]"
 
@@ -702,4 +702,4 @@ WOLF (Weak-signal Operation on Low Frequency) is a proposed new signal format an
 
 I hope that WOLF will permit a QSO to be completed in an hour, if one station receives a signal that is 10 dB weaker than would be needed for QRSS, and the other station's signal is 6 dB below the QRSS threshold. I believe that it is also feasible to "hear" a LOWFER beacon across the Atlantic, during an overnight run (very accurate time and frequency control is required)."
 
-Developing a modem for LowFer for something like the Artemis would be interesting- why use LoRa when there are other unlicensed bands, as long as it is less than 0.1W (for MedFER) and less than 1W for LowFER. 
+Developing a modem for LowFer for something like the Artemis would be interesting- why use LoRa when there are other unlicensed bands, as long as it is less than 0.1W (for MedFER) and less than 1W for LowFER. While low-frequency doesn't mean low power- the idea is that it isn't about having a consistent access to a channel, but merely being able to fish out signals and send them out, and the pace or priority being defined later.
