@@ -679,3 +679,27 @@ It's like IC, but adds additional functions: "What can the FT232H chip do?  This
 Wait, so I don't really need CH340?. Something tells me this board interacts with boards, apparently through the 3-pin 3V power input. But I am assuming the power input doubles as an analog signal, which converts the FT232 board's data from the PC to the target board. Apparently it's only for Stemma products, but I'm aware that power cables can be used as a piggyback for data (after all, isn't USB-C/micro-USB the same?).
 
 10:21 PM: Some new OSes I've found for the Rpi Pico include a filesystem https://git.kj7rrv.com/kj7rrv/fibonaccios (These are considered alpha and extremely experimental) Also, Ive been wanting to implement some of the ideas in this paperterm concept: http://www.paperterm.org/notes.html SSH would be useful for a microcontroller without needing a full OS for storing and processing files. Rather, the inputs are relayed like a remote desktop connection. This builds on the Simple Systems concept https://communitywiki.org/wiki/SmolNet which aims to develop a number of small, modular systems than large multilateral systems interacting on multiple levels.
+
+------
+Day 7
+------
+
+12:00AM I have been curious of shortwave radio, namely skywave propagation: https://en.wikipedia.org/wiki/Skywave
+
+I'm curious if there is way to modulate the low-frequency bands for LoRa like communication. https://en.wikipedia.org/wiki/LowFER 
+"LowFER operation is practiced in the United States and Canada on radio frequencies between 160 kHz and 190 kHz [1] which is sometimes referred to as the 1750-meter band.[2] '
+"Many LowFERs are also licensed radio amateurs, although an amateur radio license is not required for LowFER communications in those countries in Region 2, as long as the power is below a nationally prescribed limit, often 1 W.[4][5]"
+
+"Even with such short antennas and low transmit power, LowFER stations have been heard at distances approaching 1,000 miles by listeners using sophisticated receiving setups.[4]"
+
+"MedFER
+In the U.S., license-free operation is also allowed on the medium frequency band, also known as the AM Broadcast Band. Similar to LowFER, MedFER is medium-frequency experimental radio. MedFER enthusiasts operate under FCC Part 15 rules using 0.1 W (a tenth of a watt) and a three-meter-long antenna between 510 kHz and 1705 kHz, coinciding with the U.S. AM radio band.[4]"
+
+https://www.qsl.net/dl4yhf/wolf/wolf_info.html
+
+"WOLF
+WOLF (Weak-signal Operation on Low Frequency) is a proposed new signal format and protocol designed specifically for the LF bands. It can be used for beacons and for two way communication. Unlike existing formats, which are optimized for a particular S/N (and corresponding speed), WOLF can operate over a wide range of signal levels. For example, a WOLF beacon transmits a 15-character message repeatedly. If the received signal would be adequate for conventional CW, copy will be displayed in 24 seconds. At a level barely enough for 0.4 WPM QRSS, copy will appear within two minutes. Even if the signal is another 10 dB weaker, the message can still be received. It will take from 20 minutes to several hours, depending on the stability of the Tx and Rx. Of course, it is also necessary that the propagation path remain open over the required interval.
+
+I hope that WOLF will permit a QSO to be completed in an hour, if one station receives a signal that is 10 dB weaker than would be needed for QRSS, and the other station's signal is 6 dB below the QRSS threshold. I believe that it is also feasible to "hear" a LOWFER beacon across the Atlantic, during an overnight run (very accurate time and frequency control is required)."
+
+Developing a modem for LowFer for something like the Artemis would be interesting- why use LoRa when there are other unlicensed bands, as long as it is less than 0.1W (for MedFER) and less than 1W for LowFER. 
