@@ -818,3 +818,7 @@ Take considerable pains to couple a good antenna to a sensitive, selective recei
 Listen in winter, when static is at a minimum and propagation is better on LF and MF, and you can achieve real DX! Even with the power limits we're talking about, LF and MF experimenters using plain ol' Morse code in past years sometimes spanned 100, 300, and--rarely--800 miles or more. From time to time, full 2-way QSOs take place over these distances. But with developments in very slow CW and other digital modes over recent years, 1000+ mile reception is not uncommon!
 
 While hams often work the world at very low power levels, to be able to work hundreds of miles at these low frequencies, with virtually no transmitting antenna, takes patience, skill, and love of a challenge."
+
+The full 2016 Part 15 Guidelines: https://www.lwca.net/library/reference/FCC/CFR-2016-title47-vol1-part15.pdf
+
+Sources of information on the terms and acronyms of LF radio: http://w1tag.com/files/Acronym.htm 
