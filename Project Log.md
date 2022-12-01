@@ -806,3 +806,5 @@ from https://www.lwca.net/sitepage/part15/index-what.htm
 How far can 13.46Mhz travel, at under 4.8mW?
 
 I seek to find out.
+
+https://www.rfidcard.com/product-category/rfid-card/hf-13-56mhz/ "The HF band ranges from 3 to 30 MHz, where typically HF RFID systems operate at 13.56 MHz with read ranges between 10 cm to 1 meter. HF RFID systems experience moderate sensitivity to interference. HF RFID applications include ticketing, payment, and data transfer applications.'
