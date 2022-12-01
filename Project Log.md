@@ -808,3 +808,13 @@ How far can 13.46Mhz travel, at under 4.8mW?
 I seek to find out.
 
 https://www.rfidcard.com/product-category/rfid-card/hf-13-56mhz/ "The HF band ranges from 3 to 30 MHz, where typically HF RFID systems operate at 13.56 MHz with read ranges between 10 cm to 1 meter. HF RFID systems experience moderate sensitivity to interference. HF RFID applications include ticketing, payment, and data transfer applications.'
+
+As for LF and MF: "Antennas of these lengths are very, very short (electrically) at their respective frequencies. Efficiency is naturally a tiny fraction of a percent. Under average conditions, with an ordinary receiver, it was not expected such signals would reach more than a few tenths of a kilometer.
+
+However, if one is very resourceful at reducing loss in the antenna system and maximizing efficiency in the transmitter, respectable signals can be detected over longer ranges. Use narrowband transmission modes, such as Morse code or more advanced digital methods, and that range can be multiplied further.
+
+Take considerable pains to couple a good antenna to a sensitive, selective receiver in a quiet location (away from manmade static and stray radio signals), and you multiply that range again.
+
+Listen in winter, when static is at a minimum and propagation is better on LF and MF, and you can achieve real DX! Even with the power limits we're talking about, LF and MF experimenters using plain ol' Morse code in past years sometimes spanned 100, 300, and--rarely--800 miles or more. From time to time, full 2-way QSOs take place over these distances. But with developments in very slow CW and other digital modes over recent years, 1000+ mile reception is not uncommon!
+
+While hams often work the world at very low power levels, to be able to work hundreds of miles at these low frequencies, with virtually no transmitting antenna, takes patience, skill, and love of a challenge."
