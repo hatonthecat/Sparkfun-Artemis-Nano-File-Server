@@ -724,3 +724,10 @@ LF: 120–150 kHz	Unregulated	10 cm (4 in)	Low	Part 2	Animal identification, fac
 4 inches might be good enough for an AirDrop replacement ;) 
 
 I have noticed that most of the frequencies begin around 120kHz. I am unsure if this is some kind of physical limitation (i.e. minimum) of signal transfer, or some other impractical reception (such as distance or hardware required- cost, speed, etc). For example, it may not be practical to develop a radio at 12kHz instead of 120khz if it only travels 1cm (using a theoretical "regressive analysis"). Perhaps the frequency is orthogonal to transmit power, and not exactly relevant. Even lower is the Hz and milliHertz (mHz -small m), which may be even more impractical, but I won't make any assumptions. 
+
+6:13 PM
+
+One of the reasons I want to explore LongWave is the presumably lower power. Before I dive more into that, a brief overview of the common wireless power and data transmission efficiencies:
+
+![image](https://user-images.githubusercontent.com/76194453/204935425-f90caecf-5c4b-465c-8659-1e3ac50f23a1.png)
+(from above mentioned: https://brandenghena.com/projects/lpwan/ghena19lpwans.pdf) So one of the "conveniences" of LoRa is, that despite it's relatively high power output to apparently lower power shortwave alternatives, there is relatively more infrastructure and equipment ready to to use with microcontrollers. By contrast, LW and SW is relatively a niche market and not as highly commodified as the GSM market. 
