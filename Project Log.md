@@ -743,3 +743,9 @@ Operations tend to congregate around the frequencies 8.27 kHz, 6.47 kHz, 5.17 kH
 
 "Amateur equipment
 Radiated power from amateur stations is very small, ranging from 1 μW to 100 μW for fixed base station antennas, and up to 10 mW from kite or balloon antennas. Despite the low power, stable propagation with low attenuation in the earth-ionosphere cavity enable very narrow bandwidths to be used to reach distances up to several thousand kilometers. The modes used are QRSS, MFSK, and coherent BPSK."
+
+Ultra low Frequency, is 300 Hertz to 3kHz: https://en.wikipedia.org/wiki/Ultra_low_frequency
+
+"ELF" or Extremely low frequency, is 3 to 30 Hz: https://en.wikipedia.org/wiki/Extremely_low_frequency 
+
+and under 3Hz is : "Tremendously low frequency" https://en.wikipedia.org/wiki/Radio_spectrum#ITU <3 Hz & 100,000 km"(For reference, the circumference of the earth is 40,000 km)
