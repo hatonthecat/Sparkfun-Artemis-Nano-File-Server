@@ -767,7 +767,7 @@ As a reference: "If your application draws 30mA from the 3.3V output, then it wi
 
 Actually, the shortest Morse code is "E", which is 1 character. To differentiate between the a new transmission and the same word, a space is three "dits":
 
-The dit duration is the basic unit of time measurement in Morse code transmission. The duration of a dah is three times the duration of a dit. Each dit or dah within an encoded character is followed by a period of signal absence, called a space, equal to the dit duration. The letters of a word are separated by a space of duration equal to three dits, and words are separated by a space equal to seven dits.[1] Until 1949, words were separated by a space equal to five dits.[5]
+"The dit duration is the basic unit of time measurement in Morse code transmission. The duration of a dah is three times the duration of a dit. Each dit or dah within an encoded character is followed by a period of signal absence, called a space, equal to the dit duration. The letters of a word are separated by a space of duration equal to three dits, and words are separated by a space equal to seven dits.[1] Until 1949, words were separated by a space equal to five dits.[5]
 
 "Morse code is transmitted using just two states (on and off). Historians have called it the first digital code. Morse code may be represented as a binary code, and that is what telegraph operators do when transmitting messages. Working from the above ITU definition and further defining a bit as a dot time, a Morse code sequence may be made from a combination of the following five bit-strings:
 
