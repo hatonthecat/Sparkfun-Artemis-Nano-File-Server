@@ -762,3 +762,33 @@ In both cases, the telegram simply asked ‘?’. The publisher is said to have 
 So, just as a proof of concept- I am truly exercising maximum skunkworks here, say a very low, or ultra low frequency could be determined to most efficiently transmit a few characters- under 20 in the most power efficient method- this would factor in the short lived solar irradiance, and the ability for a lithium ion capacitor to store a charge, so that the entire transmission can occur in less than 2.7 hrs, which is said to be the "battery" life of the li-ion capacitor. For example, at night, if one wanted to send an emergency SOS signal, there would be no power to send it, unless the microcontroller/li-ion capacitor charged fully before sunset and it has enough power to send one (or a series of a few) transmissions under 2.7 hrs. Thus, this would be the upper limit, and in practice, a much shorter transmission should be targeted, so that multiple attempts can be used without having to wait til dawn.
 
 As a reference: "If your application draws 30mA from the 3.3V output, then it will run for: 250F(3.78V-2.49V)90%/0.03A= 10750s = 2.7 hrs" https://www.tindie.com/products/jaspersikken/solar-harvesting-into-lithium-ion-capacitor/ If the transmit power is far less than 30mA, then far more than 2.7hrs would be available to transmit an ultra low shortwave frequency. Perhaps 3mA, or 300uA. Something ideally not requiring an hour long transmission, but that setting could even be re-programmed remotely based on realtime weather conditions (although not less than "real-time" it takes to receive an equally long message transmission). If two-way communication is not available, setting transmission times may be better fixed based on climate (predictable, slowly changing averages) or local sensors that can calculate weather /availability without remote updates.
+
+8:44 PM 
+
+Actually, the shortest Morse code is "E", which is 1 character. To differentiate between the a new transmission and the same word, a space is three "dits":
+
+The dit duration is the basic unit of time measurement in Morse code transmission. The duration of a dah is three times the duration of a dit. Each dit or dah within an encoded character is followed by a period of signal absence, called a space, equal to the dit duration. The letters of a word are separated by a space of duration equal to three dits, and words are separated by a space equal to seven dits.[1] Until 1949, words were separated by a space equal to five dits.[5]
+
+"Morse code is transmitted using just two states (on and off). Historians have called it the first digital code. Morse code may be represented as a binary code, and that is what telegraph operators do when transmitting messages. Working from the above ITU definition and further defining a bit as a dot time, a Morse code sequence may be made from a combination of the following five bit-strings:
+
+short mark, dot or dit (  ▄ ): 1
+longer mark, dash or dah (  ▄▄▄ ): 111
+intra-character gap (between the dits and dahs within a character): 0
+short gap (between letters): 000
+medium gap (between words): 0000000"
+
+Thus, Morse code can be encoded in less binary data than 8-bit binary. 
+
+For amateur radio: https://en.wikipedia.org/wiki/Morse_code#Amateur_radio
+
+"Morse code also requires less signal bandwidth than voice communication, typically 100–150 Hz, compared to the roughly 2,400 Hz used by single-sideband voice, although at a slower data rate."
+
+"The narrow signal bandwidth also takes advantage of the natural aural selectivity of the human brain, further enhancing weak signal readability.[citation needed] This efficiency makes CW extremely useful for DX (distance) transmissions, as well as for low-power transmissions (commonly called "QRP operation", from the Q-code for "reduce power")."
+https://en.wikipedia.org/wiki/QRP_operation 
+
+"QRPers are known to regularly use less than 5 Watts, sometimes operating with as little as 100 milliwatts or even less. Extremely low power — 1 Watt and below — is often referred to by hobbyists as "QRPP".[4][5][6][10]"
+
+[4] http://www.arrl.org/qrp-more-than-a-state-of-mind
+[5] https://books.google.com/books?id=kVpoihOUjNgC 
+[6] https://books.google.com/books?id=npwFrgEACAAJ 
+[10] https://books.google.com/books?id=hPBINAAACAAJ
