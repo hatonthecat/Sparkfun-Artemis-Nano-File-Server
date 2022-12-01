@@ -731,3 +731,15 @@ One of the reasons I want to explore LongWave is the presumably lower power. Bef
 
 ![image](https://user-images.githubusercontent.com/76194453/204935425-f90caecf-5c4b-465c-8659-1e3ac50f23a1.png)
 (from above mentioned: https://brandenghena.com/projects/lpwan/ghena19lpwans.pdf) So one of the "conveniences" of LoRa is, that despite it's relatively high power output to apparently lower power shortwave alternatives, there is relatively more infrastructure and equipment ready to to use with microcontrollers. By contrast, LW and SW is relatively a niche market and not as highly commodified as the GSM market. 
+
+Update: I did find some info on the power consumption of very low frequencies (i.e 3- 30kHz): https://en.wikipedia.org/wiki/Very_low_frequency 
+
+https://en.wikipedia.org/wiki/Very_low_frequency#Amateur_use 
+
+"Amateur use
+The frequency range below 8.3 kHz is not allocated by the International Telecommunication Union and in some nations may be used license-free. Radio amateurs in some countries have been granted permission (or have assumed permission) to operate at frequencies below 8.3 kHz.[12]
+
+Operations tend to congregate around the frequencies 8.27 kHz, 6.47 kHz, 5.17 kHz, and 2.97 kHz.[13] Transmissions typically last from one hour up to several days and both receiver and transmitter must have their frequency locked to a stable reference such as a GPS disciplined oscillator or a rubidium standard in order to support such long duration coherent detection and decoding."
+
+"Amateur equipment
+Radiated power from amateur stations is very small, ranging from 1 μW to 100 μW for fixed base station antennas, and up to 10 mW from kite or balloon antennas. Despite the low power, stable propagation with low attenuation in the earth-ionosphere cavity enable very narrow bandwidths to be used to reach distances up to several thousand kilometers. The modes used are QRSS, MFSK, and coherent BPSK."
