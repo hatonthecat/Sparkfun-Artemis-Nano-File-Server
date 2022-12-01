@@ -749,3 +749,14 @@ Ultra low Frequency, is 300 Hertz to 3kHz: https://en.wikipedia.org/wiki/Ultra_l
 "ELF" or Extremely low frequency, is 3 to 30 Hz: https://en.wikipedia.org/wiki/Extremely_low_frequency 
 
 and under 3Hz is : "Tremendously low frequency" https://en.wikipedia.org/wiki/Radio_spectrum#ITU <3 Hz & 100,000 km"(For reference, the circumference of the earth is 40,000 km)
+
+6:53 PM 
+
+Now, for some quick analysis. Do I think it would be practical for a microcontroller to broadcast an extremely long wave for over an hour, even if it is using microwatts of power? No, because I have solar power in mind. Thus there are so many daylight hours. :) One of the thing I mention in my tri-design approach: https://github.com/EI2030/Low-power-E-Paper-OS/blob/master/wiki/tri-design-approach.md is that the power consumption should not exceed the energy harvesting ability. HOWEVER, one of the interesting utilization aspects of very low, ultra low power base station antennas is that is COULD use less power than the solar panel is able to generate. As a proof of concept, I may only want to transmit 15 characters, or 120 bits. I may not be able to transmit 120 bits per second, but the tri-design approach encourages say...120 bits per hour, if the bill of materials allows for some truly efficient (and borderline comical) telegams- such as the  1 character transmission of "?" and "!" https://www.countrylife.co.uk/country-life/wars-weddings-boiled-eggs-10-memorable-telegrams-ever-sent-174331 
+
+"The shortest telegram in history
+This has been attributed to both Victor Hugo and Oscar Wilde. In both cases, the writers are said to have telegrammed their respective publishers to ask about sales of their latest published works.
+
+In both cases, the telegram simply asked ‘?’. The publisher is said to have replied with an equally frugal ‘!’.'
+
+So, just as a proof of concept- I am truly exercising maximum skunkworks here, say a very low, or ultra low frequency could be determined to most efficiently transmit a few characters- under 20 in the most power efficient method- this would factor in the short lived solar irradiance, and the ability for a lithium ion capacitor to store a charge, so that the entire transmission can occur in less than 2.7 hrs, which is said to be the "battery" life of the li-ion capacitor. For example, at night, if one wanted to send an emergency SOS signal, there would be no power to send it, unless the microcontroller/li-ion capacitor charged fully before sunset and it has enough power to send one (or a series of a few) transmissions under 2.7 hrs. Thus, this would be the upper limit, and in practice, a much shorter transmission should be targeted, so that multiple attempts can be used without having to wait til dawn.
