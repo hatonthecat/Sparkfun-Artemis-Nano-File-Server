@@ -829,4 +829,5 @@ https://lwca.net/mb/
 https://lwca.net/sunpage.html 	LWCA Solar Activity Page
 http://www.ka7oei.com/
 http://www.ka7oei.com/qrss1.html 
+http://www.ka7oei.com/ct_lowfer_archive.html
 https://lwca.net/sitepage/part15/index.htm 
