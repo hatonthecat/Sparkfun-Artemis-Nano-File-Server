@@ -792,3 +792,17 @@ https://en.wikipedia.org/wiki/QRP_operation
 [5] https://books.google.com/books?id=kVpoihOUjNgC 
 [6] https://books.google.com/books?id=npwFrgEACAAJ 
 [10] https://books.google.com/books?id=hPBINAAACAAJ
+
+----
+Day 8
+-----
+
+11:25 AM 
+
+"Among the various sections and subsections within Part 15 are a number of interesting provisions. One permits the use of up to 1 watt of power and a 15 meter long antenna between 160 - 190 kilohertz, in the longwave bands, with no license requirement. Another permits similar operation from 510 - 1705 kHz, in the mediumwave band, with 1/10 of a watt and a 3-meter antenna. Yet another allows operation in a 14kHz-wide band centered at 13.56MHz, with a maximum field strength limit that works out to about 4.8mW into a dipole or a quarter-wave vertical over an elevated groundplane.--'
+
+from https://www.lwca.net/sitepage/part15/index-what.htm
+
+How far can 13.46Mhz travel, at under 4.8mW?
+
+I seek to find out.
