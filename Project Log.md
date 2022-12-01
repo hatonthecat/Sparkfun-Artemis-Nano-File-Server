@@ -822,3 +822,11 @@ While hams often work the world at very low power levels, to be able to work hun
 The full 2016 Part 15 Guidelines: https://www.lwca.net/library/reference/FCC/CFR-2016-title47-vol1-part15.pdf
 
 Sources of information on the terms and acronyms of LF radio: http://w1tag.com/files/Acronym.htm 
+
+Some more links:
+https://lwca.net/mb/ 
+
+https://lwca.net/sunpage.html 	LWCA Solar Activity Page
+http://www.ka7oei.com/
+http://www.ka7oei.com/qrss1.html 
+https://lwca.net/sitepage/part15/index.htm 
