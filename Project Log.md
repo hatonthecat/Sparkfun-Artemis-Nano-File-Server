@@ -839,7 +839,7 @@ This wireless detour from the filesystem project has beein leisurely and winded,
 
 "Vendors of kits or equipment (especially transmitters) for these bands are pretty much non-existent these days. Ramsey Electronics once had kits suitable for AM (MedFER) and FM Part 15-type transmitters, but left the kit business entirely in 2016. North Country Radio used to sell at least one kit suitable as a foundation for either a MedFER  or LowFER transmitter, but the AM88 is now obsolete and the former LF-90 LowFER transmitter is no longer mentioned on their website at all. So, of necessity, the hobby requires a little bit of electronics experience if you wish to transmit. The gear need not be fancy, and you can find examples in the Library section of this site. As for receiving:
 
-"LF Engineering manufactures active longwave receiving antennas, upconverters to shift the LF spectrum into range of a good shortwave receiver, and other useful hardware. You can't work 'em (or even just log other Part 15 stations) if you can't hear 'em."
+"LF Engineering manufactures active longwave receiving antennas, upconverters to shift the LF spectrum into range of a good shortwave receiver, and other useful hardware. You can't work 'em (or even just log other Part 15 stations) if you can't hear 'em." (From the above lwca index link)
 
 This is one such product: 
 https://www.lfengineering.com/index.cfm 
