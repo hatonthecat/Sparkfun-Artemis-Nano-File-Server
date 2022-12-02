@@ -893,3 +893,7 @@ Today's phone have over 128GB of internal storage/eMMC, and up to 2TB of microSD
 Thus having a 2nd or 3rd (or 10 PCs), unless one is a computer researcher, is usually a clutter. And likewise, having a high speed internet connection on a mobile device is often unnecessary for leisurely strolls to a nearby park. One might just want to have a phone for calling or texting, not to immerse oneself in a super gamified social network while sitting on a park bench or taking long walks on the beach.
 
 Microcontrollers historically and continue to be lower cost than general purpose CPUS, and the speed they run at today in the hundreds of megahertz, is sufficient to decode longwave radio that transmits at less than 100mW, and theoretically could converge with a number of other state of the art technologies, solar panels, capacitors, memory in pixel displays, and QRSS https://www.qsl.net/m0ayf/What-is-QRSS.html to almost run autonomously not just with rooftop solar, but handheld solar panels. 
+
+While I will revisit LoRA (433Mhz in a while), I found this interesting article on the average distance of AM Radio stations: https://www.fcc.gov/media/radio/am-stations-at-night "Useful daytime AM service is generally limited to a radius of no more than about 100 miles (162 km), even for the most powerful stations. 
+
+However, during nighttime hours the AM signals can travel over hundreds of miles by reflection from the ionosphere, a phenomenon called "skywave" propagation."
