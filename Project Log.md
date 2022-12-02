@@ -917,3 +917,7 @@ While I will revisit LoRA, I found this interesting article on the average dista
 However, during nighttime hours the AM signals can travel over hundreds of miles by reflection from the ionosphere, a phenomenon called "skywave" propagation."
 
 1:14PM https://en.wikipedia.org/wiki/Amateur_radio#Text_and_data While there are many real-time, digital teletext methods of transmitting and converting radio waves into digital, some require the use of GPS, such as FT8. While some of these technologies may exploit available technologies at hand, the goal of this solar powered texting or SIP device is to use as few modules as possible (GPS and additional microcontrollers would result in additional power consumption, usually), so the balance here is trying to find one microcontroller than could process all radio input, i/o display and keyboard, as well as radio output, and all without a battery.
+
+3:44 PM
+
+When I was young I checked out the Carl Sagan-based movie Contact from the local library. While I never got into ham, I've always understood this scene to be represent greater space exploration: https://www.youtube.com/watch?v=Y2_KMVBmEgc
