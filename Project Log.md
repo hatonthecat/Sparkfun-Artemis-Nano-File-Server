@@ -842,7 +842,7 @@ This wireless detour from the filesystem project has beein leisurely and winded,
 "LF Engineering manufactures active longwave receiving antennas, upconverters to shift the LF spectrum into range of a good shortwave receiver, and other useful hardware. You can't work 'em (or even just log other Part 15 stations) if you can't hear 'em." (From the above lwca part 15 index link)
 
 This is one such product: 
-https://www.lfengineering.com/index.cfm 
+https://www.lfengineering.com/products.cfm
 
 One such receiving antenna: "	
 L-111S - LF/VLF Converter/Antenna System
