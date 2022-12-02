@@ -920,4 +920,4 @@ However, during nighttime hours the AM signals can travel over hundreds of miles
 
 3:44 PM
 
-When I was young I checked out the Carl Sagan-based movie Contact from the local library. While I never got into ham, I've always understood this scene to represent greater space/universe exploration: https://www.youtube.com/watch?v=Y2_KMVBmEgc
+When I was young, I checked out the Carl Sagan-based movie Contact from the local library. While I never got into ham, I've always understood this scene to represent greater space/universe exploration: https://www.youtube.com/watch?v=Y2_KMVBmEgc
