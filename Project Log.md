@@ -831,3 +831,26 @@ http://www.ka7oei.com/
 http://www.ka7oei.com/qrss1.html 
 http://www.ka7oei.com/ct_lowfer_archive.html
 https://lwca.net/sitepage/part15/index.htm 
+
+------
+Day 9
+------
+This wireless detour from the filesystem project has beein leisurely and winded, but productive, and I'm steering it back to its original purpose- a low power, wireless frequency, capable of sustaining a transmitting of low-byte data while being charged by the photovoltaic, or running on li-ion capacitor for a number of hours (presumably the duration between dusk and dawn- or other planned durations). While I'd like to explore more frequencies (TLF, ELF, and some VLF <30 kHz are probably too impractical for the filesystems and cost), I'll start by focusing on some of the hardware for receiving and transmitting between 160 kHz and 190 kHz(LowFER),  MedFER (between 510 kHz and 1705 kHz), and HiFer (13.56 MHz):
+
+"Vendors of kits or equipment (especially transmitters) for these bands are pretty much non-existent these days. Ramsey Electronics once had kits suitable for AM (MedFER) and FM Part 15-type transmitters, but left the kit business entirely in 2016. North Country Radio used to sell at least one kit suitable as a foundation for either a MedFER  or LowFER transmitter, but the AM88 is now obsolete and the former LF-90 LowFER transmitter is no longer mentioned on their website at all. So, of necessity, the hobby requires a little bit of electronics experience if you wish to transmit. The gear need not be fancy, and you can find examples in the Library section of this site. As for receiving:
+
+"LF Engineering manufactures active longwave receiving antennas, upconverters to shift the LF spectrum into range of a good shortwave receiver, and other useful hardware. You can't work 'em (or even just log other Part 15 stations) if you can't hear 'em."
+
+This is one such product: 
+https://www.lfengineering.com/index.cfm 
+
+One such receiving antenna: "	
+L-111S - LF/VLF Converter/Antenna System
+Price: $269.00
+
+IF Output Frequency	4 to 4.5 MHz
+Frequency Response	10 kHz to 530 kHz +/-5 dB
+ 
+The L-111 System provides full coverage of the LF spectrum from less than 10 kHz to 530 kHz. The L-111 combines the proven L-400B active antenna with a sensitive LF to HF converter. The externally mounted LF converter contains a low impedance wide dynamic range balanced mixer, with RF, IF and local oscillator filtering. The converter's high L.O. rejection greatly improves reception below 10 kHz and its sharp roll-off filter characteristics eliminate BC intermodulation. Receiver tuning is between 4.0 MHz and 4.5 MHz."
+
+So it could pick up a LoWFER signal between 160-190 kHz and then upconvert it to a range that a more conventional shortwave radio can pick up in the low Mhz range! I'm sure there is some other equipment needed.
