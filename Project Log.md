@@ -854,3 +854,17 @@ Frequency Response	10 kHz to 530 kHz +/-5 dB
 The L-111 System provides full coverage of the LF spectrum from less than 10 kHz to 530 kHz. The L-111 combines the proven L-400B active antenna with a sensitive LF to HF converter. The externally mounted LF converter contains a low impedance wide dynamic range balanced mixer, with RF, IF and local oscillator filtering. The converter's high L.O. rejection greatly improves reception below 10 kHz and its sharp roll-off filter characteristics eliminate BC intermodulation. Receiver tuning is between 4.0 MHz and 4.5 MHz."
 
 So it could pick up a LoWFER signal between 160-190 kHz and then upconvert it to a range that a more conventional shortwave radio can pick up in the low Mhz range! I'm sure there is some other equipment needed.
+
+QRS
+Some of the software/hardware combos make it practical to allow the PC to run for an hour or two to do the receiving and transmitting of very slow signals that would require much human patience to decode, if even possible (with very faint frequencies): "In order to beat the high QRM and QRN levels on the 136kHz ham band very slow CW is used (speeds going from 0.4 WPM even down to 0.01 WPM). QRS allows you to key your TX at these extreme slow speeds using the serial or parallel port of your PC."
+
+I am curious if this serial converter could be useful for a microcontroller receiving inputs from a 232 port: https://www.adafruit.com/product/2264 Some type of keyboard based microcontroller could allow one to type and display the keys being sent, similar to some of the LoRa messengers and Keyboard Featherwding, except on the shortwave band:
+https://shop.pimoroni.com/products/keyboard-featherwing-qwerty-keyboard-2-6-lcd
+
+https://hackaday.com/2022/05/25/long-distance-text-communication-with-lora/
+
+
+
+
+
+
