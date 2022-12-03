@@ -957,23 +957,15 @@ https://sookocheff.com/post/networking/wireless-networks-and-shannons-law/
 
 ![image](https://user-images.githubusercontent.com/76194453/205451206-74910fe1-0266-4f07-af0f-a7222b72877c.png)
 
-
-{C=W\log _{2}\left( 1+{S \over N} \right)}C=Wlog
-​2
-​​ (1+
-​N
-​
-​S
-​​ )
 where:
 
-CC is the capacity of the channel, measured in bits per second
+C is the capacity of the channel, measured in bits per second
 
-WW is the available bandwidth, measured in hertz
+W is the available bandwidth, measured in hertz
 
-SS is the power of the received signal, measured in watts
+S is the power of the received signal, measured in watts
 
-NN is the power of the received noise, measured in watts
+N is the power of the received noise, measured in watts
 
 Shannon’s work showed that the values of SS, NN, and WW set a limit upon the transmission rate — the two fundamental constraints on achievable data rates are the amount of available bandwidth and the ratio of signal to noise between the receiver and the sender.
 
