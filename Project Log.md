@@ -930,3 +930,77 @@ However, during nighttime hours the AM signals can travel over hundreds of miles
 3:44 PM
 
 When I was young, I checked out the Carl Sagan-based movie Contact from the local library. While I never got into ham, I've always understood this scene to represent greater space/universe exploration: https://www.youtube.com/watch?v=Y2_KMVBmEgc
+
+-------
+Day 10
+-------
+
+10:00AM
+
+I found some interesting ham-technology, utilizing what's called a TNC: https://en.wikipedia.org/wiki/Terminal_node_controller. A great article posted in the IEEE last December: https://spectrum.ieee.org/ham-radio-text-hacking points out that there is a texting service, but someone from a younger generation, not unlike me, decided software and portable hardware might be an additional use-case of ham:
+
+"However, I found that just talking over ham radio was boring for me. I started thinking about an old police scanner my dad owned and how we would sometimes hear odd sounds that sort of sounded like a dial-up modem. And that is when the lightbulb for HamMessenger turned on. What if I could find an easy way to communicate digitally with my handheld radio?"
+
+
+"APRS supports sending text messages, and if you're in range of an Internet-connected gateway node you can even exchange SMS texts with cellphones and send one-line emails. Sending texts traditionally meant using a PC hooked up to a so-called terminal node controller (TNC) packet radio modem, which is in turn connected to a radio (signals are transmitted as audio tones, just like old dial-up modems). More recently, TNC modems that interface with smartphones have been created. And these are awesome projects! But at its core, HamMessenger was created in the shadow of my simple childhood experiences. I wanted a portable device I could connect to my handheld radio that was completely self-contained, with a keyboard, screen, and GPS receiver all built in."
+
+It sounds like an ambitious project and I think it's quite along the lines of what I had in mind, except I do not think the GPS aspect, however integral, would be possible to run on a battery-free microcontroller (in a portable medium), at least with today's tech. That said, I will stay up to date with it and reach out to them to see if there are any MedFER or LowFER transmission techniques.- maybe even a LowFER to HF upconverter that could be paired with an Artemis or Ambiq Apollo3.
+
+https://smsgte.org/ A very interesting new tech (if 2014 is considered new): "This gateway, known as SMSGTE (pronounced sms geit) was launched in 2014 as a means of reaching loved ones when out in areas uncovered by cellular services. Since then, the gateway has grown to serve 6000 users, with over 1000 users added in 2020."
+
+https://github.com/markqvist/MicroAPRS upgraded by https://github.com/markqvist/OpenModem - a 110 Euro out of stock. Open Modem Firmware is an open source firmware implementation of a AFSK modem supporting 300, 1200 and 2400 baud operation, suitable for communication over a wide variety of analogue mediums, both radio and wired.
+
+A modem developer was using ham in Denmark, where encryption is allowed: http://unsigned.io/articles/2018_06_30_15-kilometre-ssh-link-with-rnode.html "This is not the case where I live, so even heavily encrypted things like SSH are perfectly fine in ham radio here."
+
+Well, for what I'm researching, encryption is not going to be possible at the lowest power/data unit - since the signal will be as low as needed: 
+https://sookocheff.com/post/networking/wireless-networks-and-shannons-law/
+
+![image](https://user-images.githubusercontent.com/76194453/205451206-74910fe1-0266-4f07-af0f-a7222b72877c.png)
+
+
+{C=W\log _{2}\left( 1+{S \over N} \right)}C=Wlog
+​2
+​​ (1+
+​N
+​
+​S
+​​ )
+where:
+
+CC is the capacity of the channel, measured in bits per second
+
+WW is the available bandwidth, measured in hertz
+
+SS is the power of the received signal, measured in watts
+
+NN is the power of the received noise, measured in watts
+
+Shannon’s work showed that the values of SS, NN, and WW set a limit upon the transmission rate — the two fundamental constraints on achievable data rates are the amount of available bandwidth and the ratio of signal to noise between the receiver and the sender.
+
+From this previously linked page: "Becoming Narrow-Minded:
+
+For a given modulation type (in this case, on-off keyed CW) the lower the "data rate", the narrower your transmitted signal, the narrower the required receive bandwidth, and the lower the lower the transmitted power required to maintain that "threshold of copiability."  Communications theory (Shannon's Law) states that if you were willing to transmit your data infinitely slowly you could communicate with infinitely narrow detection bandwidth and infinitely low (not zero) power.  It should go without saying that there are practical limits to how slow you would go to convey useful information in a reasonable amount of time." http://www.ka7oei.com/qrss1.html
+
+In this "exploratory stage", I am not selecting a frequency or filter before I can determine what is the minimum CW signal needed to allow it to be received, presuming a receiver "elsewhere" is tuned exactly to the same frequency. That said, if there were two developers working on this, or the initial developer drove to another location and set the frequency to the same as the transmitting radio (at the most narrow one possible allowed by Shannon's law), then the power needed would approach zero. In practice, one can decide whether they will need to transmit a single character or three. In any case, the binary- dit and dah, may require more than sending just an "E."
+
+But as this concept is established, I seek to apply this to batteryless microcontrollers, because speed of transmission is not the top priority at this moment. Proof of concept is- that is, sending a single CW signal: in this case- let's say 90 seconds:
+
+"QRSS generally means that the CW sending speed is below 2-3 WPM - usually much slower than that.  Let's take as a rather extreme example, the VA3LK beacon on 137.79 Hz.  This experimental beacon has operated at a "dit" rate of one dit every ninety seconds - that's about .0133 words-per-minute, or about 0.8 words-per-hour.  This also implies that the detection bandwidth for such a signal (see the equations below) should be at least 0.033 Hz - that's 33 Millihertz (mHz - notice the small "m"!)  Going much much narrower than this and the "dits" will start to run together and sacrifice "intelligibility."
+
+At the border between intelligibility and unintelligible signals resulting between propagational phase shifts:
+
+"There is another factor that should be considered:  Propagational phase shifts:
+ 
+"Seeing" the dits and dahs
+"Reading" the dits and dahs from a waterfall display takes a bit of getting used to, but it is really quite effective in digging the signals out of the "noise."  Even the slightest trace of signal on the display can be perceived by the eyes:  The brain is very good at picking bits of order out of visual chaos... 
+
+One suggestion that I would make:  When you have, for certain, determined the length of the dits and dahs, it helps to mark their "length" on a piece of paper.  When QSB or QRM occurs, holding that piece of paper up the the screen can help make the decision whether or not what is on the screen is "too long for a dit" or "too short for a dah."  This method depends on the "scroll" speed of the waterfall display being constant - something that may not be true - especially on computers slower than a 200 MHz pentium.
+
+In effect, changing the phase of a signal on a particular frequency is the same thing as changing its frequency during the change.  Let's suppose that we have a 1 Hz tone.  If we were to retard the phase of it by 360 degrees every second, then we are "eating" one cycle every second, resulting in a 999 Hz tone.
+
+Propagation is a tricky thing:  A very distant signal will likely arrive at the receive point via a skywave.  Over that distance the effective path length could change slightly.  At our example frequency of 137.79, the wavelength is approximately 2 kilometers:  The total distance the signal travels to get to the receive site 2000+ km away could easily change by 1 km in the course of a minute or so, resulting in a 180 degree phase change.  Since a phase change amounts to a frequency change, that signal may have actually moved while you were trying to "copy" that dit.  It is for this reason that one may want to avoid running narrower filters than you absolutely have to.  Fortunately, LF propagation is quite stable and these sorts of effects are much less prevalent than on HF."
+
+So, running at a frequency that caauses or is susceptible to phase shifts should be avoided, since it would be impossible to discern signal from noise without understanding whether a LF propagation is stable or now.
+
+Applying that to a portable texting ham- on an unlicensed band such as 1.7Mhz, it would be easy to see how other signals could get mixed up and not easy to discern who is sending them. Thus, in a given region, it may be useful to assign call signs that use equipment that have a defined range (which might not preclude skip propagation), but could be sufficient to discern (with predefined frequencies such as on an email mailing list) which "E"s are being sent and which dit-dahs are being sent by whom. This thus would be an informal distinction, provided all ham users play by the rules. More sophisticated callsigns would be possible with higher character counts, which could of course be used for the standard call signs.
+
