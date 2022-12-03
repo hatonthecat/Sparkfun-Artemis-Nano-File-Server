@@ -886,11 +886,18 @@ So the feature here, is using a microarray- a combination of known electronic ha
 
 "High throughput screening" does not imply that it is a random selection from a molecular library- it could be a carefully selected array of compounds- using both rational analyis (human) and computer aided analysis-statistic or algorithmic, etc, to determine the most efficacious design.
 
+
 In this analogy, the "ligand" is the frequency- whether it is LoFER or MEDFER, and the "receptor" is the microcontroller, whether can transmit data fast enough for human consumption, using a power consumption that also meets the average photovoltaic harvesting ability in a chosen location for the autarkic device (whether it is stationary, like on a telphone pole or a mountain top, etc) or portable for human mobility use.
 
 Since static interference increases the lower the spectrum:
 
 "Consider how static levels increase as you go down the spectrum. By the time you get below 500 kHz, most receivers are deliberately far less sensitive than they are in the shortwave bands. The assumption is that, at LF, you won't be wanting to hear anything but the strongest signals over the noise anyway."
+
+""QRP enthusiasts may use special modes that employ technology and software designed to enhance reception of the relatively weak transmitted signals resulting from low power levels.[11]
+
+QRSS: Very slow speed Morse code
+
+QRSS uses very slow speed CW (Morse code) to compensate for the decreased signal-to-noise ratio involved in QRP operation.[11][b] QRSS enthusiasts may record a transmission for later analysis, sometimes decoding "by ear" while playing it back at much faster speeds, or decoding "by eye" on the waterfall display of a spectrum analyzer.[12][13]" https://en.wikipedia.org/wiki/QRP_operation#QRSS"
 
 Transplanting the microarray idea to radio frequencies is like testing which frequencies have the best signal to noise ratio- one that software can solve with Fast Fourier Transform http://www.ka7oei.com/qrss1.html) while balancing the tradeoffs of lower bandwidth and transmit power- that is, if a human is only going to check their email once every ten minutes on a smart watch, while on a nature walk, then the wearable only needs to transfer the data indicating that there is a new email, rather than downloading the entire contents. Not only that, but EMF interference, magnetic immunity are all risk factors in converging disparate electronics like HAM radio receiving antennas with low nanometer <sub 20nm FinFET) microcontrollers. Thus there are many unknowns when physically designing a single board computer with lots of sensitive radios and displays so the idea here is to test many different frequencies with many different microcontrollers. One may not need radiation hardened, 180nm chips for something like a walk in the park, but more like "if i can get a signal", then type "Hi Mom"; if not, {I'll say hello when I get home/get a signal}. Nonetheless, it shouldn't stop one from trying!  
 
