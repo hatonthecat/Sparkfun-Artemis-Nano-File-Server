@@ -948,7 +948,7 @@ It sounds like an ambitious project and I think it's quite along the lines of wh
 
 https://smsgte.org/ A very interesting new tech (if 2014 is considered new): "This gateway, known as SMSGTE (pronounced sms geit) was launched in 2014 as a means of reaching loved ones when out in areas uncovered by cellular services. Since then, the gateway has grown to serve 6000 users, with over 1000 users added in 2020."
 
-https://github.com/markqvist/MicroAPRS upgraded by https://github.com/markqvist/OpenModem - a 110 Euro out of stock. Open Modem Firmware is an open source firmware implementation of a AFSK modem supporting 300, 1200 and 2400 baud operation, suitable for communication over a wide variety of analogue mediums, both radio and wired.
+https://github.com/markqvist/MicroAPRS upgraded by https://github.com/markqvist/OpenModem -  110 Euro out of stock. "Open Modem Firmware is an open source firmware implementation of a AFSK modem supporting 300, 1200 and 2400 baud operation, suitable for communication over a wide variety of analogue mediums, both radio and wired."
 
 A modem developer was using ham in Denmark, where encryption is allowed: http://unsigned.io/articles/2018_06_30_15-kilometre-ssh-link-with-rnode.html "This is not the case where I live, so even heavily encrypted things like SSH are perfectly fine in ham radio here."
 
