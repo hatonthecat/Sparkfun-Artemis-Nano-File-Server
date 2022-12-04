@@ -1041,3 +1041,7 @@ RTTY transmissions on LF and VLF frequencies use a narrow shift of 85 Hz, due to
 https://en.wikipedia.org/wiki/Baudot_code
 "The Baudot code [boˈdo] is an early character encoding for telegraphy invented by Émile Baudot in the 1870s.[1] It was the predecessor to the International Telegraph Alphabet No. 2 (ITA2), the most common teleprinter code in use until the advent of ASCII. Each character in the alphabet is represented by a series of five bits, sent over a communication channel such as a telegraph wire or a radio signal by asynchronous serial communication. The symbol rate measurement is known as baud, and is derived from the same name."
 
+"ITA2 is still used in telecommunications devices for the deaf (TDD), Telex, and some amateur radio applications, such as radioteletype ("RTTY"). ITA2 is also used in Enhanced Broadcast Solution, an early 21st-century financial protocol specified by Deutsche Börse, to reduce the character encoding footprint.[19]"
+
+https://en.wikipedia.org/wiki/Telex
+
