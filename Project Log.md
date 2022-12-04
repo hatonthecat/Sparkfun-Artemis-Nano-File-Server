@@ -1067,4 +1067,4 @@ https://en.wikipedia.org/wiki/Morse_code
 
 Because Morse code transmissions employ an on-off keyed radio signal, it requires less complex transmission equipment than other forms of radio communication. Morse code also requires less signal bandwidth than voice communication, typically 100–150 Hz, compared to the roughly 2,400 Hz used by single-sideband voice, although at a slower data rate." (I actually quoted this previously), but will leave it in.
 
-An interesting movie: https://youtu.be/r4d27wqQX6k?t=3796 blind piano tuner who's first language is Morse 
+An interesting movie: https://youtu.be/r4d27wqQX6k?t=3796 blind piano tuner who's first language is Morse, based on a book by Mai Jia: https://en.wikipedia.org/wiki/The_Silent_War_(2012_film) 
