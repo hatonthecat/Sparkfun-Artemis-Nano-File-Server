@@ -1038,6 +1038,14 @@ Radio amateurs have experimented with ITA-5 (7-bit ASCII) alphabet transmissions
 
 RTTY transmissions on LF and VLF frequencies use a narrow shift of 85 Hz, due to the limited bandwidth of the antennas.
 
+https://en.wikipedia.org/wiki/Radioteletype#Comparison_with_other_modes 
+
+"RTTY has a typical baud rate for Amateur operation of 45.45 baud (approximately 60 words per minute). It remains popular as a "keyboard to keyboard" mode in Amateur Radio.[37] RTTY has declined in commercial popularity as faster, more reliable alternative data modes have become available, using satellite or other connections.
+
+For its transmission speed, RTTY has low spectral efficiency. The typical RTTY signal with 170 Hz shift at 45.45 baud requires around 250 Hz receiver bandwidth, more than double that required by PSK31. In theory, at this baud rate, the shift size can be decreased to 22.725 Hz, reducing the overall band footprint substantially. Because RTTY, using either AFSK or FSK modulation, produces a waveform with constant power, a transmitter does not need to use a linear amplifier, which is required for many digital transmission modes. A more efficient Class C amplifier may be used.
+
+RTTY, using either AFSK or FSK modulation, is moderately resistant to vagaries of HF propagation and interference, however modern digital modes, such as MFSK, use Forward Error Correction to provide much better data reliability."
+
 https://en.wikipedia.org/wiki/Baudot_code
 "The Baudot code [boˈdo] is an early character encoding for telegraphy invented by Émile Baudot in the 1870s.[1] It was the predecessor to the International Telegraph Alphabet No. 2 (ITA2), the most common teleprinter code in use until the advent of ASCII. Each character in the alphabet is represented by a series of five bits, sent over a communication channel such as a telegraph wire or a radio signal by asynchronous serial communication. The symbol rate measurement is known as baud, and is derived from the same name."
 
