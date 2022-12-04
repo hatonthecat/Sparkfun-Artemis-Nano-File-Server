@@ -1016,3 +1016,28 @@ https://en.wikipedia.org/wiki/Poldhu
 
 Area of the station in the year 2007, antennas operated by the Poldhu Amateur Radio Club
 Marconi later used the site for his shortwave experiments, with transmissions by Charles Samuel Franklin to Marconi on the yacht "Elettra". in the Cape Verde Islands in 1923 and in Beirut in 1924. The groundbreaking results of these experiments took the world by surprise and quickly resulted in his development of the Beam Wireless Service for the British General Post Office. The service opened from the Bodmin Beam Station to Canada on 25 October 1926, from the "Tetney Beam Station". to Australia on 8 April 1927, from the "Bodmin Beam Station". to South Africa on 5 July 1927, to India on 6 September 1927 and shortly afterwards to Argentina, Brazil and the United States."
+
+https://en.wikipedia.org/wiki/Wireless_telegraphy " Beginning about 1908, powerful transoceanic radiotelegraphy stations transmitted commercial telegram traffic between countries at rates up to 200 words per minute."
+
+"Wireless telegraphy or radiotelegraphy, commonly called CW (continuous wave), ICW (interrupted continuous wave) transmission, or on-off keying, and designated by the International Telecommunication Union as emission type A1A or A2A, is a radio communication method. It was transmitted by several different modulation methods during its history. The primitive spark-gap transmitters used until 1920 transmitted damped waves, which had very wide bandwidth and tended to interfere with other transmissions. This type of emission was banned by 1934, except for some legacy use on ships.[5][6][7] The vacuum tube (valve) transmitters which came into use after 1920 transmitted code by pulses of unmodulated sinusoidal carrier wave called continuous wave (CW), which is still used today. To receive CW transmissions, the receiver requires a circuit called a beat frequency oscillator (BFO).[8][9] The third type of modulation, frequency-shift keying (FSK) was used mainly by radioteletype networks (RTTY). Morse code radiotelegraphy was gradually replaced by radioteletype in most high volume applications by World War II."
+
+" In tests across the Bristol Channel in 1892, Preece was able to telegraph across gaps of about 5 kilometres (3.1 miles). However, his induction system required extensive lengths of antenna wires, many kilometers long, at both the sending and receiving ends. The length of those sending and receiving wires needed to be about the same length as the width of the water or land to be spanned. For example, for Preece's station to span the English Channel from Dover, England, to the coast of France would require sending and receiving wires of about 30 miles (48 kilometres) along the two coasts. These facts made the system impractical on ships, boats, and ordinary islands, which are much smaller than Great Britain or Greenland. Also, the relatively short distances that a practical Preece system could span meant that it had few advantages over underwater telegraph cables."
+
+https://en.wikipedia.org/wiki/Radioteletype#Technical_specification 
+
+"The original (or "Baudot") radioteletype system is based almost invariably on the Baudot code or ITA-2 5 bit alphabet. The link is based on character asynchronous transmission with 1 start bit and 1, 1.5 or 2 stop bits. Transmitter modulation is normally FSK (F1B). Occasionally, an AFSK signal modulating an RF carrier (A2B, F2B) is used on VHF or UHF frequencies. Standard transmission speeds are 45.45, 50, 75, 100, 150 and 300 baud.
+
+Common carrier shifts are 85 Hz (used on LF and VLF frequencies), 170 Hz, 425 Hz, 450 Hz and 850 Hz, although some stations use non-standard shifts. There are variations of the standard Baudot alphabet to cover languages written in Cyrillic, Arabic, Greek etc., using special techniques.[15][16]"
+
+"Common carrier shifts are 85 Hz (used on LF and VLF frequencies), 170 Hz, 425 Hz, 450 Hz and 850 Hz, although some stations use non-standard shifts."
+
+"Some combinations of speed and shift are standardized for specific services using the original radioteletype system:
+
+Amateur radio transmissions are almost always 45.45 baud – 170 Hz, although 75 baud activity is being promoted by BARTG in the form of 4-hour contests.[17]
+Radio amateurs have experimented with ITA-5 (7-bit ASCII) alphabet transmissions at 110 baud – 170 Hz."
+
+RTTY transmissions on LF and VLF frequencies use a narrow shift of 85 Hz, due to the limited bandwidth of the antennas.
+
+https://en.wikipedia.org/wiki/Baudot_code
+"The Baudot code [boˈdo] is an early character encoding for telegraphy invented by Émile Baudot in the 1870s.[1] It was the predecessor to the International Telegraph Alphabet No. 2 (ITA2), the most common teleprinter code in use until the advent of ASCII. Each character in the alphabet is represented by a series of five bits, sent over a communication channel such as a telegraph wire or a radio signal by asynchronous serial communication. The symbol rate measurement is known as baud, and is derived from the same name."
+
