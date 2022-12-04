@@ -1054,3 +1054,9 @@ https://en.wikipedia.org/wiki/Baudot_code
 https://en.wikipedia.org/wiki/Telex
 
 https://en.wikipedia.org/wiki/List_of_VLF-transmitters  <100 kHz 
+
+Some interesting Hackaday articles:
+
+https://hackaday.com/2015/09/27/demonstrating-baudot-code/ 
+
+https://hackaday.com/2015/10/20/the-case-for-arduino-in-real-engineering/
