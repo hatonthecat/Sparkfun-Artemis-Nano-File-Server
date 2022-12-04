@@ -1053,3 +1053,4 @@ https://en.wikipedia.org/wiki/Baudot_code
 
 https://en.wikipedia.org/wiki/Telex
 
+https://en.wikipedia.org/wiki/List_of_VLF-transmitters  <100 kHz 
