@@ -1007,3 +1007,12 @@ Today, I'll focus initially on radio congestion- and the history of it. I will s
 "In many countries, CB operation does not require a license, and (unlike amateur radio) it may be used for business or personal communications. Like many other land mobile radio services, multiple radios in a local area share a single frequency channel, but only one can transmit at a time. The radio is normally in receive mode to receive transmissions of other radios on the channel; when users want to talk they press a "push to talk" button on their radio, which turns on their transmitter. Users on a channel must take turns talking. Transmitter power is limited to 4 watts in the US and the EU. CB radios have a range of about 3 miles (4.8 km) to 20 miles (32 km) depending on terrain, for line of sight communication; however, various radio propagation conditions may intermittently allow communication over much greater distances."
 
 https://en.wikipedia.org/wiki/Radio_Act_of_1912
+
+There is a lot of interesting history, too much to cover here, but some of the first transatlantic shortwave- from England to NewFoundland are fascinating: 
+https://en.wikipedia.org/wiki/Poldhu
+
+"Fleming estimated the transmitter's radiated power was around 10–12 kW.[10] The frequency used is not known precisely, as Marconi did not measure wavelength or frequency, but it was between 166 and 984 kHz, probably around 500 kHz.[6] After the experiment the original mast layout was not rebuilt, it was replaced with a four mast design, 215 feet (66 m) high and forming a 200-foot (61 m) square.
+
+
+Area of the station in the year 2007, antennas operated by the Poldhu Amateur Radio Club
+Marconi later used the site for his shortwave experiments, with transmissions by Charles Samuel Franklin to Marconi on the yacht "Elettra". in the Cape Verde Islands in 1923 and in Beirut in 1924. The groundbreaking results of these experiments took the world by surprise and quickly resulted in his development of the Beam Wireless Service for the British General Post Office. The service opened from the Bodmin Beam Station to Canada on 25 October 1926, from the "Tetney Beam Station". to Australia on 8 April 1927, from the "Bodmin Beam Station". to South Africa on 5 July 1927, to India on 6 September 1927 and shortly afterwards to Argentina, Brazil and the United States."
