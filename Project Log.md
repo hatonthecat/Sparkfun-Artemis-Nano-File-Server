@@ -1060,3 +1060,9 @@ Some interesting Hackaday articles:
 https://hackaday.com/2015/09/27/demonstrating-baudot-code/ 
 
 https://hackaday.com/2015/10/20/the-case-for-arduino-in-real-engineering/
+
+
+https://en.wikipedia.org/wiki/Morse_code
+"While voice and data transmissions are limited to specific amateur radio bands under U.S. rules, Morse code is permitted on all amateur bands — LF, MF, HF, VHF, and UHF. In some countries, certain portions of the amateur radio bands are reserved for transmission of Morse code signals only.
+
+Because Morse code transmissions employ an on-off keyed radio signal, it requires less complex transmission equipment than other forms of radio communication. Morse code also requires less signal bandwidth than voice communication, typically 100–150 Hz, compared to the roughly 2,400 Hz used by single-sideband voice, although at a slower data rate."
