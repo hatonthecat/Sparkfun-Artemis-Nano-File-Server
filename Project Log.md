@@ -996,3 +996,11 @@ So, running at a frequency that causes or is susceptible to phase shifts should 
 
 Applying that to a portable texting ham- on an unlicensed band such as 1.7Mhz, it would be easy to see how other signals could get mixed up and not easy to discern who is sending them. Thus, in a given region, it may be useful to assign call signs that use equipment that have a defined range (which might not preclude skip propagation), but could be sufficient to discern (with predefined frequencies such as on an email mailing list) which "E"s are being sent and which dit-dahs are being sent by whom. This thus would be an informal distinction, provided all ham users play by the rules. More sophisticated callsigns would be possible with higher character counts, which could of course be used for the standard call signs.
 
+Day 11:
+
+9:59 AM 
+I started this project just over 2 weeks ago, with a few days without posting for holiday. Whenever I try to work on a project, and I have the time, I tend to enjoy immersing myself in the subject, spending long blocks of a day without interruption of a train of thought. The "practice" is called: https://en.wikipedia.org/wiki/Flow_(psychology) A good balanced is always important.
+
+Today, I'll focus initially on radio congestion- and the history of it. I will start around the Radio Act of 1912, but I may find other regulations in other countries that also may be intresting/relevant (probably).
+
+https://en.wikipedia.org/wiki/Radio_Act_of_1912
