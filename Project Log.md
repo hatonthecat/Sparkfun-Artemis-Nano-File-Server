@@ -1068,3 +1068,17 @@ https://en.wikipedia.org/wiki/Morse_code
 Because Morse code transmissions employ an on-off keyed radio signal, it requires less complex transmission equipment than other forms of radio communication. Morse code also requires less signal bandwidth than voice communication, typically 100–150 Hz, compared to the roughly 2,400 Hz used by single-sideband voice, although at a slower data rate." (I actually quoted this previously), but will leave it in.
 
 An interesting movie: https://youtu.be/r4d27wqQX6k?t=3796 blind piano tuner who's first language is Morse, based on a book by Mai Jia: https://en.wikipedia.org/wiki/The_Silent_War_(2012_film) 
+
+----
+Day 12
+----
+
+Today I hope to cover more network congestion, which I intended to yesterday. Thinking about one of the quotes from Day 10 seem to identify the minimum bandwidth for any Morse dit- 33 millihertz: 
+
+"QRSS generally means that the CW sending speed is below 2-3 WPM - usually much slower than that. Let's take as a rather extreme example, the VA3LK beacon on 137.79 Hz. This experimental beacon has operated at a "dit" rate of one dit every ninety seconds - that's about .0133 words-per-minute, or about 0.8 words-per-hour. This also implies that the detection bandwidth for such a signal (see the equations below) should be at least 0.033 Hz - that's 33 Millihertz (mHz - notice the small "m"!) Going much much narrower than this and the "dits" will start to run together and sacrifice "intelligibility.""
+
+Having several frequencies spaced 33 millhertz apart probably doesn't sound practical, but it could just be that technology evolved faster than the time spend on optimizing and building transmitting and receiving tools at this frequency. 137Hz, quite an uncommon frequency, falls in teh SLF designation: https://en.wikipedia.org/wiki/Super_low_frequency 
+
+"Super low frequency (SLF) is the ITU designation for electromagnetic waves (radio waves) in the frequency range between 30 hertz and 300 hertz. They have corresponding wavelengths of 10,000 to 1,000 kilometers. This frequency range includes the frequencies of AC power grids (50 hertz and 60 hertz). Another conflicting designation which includes this frequency range is Extremely Low Frequency (ELF), which in some contexts refers to all frequencies up to 300 hertz.
+
+Because of the extreme difficulty of building transmitters that can generate such long waves, frequencies in this range have been used in very few artificial communication systems. However, SLF waves can penetrate seawater to a depth of hundreds of meters."
