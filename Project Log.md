@@ -1118,3 +1118,13 @@ http://www.qsl.net/on7yd/136narro.htm#QRSS
 http://www.472khz.org/pages/technical-topics/weak-signal-modes.php
 https://www.qsl.net/on7yd/136narro_old.htm
 http://www.mgef.org/zms_241_vucc.htm There's even 75 Ghz  mmWave, site currently down
+https://wireless.org.uk/newspic52.htm
+
+RFID: While RFID doesn't have the same range, I'm curious if there'd be a benefit to hybridizing the approach for a microcontroller- i.e a phone might not work well indoors for a cell tower, but could use a repeater, hybridizing RFID and LoRa or other band: 
+
+https://electronics.stackexchange.com/questions/109079/rfid-data-transfer-rates
+"LF - 125-134 kHz
+
+"I know that in LF at least, the data rate is normally a simple divider from the carrier frequency. A 128 kHz carrier might be divided by a factor of 32 or 16 to create a data rate 4 or 8 kbps, for example"
+HF - 13.56 MHz
+UHF - 850-960 MHz
