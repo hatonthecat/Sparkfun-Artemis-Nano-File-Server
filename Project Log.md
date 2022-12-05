@@ -1128,3 +1128,20 @@ https://electronics.stackexchange.com/questions/109079/rfid-data-transfer-rates
 "I know that in LF at least, the data rate is normally a simple divider from the carrier frequency. A 128 kHz carrier might be divided by a factor of 32 or 16 to create a data rate 4 or 8 kbps, for example"
 HF - 13.56 MHz
 UHF - 850-960 MHz
+
+https://www.link-labs.com/blog/active-vs-passive-rfid
+
+"Active: Active RFID tags cost between $5 and $15 each.
+
+Passive: Passive RFID tags cost anywhere from $0.10 to $0.50 each."
+
+"Can active and passive RFID tags work in tandem?
+Yes! In fact, that’s something AirFinder is examining for the future. We’re currently looking into adding passive functionality into our active tags, for two reasons. 
+
+First, it can provide time-sensitive chokepoint functionality, so we’ll be able to tell more accurately if a tagged item leaves a particular area. Second, it gives those who require active RFID scalability but could use passive RFID functionality a better option in the market. Stay tuned for updates!"
+
+Home based BBS readers and digital signage devices could use passive RFID to "download data" without using any power, and an active RFID to transmit data.  
+
+Today I realized my first internet service used a BBS-like email reader: " In August 1996, it began a free e-mail service — a customer would install the proprietary Juno client which would allow them to send and receive email of about 35 kilobytes in size. Version 1 did not offer attachments or other features. The user could write emails with the Juno client and would periodically sign in by dial-up. Upon doing so, the Juno client would upload any emails the user had written, download any new incoming emails in the online mailbox, and download targeted advertisements, which were displayed in the client. This was similar to "QWK" and similar less automated offline readers that had been used for years by BBSes to save phone line connect time.[citation needed]"
+
+https://en.wikipedia.org/wiki/Juno_Online_Services
