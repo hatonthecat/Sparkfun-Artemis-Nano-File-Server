@@ -1082,3 +1082,26 @@ Having several frequencies spaced 33 millhertz apart probably doesn't sound prac
 "Super low frequency (SLF) is the ITU designation for electromagnetic waves (radio waves) in the frequency range between 30 hertz and 300 hertz. They have corresponding wavelengths of 10,000 to 1,000 kilometers. This frequency range includes the frequencies of AC power grids (50 hertz and 60 hertz). Another conflicting designation which includes this frequency range is Extremely Low Frequency (ELF), which in some contexts refers to all frequencies up to 300 hertz.
 
 Because of the extreme difficulty of building transmitters that can generate such long waves, frequencies in this range have been used in very few artificial communication systems. However, SLF waves can penetrate seawater to a depth of hundreds of meters."
+
+Edit: the quote, while verbatim, appears to be referring to 137kHz, not 137Hz. Thus there is a typo. This was after googling VA3LK:
+
+http://qsl.net/ve7sl/136.html
+
+"QRSS DX
+
+Activity from my station has so far been centered upon receiving. Almost all DX work on LF utilizes the slow speed CW or QRSS mode. The most popular software for decoding QRSS signals is ARGO by I2PHD and IK2CZZ. It is freely available at various web sites for downloading (see LINKS section). ARGO is a very intuative user-friendly program and works extremely well. Accordingly, my first attempts at low frequency QRSS work were directed towards listening for signals from Larry Kayser (SK), VA3LK. Larry was on a nightly transmitting schedule in an attempt to see if his signal could be heard in New Zealand.
+Here is a screen capture of Larry's 2200m QRSS signal as received on 06/23/01 at 0944 UTC.
+
+VA3LK ON QRSS
+QRSS signals are usually too weak to be actually heard by ear. ARGO allows signals buried in the noise to be 'seen' rather than 'heard'. The screen capture above clearly shows the sequence
+"K   V A 3 L K". The signal abruptly faded out at Larry's sunrise in the middle of the next "V".
+
+PUSHING THE BOUNDARIES... Seven days later, my overnight screen captures showed the weak signals of amateur station ZL6QH, transmitting from Quartz Hill, New Zealand on 184.4kHz. This was the first transpacific reception of LF amateur signals from New Zealand to North America, a distance of 11,715km.
+
+ZL6QH QRSS SIGNAL
+ZL6QH was transmitting QRSS in the DFCW mode which meant the 'dots' were shifted in frequency slightly from the dashes. Unfortunately my receiver calibration was slightly off and I had only captured the 'dots' and missed the dashes just a few hertz lower. Subsequent transmitting tests were eagerly monitored by numerous other stations in North America and quickly confirmed that long-distance propagation was possible, even at amateur power levels. The ZL6QH signal has now been heard as far back as VE1 land!
+
+My next attempt at seeing the ZL6QH signal was in September of 2001. This time I made sure my receiver calibration was set correctly. Note the abrupt fade-out at my local sunrise. ZL6QH was sending the letter 'Q', with the lower signal representing dashes, the higher one dots. Note that the two dashes are run together, appearing as one long dash in order to conserve time.
+
+ZL6QH QRSS SIGNAL
+The best reception of ZL6QH on 137kHz was obtained in December of 2002. Almost four hours of continuous "Q's" were noted until the sunrise fade-out shortly after this screen shot. Note from the ARGO calibration scale that the two signals are only .4 Hz apart."
