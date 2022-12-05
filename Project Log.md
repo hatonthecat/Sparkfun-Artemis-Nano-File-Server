@@ -1105,3 +1105,16 @@ My next attempt at seeing the ZL6QH signal was in September of 2001. This time I
 
 ZL6QH QRSS SIGNAL
 The best reception of ZL6QH on 137kHz was obtained in December of 2002. Almost four hours of continuous "Q's" were noted until the sunrise fade-out shortly after this screen shot. Note from the ARGO calibration scale that the two signals are only .4 Hz apart."
+
+I found quite a few interesting things:
+
+"LF history was made in the early hours of September 28th, 2010 when Scott, VE7TIL and Kuni, JA7NI completed the first Asian to North American QSO on the 2200m band! Spanning a distance of almost 7200km, the groundbreaking trans-Pacific QSO was the second longest on record.""
+
+http://www.weaksignals.com/  ARM-based SDR:https://www.i2phd.org/armradio/index.html
+https://www.i2phd.org/code/ARM_Radio.pdf 
+https://www.i2phd.org/code/ARM_Radio.zip 
+Software for SDR, such as Argo and Spectran 
+http://www.qsl.net/on7yd/136narro.htm#QRSS
+http://www.472khz.org/pages/technical-topics/weak-signal-modes.php
+https://www.qsl.net/on7yd/136narro_old.htm
+http://www.mgef.org/zms_241_vucc.htm There's even 75 Ghz  mmWave, site currently down
