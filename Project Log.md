@@ -1120,7 +1120,7 @@ https://www.qsl.net/on7yd/136narro_old.htm
 http://www.mgef.org/zms_241_vucc.htm There's even 75 Ghz  mmWave, site currently down
 https://wireless.org.uk/newspic52.htm
 
-RFID: While RFID doesn't have the same range, I'm curious if there'd be a benefit to hybridizing the approach for a microcontroller- i.e a phone might not work well indoors for a cell tower, but could use a repeater, hybridizing RFID and LoRa or other band: 
+RFID: While RFID doesn't have the same range, I'm curious if there'd be a benefit to hybridizing the approach for a microcontroller- i.e a phone might not work well indoors for a cell tower, but could use a repeater +/- router, hybridizing RFID and LoRa or other band: 
 
 https://electronics.stackexchange.com/questions/109079/rfid-data-transfer-rates
 "LF - 125-134 kHz
