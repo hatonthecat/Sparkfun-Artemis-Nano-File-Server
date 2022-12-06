@@ -1164,7 +1164,7 @@ Day 13
 
 Comparing ARMradio to the first microcontroller-based SDR that I found on Day 7 (the first that I googled, not necessarily the first that was developed), is where I should start this analysis. https://hackaday.com/2020/02/14/rf-shield-turns-arduino-and-pc-into-shortwave-radio/
 
-In that, they used an Arduino, (although I may be wrong- I haven't located whether they used a microcontroller for all of the processing- the URL suggests the PC does that). Also, the other microcontroller from the IEEE article used an Atmega 2560, similar to the Discovery STM32F429 (the former is about $11 more at $41 US) and that's just for the central board, excluding any other hardware/RF. The Atemga is also designed for the VHF band 144MHz-148Mhz (whereas the ARM radio is 8kHz-900kHz), so they can't be compared exactly, though it is interesting that microcontrollers can/could process all of the DACs for transmitting and vice versa without an MMU. I'm still learning the lingo of analog and digital terms- i'm sure there is a word for Analog to Digital processors (maybe DSP is a generic/two way) for receiving signals. 
+In that, they used an Arduino, (although I may be wrong- I haven't located whether they used a microcontroller for all of the processing- the URL suggests the PC does that). Also, the other microcontroller from the IEEE article used an Atmega 2560, similar to the Discovery STM32F429 (the former is about $11 more at $41 US) and that's just for the central board, excluding any other hardware/RF. The Atemga is also designed for the VHF band 144MHz-148Mhz (whereas the ARM radio is 8kHz-900kHz), so they can't be compared exactly, though it is interesting that microcontrollers can/could process all of the DACs for transmitting and vice versa without an MMU. I'm still learning the lingo of analog and digital terms- i'm sure there is a word for Analog to Digital processors (maybe DSP is a generic/two way) for receiving signals. Edit: it's called ADC- i'm sure I read that somewhere. 
 
 Update: it seems like Arduino-based SDRs have been around for more than 10yrs but with increasing processing power, are able to accomplish much more nowadays.
 This also seems identify the name of analog to digital: https://hf5l.pl/en/sdr-z-arduino-nano/
@@ -1190,6 +1190,23 @@ Whereas others may have built-in analog converters:
 ![image](https://user-images.githubusercontent.com/76194453/205983449-636ff9e6-6ea2-413f-9ef9-89975d19e11d.png)
 (Note: I am making an educated guess, so I'm 100% these could be used with relatively less hardware add ons)
 
+DMIC: Digital microphone (Integrated Circuit?) board https://mcuxpresso.nxp.com/api_doc/dev/116/group__dmic.html DMICs don't appear to be very useful here, unless it is picking up audio from another device and converting it into digital- scratch that, They can be:
+
+"Traditional microphones capture the sound you create in the air and pass this signal as an analog electrical waveform. For this output to make sense to your computer, it needs to be converted into a stream of discrete electrical voltages that correspond to 1s and 0s—this is a digital signal. USB microphones handle this process internally. Standard mics use a (male) balanced XLR connector to produce the analog electrical signal. There are also microphones that can output both analog and digital formats simultaneously.
+
+...
+So how do you connect a mic’s XLR to a computer? Well, that’s where a handy peripheral known as an audio interface (sometimes referred to by the legacy term “sound card“) comes in. Today we’re going to discuss USB and Thunderbolt audio interfaces in general terms. Firewire audio interfaces were quite common until recently and are readily available on the used market. We recommend avoiding these as many are no longer fully supported by the manufacturer or by current operating systems."
+
+https://www.soundguys.com/what-is-an-audio-interface-23048/
+
+Well, that was a helpful intro, though the XLR hardware pictured in that link is much larger than what's on an MCU- perhaps MCUs accomplish the same using smaller instruments?
+
+LMIC: finding this acronym is proving to be more difficult. One search result appears to referenec Lora: LoraWAN-in-C, formerly LoraMAC-in-C https://docs.particle.io/reference/device-os/libraries/l/LMIC-Arduino/ 
+
+AMIC: Analog Microphone (Integrated circuit?)  http://wiki.telink-semi.cn/tools_and_sdk/Driver/doc/kite/html/md__project_1__table_of__content_06__t_s_i__audio__features.html
+
 Just now I found a list of <i>micro</i>SDX projects: https://gist.github.com/threeme3/9e447c291f64c19d65e3c91b9a1512b4
 
 A hackaday tag https://hackaday.com/tag/software-defined-radio/ (115 articles) 
+
+
