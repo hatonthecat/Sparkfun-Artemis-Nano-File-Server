@@ -1238,5 +1238,5 @@ http://physics.princeton.edu/pulsar/K1JT/doc/WSPR/WSPR-main.html"
 
 "An organ in St. Burchardi church in Halberstadt in 2001 began a performance that is due to end in 2640. The next note will be played on February 5, 2024."
 
-Notes, sounds, and radio waves. What do they have in common? Well, I'm enjoying the exploration of sound across the oxygenated medium of the earth's atmosphere that allows EMF. I'm kidding, I'm just using fuzzy logic here. But I'd like to visit the anechoic chamber in Minneapolis: https://www.atlasobscura.com/places/orfield-labs-quiet-chamber
+Notes, sounds, and radio waves. What do they have in common? Well, I'm enjoying the exploration of sound across the oxygenated medium of the earth's atmosphere that allows EMF. I'm kidding, I'm just using fuzzy logic here. But I'd like to visit the anechoic chamber in Minneapolis: https://www.atlasobscura.com/places/orfield-labs-quiet-chamber https://www.orfieldlabs.com/architecture/tour-video-tour-hold
 
