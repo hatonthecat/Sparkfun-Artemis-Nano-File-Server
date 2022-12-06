@@ -1114,6 +1114,8 @@ http://www.weaksignals.com/  ARM-based SDR:https://www.i2phd.org/armradio/index.
 https://www.st.com/en/microcontrollers-microprocessors/stm32f429-439.html  180 MHz, 256KB RAM.
 On personal correspondence, I was told that any ports will require enough processing power. Thus it would need to run at at least 180Mhz. Perhaps the Ambiq Micro Apollo4 fits that, when running at 192Mhz. 
 
+2019 Review of SDR software: https://www.lloydm.net/Demos/LWSDR.html
+
 https://www.i2phd.org/code/ARM_Radio.pdf 
 https://www.i2phd.org/code/ARM_Radio.zip 
 Software for SDR, such as Argo and Spectran 
