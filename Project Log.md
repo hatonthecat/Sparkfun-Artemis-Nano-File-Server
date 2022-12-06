@@ -1251,3 +1251,27 @@ Furthermore:
 "In 1896, Marconi spoke with his family friend Carlo Gardini, Honorary Consul at the United States Consulate in Bologna, about leaving Italy to go to Great Britain. Gardini wrote a letter of introduction to the Ambassador of Italy in London, Annibale Ferrero, explaining who Marconi was and about his extraordinary discoveries. In his response, Ambassador Ferrero advised them not to reveal Marconi's results until after a patent was obtained. He also encouraged Marconi to come to Britain, where he believed it would be easier to find the necessary funds to convert his experiments into practical use. Finding little interest or appreciation for his work in Italy, Marconi travelled to London in early 1896 at the age of 21, accompanied by his mother, to seek support for his work. (He spoke fluent English in addition to Italian.) Marconi arrived at Dover, and the Customs officer opened his case to find various apparatus. The customs officer immediately contacted the Admiralty in London. While there, Marconi gained the interest and support of William Preece, the Chief Electrical Engineer of the General Post Office (the GPO). During this time Marconi decided he should patent his system, which he applied for on 2 June 1896, British Patent number 12039 titled "Improvements in Transmitting Electrical impulses and Signals, and in Apparatus therefor", which would become the first patent for a radio wave based communication system.[37]"
 
 I take a little inspiration from that. If, at first you don't succeed, look for other, more open-minded countries. :) 
+
+3:38PM 
+
+While it may sound pointless in describing the goal of this project depsite straying from the direction that I set out to, I've found this concept to be quite consistent. Much like how the Age of Semiconductors allowed vast numbers of print media to be digitized in much smaller space, the dawn of low power transistors is causing a similar transformation in the system requirements to accomplish the same tasks. This article was 10 years ago: https://www.extremetech.com/computing/136043-intel-predicts-ubiquitous-almost-zero-energy-computing-by-2020
+
+"This year, the company has discussed the shrinking energy cost of computation as well as a point when it believes the energy required for “meaningful compute” will approach zero and become ubiquitous by the year 2020. The company didn’t precisely define “meaningful compute,” but I think in this case we can assign a solid working definition. Adding two integers together is computing, but it isn’t particularly meaningful. Accurately measuring geospatial location via GPS, making a phone call, or playing a game is meaningful."
+
+Thus the Discovery board mentioned above, which is a board from 2014- uses260 µA/MHz at 180 MHz:
+
+"Power efficiency: ST’s 90 nm process, ART Accelerator and the dynamic power scaling enables the current consumption in run mode and executing from Flash memory to be as low as 260 µA/MHz at 180 MHz. In Stop mode, the power consumption is 120 µA typical, which is 3 times lower versus STM32F405/415/407/F417.'
+
+https://www.st.com/en/microcontrollers-microprocessors/stm32f429-439.html
+
+A microcontroller that operates at 4uA/mhz is a 65x reduction in power. While not every hardware application should transition to a batteryless application, this new era of very low energy consumption for processing power ushers many new opportunities in hardware design. Practically anything on a microcontroller today could become batteryless, thus it's not too early to start thinking about batteryless (capacitor/solar li-ion capacitor) microcontrollers.
+
+Power can be creted in multiple ways: thermal harvesting: https://e-peas.com/product/aem20940/  thermoelectric generator (TEG), ambient RF signals:  https://e-peas.com/product/aem30940/ AEM30940 Vibration Energy Harvesting  https://e-peas.com/product/aem30940-2/ and solar https://e-peas.com/product/aem10941/ 
+
+Some of these harvesting techniques may interfere with the ability to collect shortwave radio, such as RF (my guess), although nothing suggests the hardware cannot be shielded from itself to allow discrete functions.
+
+The digitization of print certainly caused a transformation in economics. Batteryless hardware could lead to completely new wireless networks, both public and private, and may also result in more consumer-oriented services-. Setting a data cap is obviously an economical decision- the revenue to maintain an infrastructure has to meet some ROI, although in many cases this may have already been achieved by larger telecoms. That said, LoRa wan networks could potentially offer community based internet at much more limited scale- https://lora-alliance.org/lorawan-news/why-lora-will-be-the-likely-winner-in-lightweight-wan-battle/ the reasoning here is that the cost of hosting or relaying information, could be shared by the members. Bands would obviously need to be negotiated with public aiwaves, but the concept that a co-op of hosters could serve as a mesh network using solar powered routers allows the internet as we know it to be further decoupled from the electric grid and to enable more resilient/antifragile communication.
+
+
+
+
