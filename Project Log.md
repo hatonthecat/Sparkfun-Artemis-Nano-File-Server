@@ -1240,7 +1240,7 @@ http://physics.princeton.edu/pulsar/K1JT/doc/WSPR/WSPR-main.html"
 
 Notes, sounds, and radio waves. What do they have in common? Well, I'm enjoying the exploration of sound across the oxygenated medium of the earth's atmosphere that allows EMF. I'm kidding, I'm just using fuzzy logic here. But I'd like to visit the anechoic chamber in Minneapolis: https://www.atlasobscura.com/places/orfield-labs-quiet-chamber https://www.orfieldlabs.com/architecture/tour-video-tour-hold
 
-While reading some history of radio, I found this interesting.
+While reading some history of radio, I found this interesting:
 
 "Marconi applied to the Ministry of Post and Telegraphs, then under the direction of Maggiorino Ferraris,[34] explaining his wireless telegraph machine and asking for funding, but never received a response. An apocryphal tale claims that the minister (incorrectly named first as Emilio Sineo, later as Pietro Lacava[35]) wrote "to the Longara" on the document, referring to the insane asylum on Via della Lungara in Rome, but the letter was never found.[36]"
 [36] Solari, Luigi (February 1948) "Guglielmo Marconi e la Marina Militare Italiana", Rivista Marittima
