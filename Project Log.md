@@ -1181,7 +1181,9 @@ I think I already found the answer to the previous paragraph: https://youtu.be/G
 
 Apparently a digital signal processor (often seen on MCUS) achieves the same functionality of a sound card. Whether that hardware is present on a typical mcirocontroller is a different question, but at least a distinction and comparison was made.
 
-Some microcontrollers allow analog to digital conversian via SPI: ![image](https://user-images.githubusercontent.com/76194453/205983016-fd539d2a-6b3a-4eb1-9bc4-7cb3873d4f84.png)
+Some microcontrollers allow analog to digital conversian via SPI: 
+
+![image](https://user-images.githubusercontent.com/76194453/205983016-fd539d2a-6b3a-4eb1-9bc4-7cb3873d4f84.png)
 
 Whereas others may have built-in analog converters: 
 
