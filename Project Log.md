@@ -1166,6 +1166,13 @@ Comparing ARMradio to the first microcontroller-based SDR that I found on Day 7 
 
 In that, they used an Arduino, (although I may be wrong- I haven't located whether they used a microcontroller for all of the processing- the URL suggests the PC does that). Also, the other microcontroller from the IEEE article used an Atmega 2560, similar to the Discovery STM32F429 (the former is about $11 more at $41 US) and that's just for the central board, excluding any other hardware/RF. The Atemga is also designed for the VHF band 144MHz-148Mhz (whereas the ARM radio is 8kHz-900kHz), so they can't be compared exactly, though it is interesting that microcontrollers can/could process all of the DACs for transmitting and vice versa without an MMU. I'm still learning the lingo of analog and digital terms- i'm sure there is a word for Analog to Digital processors (maybe DSP is a generic/two way) for receiving signals. 
 
+Update: it seems like Arduino-based SDRs have been around for more than 10yrs but with increasing processing power, are able to accomplish much more nowadays.
+This also seems identify the name of analog to digital: https://hf5l.pl/en/sdr-z-arduino-nano/
+
+"A “real” SDR radio is one where the RF signal received by the antenna is directly sampled by an analog-to-digital converter. Further processing of the signal takes place on the sequences of “ones and zeros”. However, other devices that use digital signal processing also fall under the SDR category. An example of this is the uSDX-RX receiver shown below, capable of receiving AM, FM, SSB (single-sideband modulation) and CW (telegraphy – Morse code) signals in a wide frequency range. The circuit is so simple that it can be quickly assembled on a universal PCB or on a prototype breadboard." 
+
+That reminds me of the other, more recent article https://hackaday.com/2022/08/26/simple-breadboard-sdr-for-shortwave/ 10kHz-30MHz -quite bit of range!
+ 
 One of my curiosities is whether there are any "shortcuts" to converting radio waves into digital signals without a sound card. Perhaps this approach already exists, and the technology was developed for retrofitting to PCs which already had sound cards, and it was more feasible to adapt computers to that, rather than developing a purpose built system on a chip. In the latter case, the tools to do that seem much more available today. 
 
 Just now I found a list of <i>micro</i>SDX projects: https://gist.github.com/threeme3/9e447c291f64c19d65e3c91b9a1512b4
