@@ -1175,6 +1175,19 @@ That reminds me of the other, more recent article https://hackaday.com/2022/08/2
  
 One of my curiosities is whether there are any "shortcuts" to converting radio waves into digital signals without a sound card. Perhaps this approach already exists, and the technology was developed for retrofitting to PCs which already had sound cards, and it was more feasible to adapt computers to that, rather than developing a purpose built system on a chip. In the latter case, the tools to do that seem much more available today. 
 
+I think I already found the answer to the previous paragraph: https://youtu.be/G8BIYIsh-4I?t=85
+
+![image](https://user-images.githubusercontent.com/76194453/205982325-9cf76cf3-c254-433f-9f4b-8b65f95466aa.png)
+
+Apparently a digital signal processor (often seen on MCUS) achieves the same functionality of a sound card. Whether that hardware is present on a typical mcirocontroller is a different question, but at least a distinction and comparison was made.
+
+Some microcontrollers allow analog to digital conversian via SPI: ![image](https://user-images.githubusercontent.com/76194453/205983016-fd539d2a-6b3a-4eb1-9bc4-7cb3873d4f84.png)
+
+Whereas others may have built-in analog converters: 
+
+![image](https://user-images.githubusercontent.com/76194453/205983449-636ff9e6-6ea2-413f-9ef9-89975d19e11d.png)
+(Note: I am making an educated guess, so I'm 100% these could be used with relatively less hardware add ons)
+
 Just now I found a list of <i>micro</i>SDX projects: https://gist.github.com/threeme3/9e447c291f64c19d65e3c91b9a1512b4
 
 A hackaday tag https://hackaday.com/tag/software-defined-radio/ (115 articles) 
