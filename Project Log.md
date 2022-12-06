@@ -1219,3 +1219,24 @@ It seems like there is an inexpensive ESP8266 based transmitter: https://antrak.
 
 https://en.wikipedia.org/wiki/WSPR_(amateur_radio_software)
 
+WSPR is very cool. From the above link, https://antrak.org.tr/projeler/bir-fisilti-wspr-macerasi-ve-esp_wspr/ translated from Google:
+
+"WSPR Working Technique
+Now let's examine the working technique of WSPR. WSPR data consists of three main pieces of information. Call sign, location, power. The call sign cannot exceed 6 characters in total. The first four characters of the Maiden Head Grid Locator data are used for the location. This gives us a position in an area of ​​100 square kilometers. Power is sent in dBm, so all sent information is a 50-bit string.
+
+Your output power can be up to 5 watts. WSPR is a very slow communication protocol. The transmission speed is 1.46bps and it takes about 110 seconds to send all the data.
+
+Each WSPR transmitter and receiver starts transmitting at the beginning of the even-numbered minute and finishes transmitting after 110 seconds. This time synchronization ensures that the start and end of each SPOT is synchronized with the transmitters and receivers.
+Of course, I don't want to go into too much detail here. If you want to learn more about the protocol of WSPR data communication, I recommend the following site.
+http://physics.princeton.edu/pulsar/K1JT/doc/WSPR/WSPR-main.html"
+
+110 seconds isn't slow at all. Compared to John Cage's ASAP: https://en.wikipedia.org/wiki/As_Slow_as_Possible
+
+"Organ2/ASLSP has been playing in Halberstadt for
+
+21 years, 2 months, 4 weeks and 1 day"
+
+"An organ in St. Burchardi church in Halberstadt in 2001 began a performance that is due to end in 2640. The next note will be played on February 5, 2024."
+
+Notes, sounds, and radio waves. What do they have in common? Well, I'm enjoying the exploration of sound across the oxygenated medium of the earth's atmosphere that allows EMF. I'm kidding, I'm just using fuzzy logic here. But I'd like to visit the anechoic chamber in Minneapolis: https://www.atlasobscura.com/places/orfield-labs-quiet-chamber
+
