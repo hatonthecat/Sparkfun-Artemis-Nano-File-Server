@@ -1110,7 +1110,10 @@ I found quite a few interesting things:
 
 "LF history was made in the early hours of September 28th, 2010 when Scott, VE7TIL and Kuni, JA7NI completed the first Asian to North American QSO on the 2200m band! Spanning a distance of almost 7200km, the groundbreaking trans-Pacific QSO was the second longest on record.""
 
-http://www.weaksignals.com/  ARM-based SDR:https://www.i2phd.org/armradio/index.html
+http://www.weaksignals.com/  ARM-based SDR:https://www.i2phd.org/armradio/index.html this SDR software uses a 180 Mhz micocontroller, an ARM Cortex M4:
+https://www.st.com/en/microcontrollers-microprocessors/stm32f429-439.html  180 MHz, 256KB RAM.
+On personal correspondence, I was told that any ports will require enough processing power. Thus it would need to run at at least 180Mhz. Perhaps the Ambiq Micro Apollo4 fits that, when running at 192Mhz. 
+
 https://www.i2phd.org/code/ARM_Radio.pdf 
 https://www.i2phd.org/code/ARM_Radio.zip 
 Software for SDR, such as Argo and Spectran 
@@ -1120,6 +1123,8 @@ https://www.qsl.net/on7yd/136narro_old.htm
 http://www.mgef.org/zms_241_vucc.htm There's even 75 Ghz  mmWave, site currently down
 https://wireless.org.uk/newspic52.htm
 
+
+ 
 RFID: While RFID doesn't have the same range, I'm curious if there'd be a benefit to hybridizing the approach for a microcontroller- i.e a phone might not work well indoors for a cell tower, but could use a repeater +/- router, hybridizing RFID and LoRa or other band: 
 
 https://electronics.stackexchange.com/questions/109079/rfid-data-transfer-rates
