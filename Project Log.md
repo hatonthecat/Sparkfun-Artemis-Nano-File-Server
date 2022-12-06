@@ -1188,6 +1188,7 @@ Some microcontrollers allow analog to digital conversian via SPI:
 Whereas others may have built-in analog converters: 
 
 ![image](https://user-images.githubusercontent.com/76194453/205983449-636ff9e6-6ea2-413f-9ef9-89975d19e11d.png)
+
 (Note: I am making an educated guess, so I'm 100% these could be used with relatively less hardware add ons)
 
 DMIC: Digital microphone (Integrated Circuit?) board https://mcuxpresso.nxp.com/api_doc/dev/116/group__dmic.html DMICs don't appear to be very useful here, unless it is picking up audio from another device and converting it into digital- scratch that, They can be:
@@ -1209,4 +1210,6 @@ Just now I found a list of <i>micro</i>SDX projects: https://gist.github.com/thr
 
 A hackaday tag https://hackaday.com/tag/software-defined-radio/ (115 articles) 
 
+How do receivers pick up audio? An antenna. There are quite a few- active(powered), and passive ones. This is a type I have not read about before: http://www.pa3fwm.nl/projects/miniwhip/  https://www.sdradio.eu/weaksignals/SAQ/PA0RDT-Mini-Whip.pdf
 
+http://websdr.ewi.utwente.nl:8901/ very interesting site! "On this page you can listen to and control a short-wave receiver located at the amateur radio club ETGD at the University of Twente. In contrast to other web-controlled receivers, this receiver can be tuned by multiple users simultaneously, thanks to the use of Software-Defined Radio." 
