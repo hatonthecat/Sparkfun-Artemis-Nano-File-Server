@@ -1213,3 +1213,9 @@ A hackaday tag https://hackaday.com/tag/software-defined-radio/ (115 articles)
 How do receivers pick up audio? An antenna. There are quite a few- active(powered), and passive ones. This is a type I have not read about before: http://www.pa3fwm.nl/projects/miniwhip/  https://www.sdradio.eu/weaksignals/SAQ/PA0RDT-Mini-Whip.pdf
 
 http://websdr.ewi.utwente.nl:8901/ very interesting site! "On this page you can listen to and control a short-wave receiver located at the amateur radio club ETGD at the University of Twente. In contrast to other web-controlled receivers, this receiver can be tuned by multiple users simultaneously, thanks to the use of Software-Defined Radio." 
+
+
+It seems like there is an inexpensive ESP8266 based transmitter: https://antrak.org.tr/blog/esp-wspr-simple-and-inexpensive-wspr-transmitter/ 
+
+https://en.wikipedia.org/wiki/WSPR_(amateur_radio_software)
+
