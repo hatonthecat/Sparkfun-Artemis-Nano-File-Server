@@ -1156,3 +1156,18 @@ https://en.wikipedia.org/wiki/Juno_Online_Services
 Unexpected discovery: When I visited the Wikipedia page of RFID, I did not expect that the first sentence would reference The Thing:
 
 "In 1945, Léon Theremin invented the "Thing", a listening device for the Soviet Union which retransmitted incident radio waves with the added audio information. Sound waves vibrated a diaphragm which slightly altered the shape of the resonator, which modulated the reflected radio frequency. Even though this device was a covert listening device, rather than an identification tag, it is considered to be a predecessor of RFID because it was passive, being energised and activated by waves from an outside source.[8]" https://en.wikipedia.org/wiki/Radio-frequency_identification#History
+
+------
+Day 13
+------
+10:55 AM I will review the source  of https://www.i2phd.org/armradio/index.html After I downloaded it, i noticed it uses the same MBed software that I started this project with- the Keil compiler. So in my wandering, as Tolkien would say, I am not lost. I simply walked around the world and found different software along the way, one possibly more interesting than a file server. Obviously porting software would take time, and this is another project that may would need its own repository. 
+
+Comparing ARMradio to the first microcontroller-based SDR that I found on Day 7 (the first that I googled, not necessarily the first that was developed), is where I should start this analysis. https://hackaday.com/2020/02/14/rf-shield-turns-arduino-and-pc-into-shortwave-radio/
+
+In that, they used an Arduino, (although I may be wrong- I haven't located whether they used a microcontroller for all of the processing- the URL suggests the PC does that). Also, the other microcontroller from the IEEE article used an Atmega 2560, similar to the Discovery STM32F429 (the former is about $11 more at $41 US) and that's just for the central board, excluding any other hardware/RF. The Atemga is also designed for the VHF band 144MHz-148Mhz (whereas the ARM radio is 8kHz-900kHz), so they can't be compared exactly, though it is interesting that microcontrollers can/could process all of the DACs for transmitting and vice versa without an MMU. I'm still learning the lingo of analog and digital terms- i'm sure there is a word for Analog to Digital processors (maybe DSP is a generic/two way) for receiving signals. 
+
+One of my curiosities is whether there are any "shortcuts" to converting radio waves into digital signals without a sound card. Perhaps this approach already exists, and the technology was developed for retrofitting to PCs which already had sound cards, and it was more feasible to adapt computers to that, rather than developing a purpose built system on a chip. In the latter case, the tools to do that seem much more available today. 
+
+Just now I found a list of <i>micro</i>SDX projects: https://gist.github.com/threeme3/9e447c291f64c19d65e3c91b9a1512b4
+
+A hackaday tag https://hackaday.com/tag/software-defined-radio/ (115 articles) 
