@@ -1288,4 +1288,6 @@ The digitization of print certainly caused a transformation in economics. Batter
 
 "In the mid 1890s, building on techniques physicists were using to study electromagnetic waves, Guglielmo Marconi developed the first apparatus for long-distance radio communication.[1] On 23 December 1900, the Canadian inventor Reginald A. Fessenden became the first person to send audio (wireless telephony) by means of electromagnetic waves, successfully transmitting over a distance of about a mile (1.6 kilometers,) and six years later on Christmas Eve 1906 he became the first person to make a public wireless broadcast.[2][3]"
 
+7:47 PM 
 
+These are all the ISM bands- (some are region specific): https://en.wikipedia.org/wiki/ISM_radio_band#Frequency_allocations
