@@ -1294,4 +1294,6 @@ The digitization of print certainly caused a transformation in economics. Batter
 
 These are all the ISM bands- (some are region specific): https://en.wikipedia.org/wiki/ISM_radio_band#Frequency_allocations
 
+9:09 PM
+
 Day 14 preview: Does postmodernist maximalism have any syncretic, scientific application in STEM?
