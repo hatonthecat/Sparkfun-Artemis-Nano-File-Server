@@ -1313,6 +1313,16 @@ My shortwave radios arrived from Amazon.
 The Yoidesu is able to receive Long Wave (153 kHz-279 kHz), though few stations, if any, exist in the U.S.
 https://californiahistoricalradio.com/wp-content/uploads/2021/12/Long-Wave-Radio-for-US-Listeners-v2.pdf
 
+from https://www.dxing.com/lw.htm :
+
+"150 to 175 kHz: In the United States, this range is used by the U.S. Air Force's ground wave emergency network (GWEN), a packet-based network to provide communications during a nuclear war. Transmitters are kept continuously operational here on a "standby" basis, and it's easy to hear their loud, "raspy" signal bursts.
+
+155 to 281 kHz: This is another AM broadcasting band in Europe and parts of Asia. In Europe, there are numerous high powered (1,000,000 watts or more) stations here. These stations are capable of covering an entire European nation like France or Germany with reliable signals around the clock. Although ionospheric propagation is not good at these frequencies, the high powers used means that many of these broadcasters can be heard along the Atlantic seaboard during the fall and winter. Best reception is usually from local sunset to about 0600 UTC. A few longwave stations in Asiatic Russia can be heard on the Pacific Coast beginning an hour or so before local sunrise.
+
+160 to 190 kHz: In the United States, this range is open to unlicensed experimental transmissions. Transmitter power is restricted to one watt, and the maximum antenna length (including feedline) can be no more than 50 feet. Any mode can be used. Some of these "lowfer" (as they are known) unlicensed stations have been heard several hundreds of miles away under favorable conditions.
+
+200 to 430 kHz: This range is used mainly by navigation beacons, which continuously repeat their call signs in Morse code. Call signs do not follow the international allocations given elsewhere on this site. Instead, the call signs usually give an idea of the location of the beacon. For example, beacon "FT" on 365 kHz is located at Fort Worth, Texas."
+
 https://www.amazon.com/dp/B07PY331BV
 
 https://www.amazon.com/gp/product/B0BCGSXSV7/
