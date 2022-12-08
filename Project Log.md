@@ -1324,6 +1324,7 @@ from https://www.dxing.com/lw.htm :
 200 to 430 kHz: This range is used mainly by navigation beacons, which continuously repeat their call signs in Morse code. Call signs do not follow the international allocations given elsewhere on this site. Instead, the call signs usually give an idea of the location of the beacon. For example, beacon "FT" on 365 kHz is located at Fort Worth, Texas."
 
 Since my tuner only has 9kHz step tuning (I deliberately selected this model for various reasons, difficulty in getting AM radio in the U.S with 10kHz was not one of them, as I have other radios for that), I would only be able to pick up experimental stations, according to Part 15, operating with antennas up to 15 meters and using 1 watt of power. Practically this radio could only receive stations in steps of 9 kHz, thus 162kHz, 171kHz, 180kHz, and 189kHz would be 4 stations I could pick up. 
+https://www.lwca.net/sitepage/part15/index.htm
 
 https://www.amazon.com/dp/B07PY331BV
 
