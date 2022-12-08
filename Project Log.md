@@ -1357,6 +1357,9 @@ Station list: https://www.lwca.net/sitepage/part15/lfmain.htm
 (as of 12/7/22)
 
 Message  board: https://www.lwca.net/mb/index.html
+
+The stations closest to my 9kHz steps that are currently broadcasitng are almost 2kHz away and in Ontario and SC. Thus I doubt I'd be able to pick up anything even 1kHz off. I could ask on the message board and let them know about cheap SW radios to see if anyone would be interested in broadcasting exactly at 180.0 kHz for 189.00 kHz. It would be a cheap way to get more amateurs interested in hacking radios perhaps. 
+
 https://www.amazon.com/dp/B07PY331BV
 
 https://www.amazon.com/gp/product/B0BCGSXSV7/
