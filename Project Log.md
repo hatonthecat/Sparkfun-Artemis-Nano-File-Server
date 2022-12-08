@@ -1349,6 +1349,8 @@ https://www.gps.gov/systems/gps/modernization/sa/
 
 So I might be able to use all 4 stations. But I will still try to listen for those "loud, "raspy" signal bursts." 
 
+Some LowFer station info: http://www.ka7oei.com/ct_lowfer_archive.html 
+
 https://www.amazon.com/dp/B07PY331BV
 
 https://www.amazon.com/gp/product/B0BCGSXSV7/
