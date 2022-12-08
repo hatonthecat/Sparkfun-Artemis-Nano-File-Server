@@ -1347,7 +1347,7 @@ In 2015, the USCG and the United States Army Corps of Engineers (USACE) sought c
 
 https://www.gps.gov/systems/gps/modernization/sa/
 
-
+So I might be able to use all 4 stations. But I will still try to listen for those "loud, "raspy" signal bursts." 
 
 https://www.amazon.com/dp/B07PY331BV
 
