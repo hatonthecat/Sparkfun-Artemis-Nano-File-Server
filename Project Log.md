@@ -1310,8 +1310,12 @@ Day 14
 
 My shortwave radios arrived from Amazon. 
 
-The Yoidesu is able to receive Long Wave (153 kHz-279 kHz), though few stations, if any exists in the U.S.
+The Yoidesu is able to receive Long Wave (153 kHz-279 kHz), though few stations, if any, exist in the U.S.
+https://californiahistoricalradio.com/wp-content/uploads/2021/12/Long-Wave-Radio-for-US-Listeners-v2.pdf
+
 https://www.amazon.com/dp/B07PY331BV
+
+https://www.amazon.com/gp/product/B0BCGSXSV7/
 https://m.media-amazon.com/images/I/612F9aesYHL._AC_SL1001_.jpg
 
 ![LozOQMsiRKKiC31ebDSCdA](https://user-images.githubusercontent.com/76194453/206518572-37fedf43-fb3a-4ed9-9221-8fcb6288d2f0.png)
