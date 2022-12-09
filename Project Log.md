@@ -1368,3 +1368,14 @@ https://m.media-amazon.com/images/I/612F9aesYHL._AC_SL1001_.jpg
 ![LozOQMsiRKKiC31ebDSCdA](https://user-images.githubusercontent.com/76194453/206518572-37fedf43-fb3a-4ed9-9221-8fcb6288d2f0.png)
 
 ![b](https://user-images.githubusercontent.com/76194453/206519010-0056c623-ce7f-4db7-9b5b-56735d32efa6.jpg)
+
+-----
+Day 15
+-----
+2:12 
+Uploaded file for 15 MHz reception from https://en.wikipedia.org/wiki/WWV_(radio_station) from Fort Collins, Colorado.
+https://github.com/hatonthecat/Sparkfun-Artemis-Nano-File-Server/commits/main/Recording%20(168).m4a
+
+CS106 was plugged into PC with 3.5mm using Windows Sound Recorder. The signal has been received cleaner but I was temporarily using the PC to test if it could output. A laptop recording should get a better signal, as it can co-locate with the shortwave radio in a better position (e.g near window)
+
+20 Mhz also worked great (uses a 2.5kW) I am over 800 miles away (but NIST  is able to reach all of continental U.S)
