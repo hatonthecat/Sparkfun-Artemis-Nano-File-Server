@@ -1379,3 +1379,5 @@ https://github.com/hatonthecat/Sparkfun-Artemis-Nano-File-Server/commits/main/Re
 CS106 was plugged into PC with 3.5mm using Windows Sound Recorder. The signal has been received cleaner but I was temporarily using the PC to test if it could output. A laptop recording should get a better signal, as it can co-locate with the shortwave radio in a better position (e.g near window)
 
 20 Mhz also worked great (uses a 2.5kW) I am over 800 miles away (but NIST  is able to reach all of continental U.S)
+
+Added long wave recordings: https://github.com/hatonthecat/Sparkfun-Artemis-Nano-File-Server/tree/main/long%20wave
