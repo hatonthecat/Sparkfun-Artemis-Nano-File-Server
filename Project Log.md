@@ -1385,3 +1385,24 @@ Added long wave recordings: https://github.com/hatonthecat/Sparkfun-Artemis-Nano
 
 
 https://en.wikipedia.org/wiki/Phantom_power
+
+------
+Day 16
+------
+I tested the TD-618 at 3:30 AM (CST) this morning, and was able to get 9.395 MHz quite clearly around 9.39 or 9.4 (I wasn't able to see the 0.05 indicator step but it seems to supports it)
+https://en.wikipedia.org/wiki/WRMI was announced on the station, and it is in Okeechobee, Florida, over 1300 miles away! Interestingly, it is a station intended for the East Coast, so I was probably getting a good signal.
+
+I also got WTTW in TN.
+
+I tried listening to the WRMI station at 8:50 AM just now (CST) and the static is much higher (which I expected for daytime).
+
+I tested the other bands, for Western North America and North America (5.85, 5.95 and 7.57) at 9:00 AM but did not get a signal. There may be additional settings I haven't tuned, but pretty surprised for a $20 radio. 
+
+https://www.amazon.com/dp/B0BCGSXSV7 (Also posted at https://www.lwca.net/mb/msg/13196.htm)
+
+Next step is to see if I can get California at an announced broadast on the LWCA board: https://www.lwca.net/mb/msg/13188.htm 
+
+that will be at 10AM CST (8AM PST): "Lowfer net +/- 3929Khz Saturday morning 0800 California time"
+
+I am not sure it can travel that far, but both my SW radios support 3.9 MHZ, so why not? :) I'll update after the broadcast.
+
