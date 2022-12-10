@@ -1410,5 +1410,7 @@ I am not sure it can travel that far, but both my SW radios support 3.9 MHZ, so 
 
 I tuned to http://kphsdr.com:8074/ to see what Point Reyes, CA could get- and there were a few stations talking over each other (some which sound like chipmunks on helium). So Im going to guess I'm too far for that. I also heard some beeps repeatedly 
 
+The TD-618 was briefly getting what sounded like pings at 3.93, but I when I connected it to my PC mic a minute later I didn't hear anything in the recording.
+
 ![image](https://user-images.githubusercontent.com/76194453/206864780-7d3a8904-4eda-456e-a931-013402f2fedb.png)
 
