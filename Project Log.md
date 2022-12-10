@@ -1406,6 +1406,6 @@ that will be at 10AM CST (8AM PST): "Lowfer net +/- 3929Khz Saturday morning 080
 
 I am not sure it can travel that far, but both my SW radios support 3.9 MHZ, so why not? :) I'll update after the broadcast.
 
-10:15 AM I tuned my CS106 to 3.92 and 3.925 MHZ
+10:15 AM I tuned my CS106 to 3.92 and 3.925 MHZ All I got was static.
 
 I tuned to http://kphsdr.com:8074/ to see what Point Reyes, CA could get- and there were a few stations talking over each other (some which sound like chipmunks on helium). So Im going to guess I'm too far for that. 
