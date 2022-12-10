@@ -1414,4 +1414,4 @@ The TD-618 was briefly getting what sounded like pings at 3.93, but I when I con
 
 ![image](https://user-images.githubusercontent.com/76194453/206864780-7d3a8904-4eda-456e-a931-013402f2fedb.png)
 
-I added some photos of the user manual specs for both SW radio models.
+I added some photos of the user manual specs for both SW radio models in the /long wave/ folder 
