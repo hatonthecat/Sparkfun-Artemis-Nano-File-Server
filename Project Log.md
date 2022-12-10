@@ -1381,3 +1381,4 @@ CS106 was plugged into PC with 3.5mm using Windows Sound Recorder. The signal ha
 20 Mhz also worked great (uses a 2.5kW) I am over 800 miles away (but NIST  is able to reach all of continental U.S)
 
 Added long wave recordings: https://github.com/hatonthecat/Sparkfun-Artemis-Nano-File-Server/tree/main/long%20wave
+ I acknowledge some sounds appear to correspond to placment of the radio, at times tethered via USB and other times, tethered only via 3.5mm. All sorts of phantom reverberations are considered to be the source of some of the sounds, but there I also removed the source of interference and still noticed some activity in the 189 KHz range to low 200 KHz range. I am not able to determine if the sounds are local, or actual beacons of some analog signal.
