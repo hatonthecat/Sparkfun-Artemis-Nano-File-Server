@@ -1,0 +1,4 @@
+This server is running on a Raspberry Pi 3B+ with 1GB of RAM. This server uses less than 200MB of RAM idle.
+
+I use Noip.com's Dynamic DNS service to redirect to this site. While I do not know what, if any, trackers their site uses, I do not currently use any loggers.
+
