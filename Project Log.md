@@ -1415,11 +1415,3 @@ The TD-618 was briefly getting what sounded like pings at 3.93, but I when I con
 ![image](https://user-images.githubusercontent.com/76194453/206864780-7d3a8904-4eda-456e-a931-013402f2fedb.png)
 
 I added some photos of the user manual specs for both SW radio models in the /long wave/ folder 
-
-
----
-6:45 PM
----
-https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chevron
-
-p. 6 ![image](https://user-images.githubusercontent.com/76194453/229323077-e39df951-3b85-47b5-8978-ee57eeffe753.png)
